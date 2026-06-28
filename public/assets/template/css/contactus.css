@@ -1,0 +1,1315 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.reveal {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+@media (min-width: 320px) and (max-width: 374.98px) {
+    .headtext {
+        font-size: 12px;
+    }
+
+    .cardphone {
+        width: 230px;
+    }
+
+    .callicon {
+        width: 300px;
+        margin-left: -20px;
+        margin-top: -5px;
+    }
+
+    .phonenumber {
+        font-size: 10px;
+        margin-top: -3px;
+        font-weight: 600;
+        margin-left: -26px;
+    }
+
+    /* .phonetext{
+
+                                } */
+    .cardemail {
+        width: 229px;
+    }
+
+    .email {
+        width: 300px;
+        margin-left: -20px;
+        margin-top: -5px;
+    }
+
+    .emailtext {
+        font-size: 10px;
+        margin-top: -3px;
+        font-weight: 600;
+
+        margin-left: -26px;
+    }
+
+    .locationcard {
+        margin-left: 20px;
+        width: 250px;
+    }
+
+    .locationicon {
+        width: 300px;
+        margin-left: -20px;
+        margin-top: -5px;
+    }
+
+    .location {
+        font-size: 11px;
+        margin-left: -26px;
+        font-weight: 600;
+
+
+
+    }
+
+    .locationtext {
+        font-size: 11px;
+    }
+
+    .line1 {
+        width: 84%;
+    }
+
+    .card-deck {
+        flex-direction: column;
+
+    }
+
+    #barakValley {
+        font-weight: 600;
+        width: 220px;
+    }
+
+    /* Barak Valley triangle CSS */
+    .barakValley-triangle {
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        /* Increase the top border to make it a right-angled triangle */
+        border-right: 20px solid blueviolet;
+        /* Adjust border width for the right side */
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: rotate(-90deg);
+    }
+
+    #centralAssam {
+        font-weight: 600;
+        width: 220px;
+    }
+
+    /* Central Assam triangle CSS */
+    .centralAssam-triangle {
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        /* Increase the top border to make it a right-angled triangle */
+        border-right: 20px solid darkgreen;
+        /* Adjust border width for the right side */
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: rotate(-90deg);
+    }
+
+    #lowerAssam {
+        font-weight: 600;
+        width: 220px;
+    }
+
+    /* Lower Assam triangle CSS */
+    .lowerAssam-triangle {
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        /* Increase the top border to make it a right-angled triangle */
+        border-right: 20px solid lightskyblue;
+        /* Adjust border width for the right side */
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: rotate(-90deg);
+    }
+
+    #northAssam {
+        font-weight: 600;
+        width: 220px;
+    }
+
+    /* North Assam  triangle CSS */
+    .northAssam-triangle {
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        /* Increase the top border to make it a right-angled triangle */
+        border-right: 20px solid orange;
+        /* Adjust border width for the right side */
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: rotate(-90deg);
+    }
+
+    #upperAssam {
+        font-weight: 600;
+        width: 220px;
+    }
+
+    /* Upper Assam  triangle CSS */
+    .upperAssam-triangle {
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        /* Increase the top border to make it a right-angled triangle */
+        border-right: 20px solid mediumaquamarine;
+        /* Adjust border width for the right side */
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: rotate(-90deg);
+    }
+
+}
+
+@media (min-width: 375px) and (max-width: 424.98px) {
+    .line1 {
+        width: 84%;
+    }
+
+    .cardphone {
+        width: 230px;
+    }
+
+    .callicon {
+        width: 300px;
+        margin-left: -20px;
+        margin-top: -5px;
+    }
+
+    .phonenumber {
+        font-size: 10px;
+        margin-top: -3px;
+        font-weight: 600;
+        margin-left: -26px;
+    }
+
+    /* .phonetext{
+
+                                } */
+    .cardemail {
+        width: 229px;
+    }
+
+    .email {
+        width: 300px;
+        margin-left: -20px;
+        margin-top: -5px;
+    }
+
+    .emailtext {
+        font-size: 10px;
+        margin-top: -3px;
+        font-weight: 600;
+
+        margin-left: -26px;
+    }
+
+    .locationcard {
+        margin-left: 20px;
+        width: 250px;
+    }
+
+    .locationicon {
+        width: 300px;
+        margin-left: -20px;
+        margin-top: -5px;
+    }
+
+    .location {
+        font-size: 11px;
+        margin-left: -26px;
+        font-weight: 600;
+
+
+
+    }
+
+    .locationtext {
+        font-size: 11px;
+    }
+
+
+    .card-deck {
+        flex-direction: column;
+
+    }
+
+    #barakValley {
+        font-weight: 600;
+        width: 220px;
+    }
+
+    /* Barak Valley triangle CSS */
+    .barakValley-triangle {
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        /* Increase the top border to make it a right-angled triangle */
+        border-right: 20px solid blueviolet;
+        /* Adjust border width for the right side */
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: rotate(-90deg);
+    }
+
+    #centralAssam {
+        font-weight: 600;
+        width: 220px;
+    }
+
+    /* Central Assam triangle CSS */
+    .centralAssam-triangle {
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        /* Increase the top border to make it a right-angled triangle */
+        border-right: 20px solid darkgreen;
+        /* Adjust border width for the right side */
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: rotate(-90deg);
+    }
+
+    #lowerAssam {
+        font-weight: 600;
+        width: 220px;
+    }
+
+    /* Lower Assam triangle CSS */
+    .lowerAssam-triangle {
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        /* Increase the top border to make it a right-angled triangle */
+        border-right: 20px solid lightskyblue;
+        /* Adjust border width for the right side */
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: rotate(-90deg);
+    }
+
+    #northAssam {
+        font-weight: 600;
+        width: 220px;
+    }
+
+    /* North Assam  triangle CSS */
+    .northAssam-triangle {
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        /* Increase the top border to make it a right-angled triangle */
+        border-right: 20px solid orange;
+        /* Adjust border width for the right side */
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: rotate(-90deg);
+    }
+
+    #upperAssam {
+        font-weight: 600;
+        width: 220px;
+    }
+
+    /* Upper Assam  triangle CSS */
+    .upperAssam-triangle {
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        /* Increase the top border to make it a right-angled triangle */
+        border-right: 20px solid mediumaquamarine;
+        /* Adjust border width for the right side */
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: rotate(-90deg);
+    }
+}
+
+@media (min-width: 425px) and (max-width: 575.98px) {
+    #upperAssam {
+        margin-right: 25px;
+        font-weight: 600;
+    }
+
+    #barakValley {
+        font-weight: 600;
+    }
+
+    #lowerAssam {
+        font-weight: 600;
+    }
+
+    #centralAssam {
+        font-weight: 600;
+    }
+
+    #northAssam {
+        font-weight: 600;
+    }
+}
+
+/* @media (max-width: 768px) {
+                                                                        h5 .phonetext {
+                                                                            font-weight: normal;
+                                                                            display: block;
+
+
+                                                                        }
+
+                                                                        h5 .emailtext {
+                                                                            font-weight: normal;
+                                                                            display: block;
+
+
+                                                                        }
+
+                                                                        .mobile-adjust {
+                                                                            padding-right: 50px;
+                                                                        }
+
+                                                                        .card-deck {
+                                                                            flex-direction: column;
+                                                                        }
+
+                                                                        #barakValley {
+                                                                            width: 35%;
+
+                                                                        }
+
+                                                                        #centralAssam {
+                                                                            width: 35%;
+                                                                        }
+
+                                                                        #lowerAssam {
+                                                                            width: 35%;
+                                                                        }
+
+                                                                        #northAssam {
+                                                                            width: 35%;
+                                                                        }
+
+                                                                        #upperAssam {
+                                                                            width: 35%;
+                                                                        }
+
+                                                                    } */
+@media (min-width: 425px) and (max-width: 767.98px) {
+    .line1 {
+        width: 84%;
+    }
+
+    .cardphone {
+        width: 230px;
+    }
+
+    .callicon {
+        width: 300px;
+        margin-left: -20px;
+        margin-top: -5px;
+    }
+
+    .phonenumber {
+        font-size: 10px;
+        margin-top: -3px;
+        font-weight: 600;
+        margin-left: -26px;
+    }
+
+    /* .phonetext{
+
+                                } */
+    .cardemail {
+        width: 229px;
+    }
+
+    .email {
+        width: 300px;
+        margin-left: -20px;
+        margin-top: -5px;
+    }
+
+    .emailtext {
+        font-size: 10px;
+        margin-top: -3px;
+        font-weight: 600;
+
+        margin-left: -26px;
+    }
+
+    .locationcard {
+        margin-left: 20px;
+        width: 250px;
+    }
+
+    .locationicon {
+        width: 300px;
+        margin-left: -20px;
+        margin-top: -5px;
+    }
+
+    .location {
+        font-size: 11px;
+        margin-left: -26px;
+        font-weight: 600;
+
+
+
+    }
+
+    .locationtext {
+        font-size: 11px;
+    }
+
+    .card-deck {
+        flex-direction: column;
+
+    }
+
+    #barakValley {
+        font-weight: 600;
+        width: 220px;
+        margin-bottom: 10px;
+    }
+
+    /* Barak Valley triangle CSS */
+    .barakValley-triangle {
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        /* Increase the top border to make it a right-angled triangle */
+        border-right: 20px solid blueviolet;
+        /* Adjust border width for the right side */
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: rotate(-90deg);
+    }
+
+    #centralAssam {
+        font-weight: 600;
+        width: 220px;
+        margin-bottom: 10px;
+    }
+
+    /* Central Assam triangle CSS */
+    .centralAssam-triangle {
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        /* Increase the top border to make it a right-angled triangle */
+        border-right: 20px solid darkgreen;
+        /* Adjust border width for the right side */
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: rotate(-90deg);
+    }
+
+    #lowerAssam {
+        font-weight: 600;
+        width: 220px;
+        margin-bottom: 10px;
+    }
+
+    /* Lower Assam triangle CSS */
+    .lowerAssam-triangle {
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        /* Increase the top border to make it a right-angled triangle */
+        border-right: 20px solid lightskyblue;
+        /* Adjust border width for the right side */
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: rotate(-90deg);
+    }
+
+    #northAssam {
+        font-weight: 600;
+        width: 220px;
+        margin-bottom: 10px;
+    }
+
+    /* North Assam  triangle CSS */
+    .northAssam-triangle {
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        /* Increase the top border to make it a right-angled triangle */
+        border-right: 20px solid orange;
+        /* Adjust border width for the right side */
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: rotate(-90deg);
+    }
+
+    #upperAssam {
+        font-weight: 600;
+        width: 220px;
+        margin-bottom: 10px;
+        margin-left: 30px;
+    }
+
+    /* Upper Assam  triangle CSS */
+    .upperAssam-triangle {
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        /* Increase the top border to make it a right-angled triangle */
+        border-right: 20px solid mediumaquamarine;
+        /* Adjust border width for the right side */
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: rotate(-90deg);
+    }
+
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .map {
+        margin-left: 90px;
+    }
+
+    .line1 {
+        width: 84%;
+    }
+
+    .callicon {
+        margin-left: -40px;
+    }
+
+    .email {
+        margin-left: -40px;
+
+    }
+
+    .locationicon {
+        margin-left: -5px;
+
+    }
+
+    .card-deck {
+        width: 608px;
+
+    }
+
+    #barakValley {
+        font-weight: 600;
+    }
+
+    /* Barak Valley triangle CSS */
+    .barakValley-triangle {
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        /* Increase the top border to make it a right-angled triangle */
+        border-right: 20px solid blueviolet;
+        /* Adjust border width for the right side */
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: rotate(-90deg);
+    }
+
+    #centralAssam {
+        font-weight: 600;
+    }
+
+    /* Central Assam triangle CSS */
+    .centralAssam-triangle {
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        /* Increase the top border to make it a right-angled triangle */
+        border-right: 20px solid darkgreen;
+        /* Adjust border width for the right side */
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: rotate(-90deg);
+    }
+
+    #lowerAssam {
+        font-weight: 600;
+    }
+
+    /* Lower Assam triangle CSS */
+    .lowerAssam-triangle {
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        /* Increase the top border to make it a right-angled triangle */
+        border-right: 20px solid lightskyblue;
+        /* Adjust border width for the right side */
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: rotate(-90deg);
+    }
+
+    #northAssam {
+        font-weight: 600;
+    }
+
+    /* North Assam  triangle CSS */
+    .northAssam-triangle {
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        /* Increase the top border to make it a right-angled triangle */
+        border-right: 20px solid orange;
+        /* Adjust border width for the right side */
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: rotate(-90deg);
+    }
+
+    #upperAssam {
+        font-weight: 600;
+    }
+
+    /* Upper Assam  triangle CSS */
+    .upperAssam-triangle {
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        /* Increase the top border to make it a right-angled triangle */
+        border-right: 20px solid mediumaquamarine;
+        /* Adjust border width for the right side */
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: rotate(-90deg);
+    }
+
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1023.98px) {
+    .headtext {
+        font-size: 20px;
+    }
+
+    .line1 {
+        width: 83%;
+    }
+
+    .map {
+        margin-top: 20px;
+    }
+
+    .card-deck {
+        width: 807px;
+    }
+
+    #barakValley {
+        font-weight: 600;
+    }
+
+    #upperAssam {
+        font-weight: 600;
+    }
+
+    #lowerAssam {
+        font-weight: 600;
+    }
+
+    #centralAssam {
+        font-weight: 600;
+    }
+
+    #northAssam {
+        font-weight: 600;
+    }
+
+    /* Barak Valley triangle CSS */
+    .barakValley-triangle {
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        /* Increase the top border to make it a right-angled triangle */
+        border-right: 20px solid blueviolet;
+        /* Adjust border width for the right side */
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: rotate(-90deg);
+    }
+
+    /* Central Assam triangle CSS */
+    .centralAssam-triangle {
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        /* Increase the top border to make it a right-angled triangle */
+        border-right: 20px solid darkgreen;
+        /* Adjust border width for the right side */
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: rotate(-90deg);
+    }
+
+    /* Lower Assam triangle CSS */
+    .lowerAssam-triangle {
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        /* Increase the top border to make it a right-angled triangle */
+        border-right: 20px solid lightskyblue;
+        /* Adjust border width for the right side */
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: rotate(-90deg);
+    }
+
+    /* North Assam  triangle CSS */
+    .northAssam-triangle {
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        /* Increase the top border to make it a right-angled triangle */
+        border-right: 20px solid orange;
+        /* Adjust border width for the right side */
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: rotate(-90deg);
+    }
+
+    /* Upper Assam  triangle CSS */
+    .upperAssam-triangle {
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        /* Increase the top border to make it a right-angled triangle */
+        border-right: 20px solid mediumaquamarine;
+        /* Adjust border width for the right side */
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: rotate(-90deg);
+    }
+
+
+
+}
+
+@media (min-width: 1024px) and (max-width: 1199.98px) {
+    .headtext {
+        font-size: 20px;
+    }
+
+    .line1 {
+        width: 83%;
+    }
+
+    .card-deck {
+        width: 807px;
+    }
+
+    #barakValley {
+        font-weight: 600;
+    }
+
+    /* Barak Valley triangle CSS */
+    .barakValley-triangle {
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        /* Increase the top border to make it a right-angled triangle */
+        border-right: 20px solid blueviolet;
+        /* Adjust border width for the right side */
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: rotate(-90deg);
+    }
+
+    #centralAssam {
+        font-weight: 600;
+    }
+
+    /* Central Assam triangle CSS */
+    .centralAssam-triangle {
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        /* Increase the top border to make it a right-angled triangle */
+        border-right: 20px solid darkgreen;
+        /* Adjust border width for the right side */
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: rotate(-90deg);
+    }
+
+    #lowerAssam {
+        font-weight: 600;
+    }
+
+    /* Lower Assam triangle CSS */
+    .lowerAssam-triangle {
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        /* Increase the top border to make it a right-angled triangle */
+        border-right: 20px solid lightskyblue;
+        /* Adjust border width for the right side */
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: rotate(-90deg);
+    }
+
+    #northAssam {
+        font-weight: 600;
+    }
+
+    /* North Assam  triangle CSS */
+    .northAssam-triangle {
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        /* Increase the top border to make it a right-angled triangle */
+        border-right: 20px solid orange;
+        /* Adjust border width for the right side */
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: rotate(-90deg);
+    }
+
+    #upperAssam {
+        font-weight: 600;
+    }
+
+    /* Upper Assam  triangle CSS */
+    .upperAssam-triangle {
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        /* Increase the top border to make it a right-angled triangle */
+        border-right: 20px solid mediumaquamarine;
+        /* Adjust border width for the right side */
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: rotate(-90deg);
+    }
+
+
+
+}
+
+@media (min-width: 1200px) and (max-width: 1439.98px) {
+    .headtext {
+        font-size: 22px;
+    }
+
+    .line1 {
+        width: 82%;
+    }
+
+    .phonetext {
+        font-size: 18px;
+    }
+
+    .location {
+        font-size: 17px;
+    }
+
+    .second {
+        margin-left: 11px;
+    }
+
+    .map {
+        margin-left: -40px;
+    }
+
+    h5 .phonetext {
+        font-weight: normal;
+
+
+    }
+
+    h5 .emailtext {
+        font-weight: normal;
+    }
+
+
+
+    .card-deck {
+        width: 970px;
+    }
+
+    #barakValley {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    /* Barak Valley triangle CSS */
+    .barakValley-triangle {
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        /* Increase the top border to make it a right-angled triangle */
+        border-right: 20px solid blueviolet;
+        /* Adjust border width for the right side */
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: rotate(-90deg);
+    }
+
+    #centralAssam {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    /* Central Assam triangle CSS */
+    .centralAssam-triangle {
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        /* Increase the top border to make it a right-angled triangle */
+        border-right: 20px solid darkgreen;
+        /* Adjust border width for the right side */
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: rotate(-90deg);
+    }
+
+    #lowerAssam {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    /* Lower Assam triangle CSS */
+    .lowerAssam-triangle {
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        /* Increase the top border to make it a right-angled triangle */
+        border-right: 20px solid lightskyblue;
+        /* Adjust border width for the right side */
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: rotate(-90deg);
+    }
+
+    #northAssam {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    /* North Assam  triangle CSS */
+    .northAssam-triangle {
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        /* Increase the top border to make it a right-angled triangle */
+        border-right: 20px solid orange;
+        /* Adjust border width for the right side */
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: rotate(-90deg);
+    }
+
+    #upperAssam {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    /* Upper Assam  triangle CSS */
+    .upperAssam-triangle {
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        /* Increase the top border to make it a right-angled triangle */
+        border-right: 20px solid mediumaquamarine;
+        /* Adjust border width for the right side */
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: rotate(-90deg);
+    }
+
+
+
+}
+
+@media (min-width: 1440px) and (max-width: 2559.98px) {
+    .headtext {
+        font-size: 25px;
+    }
+
+    .second {
+        margin-left: 8px;
+    }
+
+    .map {
+
+        margin-left: -30px;
+    }
+
+    .line1 {
+        width: 83%;
+    }
+
+    .card-deck {
+        width: 900px;
+
+    }
+
+    #barakValley {
+        font-weight: 600;
+    }
+
+    /* Barak Valley triangle CSS */
+    .barakValley-triangle {
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        /* Increase the top border to make it a right-angled triangle */
+        border-right: 20px solid blueviolet;
+        /* Adjust border width for the right side */
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: rotate(-90deg);
+    }
+
+    #centralAssam {
+        font-weight: 600;
+    }
+
+    /* Central Assam triangle CSS */
+    .centralAssam-triangle {
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        /* Increase the top border to make it a right-angled triangle */
+        border-right: 20px solid darkgreen;
+        /* Adjust border width for the right side */
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: rotate(-90deg);
+    }
+
+    #lowerAssam {
+        font-weight: 600;
+    }
+
+    /* Lower Assam triangle CSS */
+    .lowerAssam-triangle {
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        /* Increase the top border to make it a right-angled triangle */
+        border-right: 20px solid lightskyblue;
+        /* Adjust border width for the right side */
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: rotate(-90deg);
+    }
+
+    #northAssam {
+        font-weight: 600;
+    }
+
+    /* North Assam  triangle CSS */
+    .northAssam-triangle {
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        /* Increase the top border to make it a right-angled triangle */
+        border-right: 20px solid orange;
+        /* Adjust border width for the right side */
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: rotate(-90deg);
+    }
+
+    #upperAssam {
+        font-weight: 600;
+    }
+
+    /* Upper Assam  triangle CSS */
+    .upperAssam-triangle {
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        /* Increase the top border to make it a right-angled triangle */
+        border-right: 20px solid mediumaquamarine;
+        /* Adjust border width for the right side */
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: rotate(-90deg);
+    }
+
+
+
+}
+
+@media (min-width: 2560px) {
+    .headtext {
+        font-size: 25px;
+    }
+
+    .second {
+        margin-left: 10px;
+    }
+
+    .line1 {
+        width: 83%;
+    }
+
+    .map {
+
+        margin-left: -30px;
+    }
+
+    .card-deck {
+        width: 900px;
+
+    }
+
+    #barakValley {
+        font-weight: 600;
+    }
+
+    /* Barak Valley triangle CSS */
+    .barakValley-triangle {
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        /* Increase the top border to make it a right-angled triangle */
+        border-right: 20px solid blueviolet;
+        /* Adjust border width for the right side */
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: rotate(-90deg);
+    }
+
+    #centralAssam {
+        font-weight: 600;
+    }
+
+    /* Central Assam triangle CSS */
+    .centralAssam-triangle {
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        /* Increase the top border to make it a right-angled triangle */
+        border-right: 20px solid darkgreen;
+        /* Adjust border width for the right side */
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: rotate(-90deg);
+    }
+
+    #lowerAssam {
+        font-weight: 600;
+    }
+
+    /* Lower Assam triangle CSS */
+    .lowerAssam-triangle {
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        /* Increase the top border to make it a right-angled triangle */
+        border-right: 20px solid lightskyblue;
+        /* Adjust border width for the right side */
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: rotate(-90deg);
+    }
+
+    #northAssam {
+        font-weight: 600;
+    }
+
+    /* North Assam  triangle CSS */
+    .northAssam-triangle {
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        /* Increase the top border to make it a right-angled triangle */
+        border-right: 20px solid orange;
+        /* Adjust border width for the right side */
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: rotate(-90deg);
+    }
+
+    #upperAssam {
+        font-weight: 600;
+    }
+
+    /* Upper Assam  triangle CSS */
+    .upperAssam-triangle {
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        /* Increase the top border to make it a right-angled triangle */
+        border-right: 20px solid mediumaquamarine;
+        /* Adjust border width for the right side */
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: rotate(-90deg);
+    }
+
+
+
+}

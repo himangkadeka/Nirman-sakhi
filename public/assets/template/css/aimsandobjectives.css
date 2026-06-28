@@ -1,0 +1,677 @@
+/* 
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+} */
+.card-content {
+    font-family:'Roboto',Sans-Serif;
+    font-size: 17px;
+
+
+}
+.cardhead1 {
+
+    cursor: pointer;
+    position: relative;
+    background: linear-gradient(to right, #00008b, #279ca0);
+margin-left: -50px;
+    width: 231px;
+    height: 40px;
+}
+  @media (min-width: 320px) and (max-width: 374.98px) {
+            .cardhead1 {
+
+                /* background: linear-gradient(to right, #0b716e, #279ca0); */
+                cursor: pointer;
+                position: relative;
+                width: 320px;
+            }
+
+            .cardhead1triangle {
+                position: absolute;
+                top: 50%;
+                right: -12px;
+                /* Adjust the distance from the right edge of the card */
+                width: 0;
+                height: 0;
+                border-left: 35px solid transparent;
+                border-right: 35px solid transparent;
+                border-bottom: 50px solid white;
+                /* You can change color */
+                transform: translateY(-50%) rotate(-90deg);
+                /* Rotate the triangle and center vertically */
+            }
+
+
+            .card-content {
+                color: white;
+                padding: 10px;
+                margin-left: 10%;
+                /* font-size: 16px; */
+                font-weight: 600;
+
+            }
+
+            .headbackground {
+                background-color: #1b949e !important;
+                /* Ensure background color */
+
+            }
+
+            .header img {
+                margin-left: 30px;
+                max-width: 100px;
+            }
+
+            .aimsandobjectives-body {
+                font-size: 14px;
+                text-align: justify;
+                margin-left: -25px;
+
+            }
+
+            .aimsandobjectives {
+                font-size: 14px;
+
+            }
+
+            .model img {
+                width: 300px;
+            }
+        }
+
+        @media (min-width: 375px) and (max-width: 424.98px) {
+            .cardhead1 {
+                /* background-color: #076f6b;
+                border: 1.5px solid #076f6b; */
+                /* background: linear-gradient(to right, #0b716e, #279ca0); */
+                cursor: pointer;
+                position: relative;
+                width: 370px;
+            }
+
+            .cardhead1triangle {
+                position: absolute;
+                top: 50%;
+                right: -12px;
+                /* Adjust the distance from the right edge of the card */
+                width: 0;
+                height: 0;
+                border-left: 35px solid transparent;
+                border-right: 35px solid transparent;
+                border-bottom: 50px solid white;
+                /* You can change color */
+                transform: translateY(-50%) rotate(-90deg);
+                /* Rotate the triangle and center vertically */
+            }
+
+
+            .card-content {
+                color: white;
+                padding: 10px;
+                margin-left: 15.5%;
+
+                font-weight: 600;
+
+            }
+
+            .headbackground {
+                background-color: #1b949e !important;
+                /* Ensure background color */
+
+            }
+
+            .header img {
+                margin-left: 30px;
+            }
+
+            .aimsandobjectives-body {
+                font-size: 18px;
+                text-align: justify;
+            }
+
+            .aimsandobjectives {
+                font-size: 18px;
+
+            }
+
+            .model img {
+                width: 300px;margin: 0 auto;display: block;
+            }
+        }
+
+        @media (min-width: 425px) and (max-width: 487.98px) {
+            .cardhead1 {
+                /* background-color: #076f6b;
+                border: 1.5px solid #076f6b; */
+                        /* background: linear-gradient(to right, #0b716e, #279ca0); */
+                cursor: pointer;
+                position: relative;
+                width: 420px;
+            }
+
+            .cardhead1triangle {
+                position: absolute;
+                top: 50%;
+                right: -12px;
+                /* Adjust the distance from the right edge of the card */
+                width: 0;
+                height: 0;
+                border-left: 35px solid transparent;
+                border-right: 35px solid transparent;
+                border-bottom: 50px solid white;
+                /* You can change color */
+                transform: translateY(-50%) rotate(-90deg);
+                /* Rotate the triangle and center vertically */
+            }
+
+
+            .card-content {
+                color: white;
+                padding: 10px;
+                margin-left: 13%;
+
+                font-weight: 600;
+
+            }
+
+            .headbackground {
+                background-color: #1b949e !important;
+                /* Ensure background color */
+
+            }
+
+            .header img {
+                margin-left: 30px;
+            }
+
+            .aimsandobjectives-body {
+                font-size: 18px;
+                text-align: justify;
+            }
+
+            .aimsandobjectives {
+                font-size: 18px;
+
+            }
+
+            .model img {
+                width: 300px;
+            }
+        }
+
+        @media (min-width: 488px) and (max-width: 575.98px) {
+            .cardhead1 {
+                /* background-color: #076f6b;
+                border: 1.5px solid #076f6b; */
+                /* background: linear-gradient(to right, #0b716e, #279ca0); */
+                cursor: pointer;
+                position: relative;
+                width: 420px;
+            }
+
+            .cardhead1triangle {
+                position: absolute;
+                top: 50%;
+                right: -12px;
+                /* Adjust the distance from the right edge of the card */
+                width: 0;
+                height: 0;
+                border-left: 35px solid transparent;
+                border-right: 35px solid transparent;
+                border-bottom: 50px solid white;
+                /* You can change color */
+                transform: translateY(-50%) rotate(-90deg);
+                /* Rotate the triangle and center vertically */
+            }
+
+
+            .card-content {
+                color: white;
+                padding: 10px;
+                margin-left: 14%;
+
+                font-weight: 600;
+
+            }
+
+            .headbackground {
+                background-color: #1b949e !important;
+                /* Ensure background color */
+
+            }
+
+            .header img {
+                margin-left: 30px;
+            }
+
+            .aimsandobjectives-body {
+                font-size: 18px;
+                text-align: justify;
+            }
+
+            .aimsandobjectives {
+                font-size: 18px;
+
+            }
+
+            .model img {
+                width: 300px;
+            }
+        }
+        @media (min-width: 576px) and (max-width: 767.98px)  {
+            .cardhead1 {
+                /* background-color: #076f6b;
+                border: 1.5px solid #076f6b; */
+                /* background: linear-gradient(to right, #0b716e, #279ca0); */
+                cursor: pointer;
+                position: relative;
+                width: 420px;
+            }
+
+            .cardhead1triangle {
+                position: absolute;
+                top: 50%;
+                right: -12px;
+                /* Adjust the distance from the right edge of the card */
+                width: 0;
+                height: 0;
+                border-left: 35px solid transparent;
+                border-right: 35px solid transparent;
+                border-bottom: 50px solid white;
+                /* You can change color */
+                transform: translateY(-50%) rotate(-90deg);
+                /* Rotate the triangle and center vertically */
+            }
+
+
+            .card-content {
+                color: white;
+                padding: 10px;
+                margin-left: 18%;
+
+                font-weight: 600;
+
+            }
+
+            .headbackground {
+                background-color: #1b949e !important;
+                /* Ensure background color */
+
+            }
+
+            .header img {
+                margin-left: 30px;
+            }
+
+            .aimsandobjectives-body {
+                font-size: 18px;
+                text-align: justify;
+            }
+
+            .aimsandobjectives {
+                font-size: 18px;
+
+            }
+
+            .model img {
+                width: 300px;
+            }
+        }
+
+        @media (min-width: 768px) and (max-width: 991.98px) {
+            .cardhead1 {
+                /* background-color: #076f6b;
+                border: 1.5px solid #076f6b; */
+                /* background: linear-gradient(to right, #0b716e, #279ca0); */
+                cursor: pointer;
+                position: relative;
+                width: 420px;
+            }
+
+            .cardhead1triangle {
+                position: absolute;
+                top: 50%;
+                right: -12px;
+                /* Adjust the distance from the right edge of the card */
+                width: 0;
+                height: 0;
+                border-left: 35px solid transparent;
+                border-right: 35px solid transparent;
+                border-bottom: 50px solid white;
+                /* You can change color */
+                transform: translateY(-50%) rotate(-90deg);
+                /* Rotate the triangle and center vertically */
+            }
+
+
+            .card-content {
+                color: white;
+                padding: 10px;
+                margin-left: 19%;
+
+                font-weight: 600;
+
+            }
+
+            .headbackground {
+                background-color: #1b949e !important;
+                /* Ensure background color */
+
+            }
+
+            .header img {
+                margin-left: 30px;
+            }
+
+            .aimsandobjectives-body {
+                font-size: 16px;
+                text-align: justify;
+            }
+
+            .aimsandobjectives {
+                font-size: 16px;
+
+            }
+
+            .model img {
+                width: 270px;
+            }
+
+
+
+        }
+
+        @media (min-width: 992px) and (max-width: 1023.98px) {
+            .cardhead1 {
+                /* background-color: #076f6b;
+                border: 1.5px solid #076f6b; */
+                        /* background: linear-gradient(to right, #0b716e, #279ca0); */
+                cursor: pointer;
+                position: relative;
+                width: 420px;
+            }
+
+            .cardhead1triangle {
+                position: absolute;
+                top: 50%;
+                right: -12px;
+                /* Adjust the distance from the right edge of the card */
+                width: 0;
+                height: 0;
+                border-left: 35px solid transparent;
+                border-right: 35px solid transparent;
+                border-bottom: 50px solid white;
+                /* You can change color */
+                transform: translateY(-50%) rotate(-90deg);
+                /* Rotate the triangle and center vertically */
+            }
+
+
+            .card-content {
+                color: white;
+                padding: 10px;
+                margin-left: 21.5%;
+
+                font-weight: 600;
+
+            }
+
+            .header img {
+                margin-left: 30px;
+            }
+
+            .aimsandobjectives-body {
+                font-size: 18px;
+                text-align: justify;
+            }
+
+            .aimsandobjectives {
+                font-size: 18px;
+                text-align: justify;
+            }
+
+            .model img {
+                width: 300px;
+            }
+
+        }
+
+        @media (min-width: 1024px) and (max-width: 1199.98px) {
+            .cardhead1 {
+                /* background-color: #076f6b;
+                border: 1.5px solid #076f6b; */
+                /* background: linear-gradient(to right, #0b716e, #279ca0); */
+                cursor: pointer;
+                position: relative;
+                width: 420px;
+            }
+
+            .cardhead1triangle {
+                position: absolute;
+                top: 50%;
+                right: -12px;
+                /* Adjust the distance from the right edge of the card */
+                width: 0;
+                height: 0;
+                border-left: 35px solid transparent;
+                border-right: 35px solid transparent;
+                border-bottom: 50px solid white;
+                /* You can change color */
+                transform: translateY(-50%) rotate(-90deg);
+                /* Rotate the triangle and center vertically */
+            }
+
+
+            .card-content {
+                color: white;
+                padding: 10px;
+                margin-left: 21.5%;
+
+                font-weight: 600;
+
+            }
+
+            .headbackground {
+                background-color: #1b949e !important;
+                /* Ensure background color */
+
+            }
+
+            .header img {
+                margin-left: 30px;
+            }
+
+            .aimsandobjectives-body {
+                font-size: 18px;
+                text-align: justify;
+            }
+
+            .aimsandobjectives {
+                font-size: 18px;
+                text-align: justify;
+            }
+
+            .model img {
+                width: 300px;
+            }
+        }
+
+        @media (min-width: 1200px) and (max-width: 1439.98px) {
+            .cardhead1 {
+                /* background-color: #076f6b;
+                border: 1.5px solid #076f6b; */
+                /* background: linear-gradient(to right, #0b716e, #279ca0); */
+                cursor: pointer;
+                position: relative;
+                width: 390px;
+            }
+
+            .cardhead1triangle {
+                position: absolute;
+                top: 50%;
+                right: -12px;
+                /* Adjust the distance from the right edge of the card */
+                width: 0;
+                height: 0;
+                border-left: 35px solid transparent;
+                border-right: 35px solid transparent;
+                border-bottom: 50px solid white;
+                /* You can change color */
+                transform: translateY(-50%) rotate(-90deg);
+                /* Rotate the triangle and center vertically */
+            }
+
+
+            .card-content {
+                color: white;
+                padding: 10px;
+                margin-left: 27%;
+
+                font-weight: 600;
+
+            }
+
+            .headbackground {
+                background-color: #1b949e !important;
+                /* Ensure background color */
+
+            }
+
+            .header img {
+                margin-left: 30px;
+            }
+
+            .aimsandobjectives-body {
+                font-size: 16px;
+                text-align: justify;
+            }
+
+            .aimsandobjectives {
+                font-size: 16px;
+                text-align: justify;
+            }
+
+            .header img {
+                margin-left: 30px;
+            }
+        }
+
+        @media (min-width: 1440px) and (max-width: 2559.98px) {
+            .cardhead1 {
+                /* background-color: #076f6b;
+                border: 1.5px solid #076f6b; */
+                /* background: linear-gradient(to right, #0b716e, #279ca0); */
+                cursor: pointer;
+                position: relative;
+                width: 460px;
+            }
+
+            .cardhead1triangle {
+                position: absolute;
+                top: 50%;
+                right: -12px;
+                /* Adjust the distance from the right edge of the card */
+                width: 0;
+                height: 0;
+                border-left: 35px solid transparent;
+                border-right: 35px solid transparent;
+                border-bottom: 50px solid white;
+                /* You can change color */
+                transform: translateY(-50%) rotate(-90deg);
+                /* Rotate the triangle and center vertically */
+            }
+
+
+            .card-content {
+                color: white;
+                padding: 10px;
+                /* margin-left: 5%; */
+                font-size: 20px;
+                font-weight: 600;
+
+            }
+
+            .headbackground {
+                background-color: #1b949e !important;
+                /* Ensure background color */
+
+            }
+            .head1 {
+                padding-left: 15%;
+            }
+            .header img {
+                margin-left: 30px;
+            }
+
+            .aimsandobjectives-body {
+                font-size: 20px;
+                text-align: justify;
+            }
+
+            .aimsandobjectives {
+                font-size: 20px;
+                text-align: justify;
+            }
+        }
+
+        @media (min-width: 2560px) {
+            .cardhead1 {
+
+                /* background: linear-gradient(to right, #0b716e, #279ca0); */
+                cursor: pointer;
+                position: relative;
+                width: 420px;
+            }
+
+            .cardhead1triangle {
+                position: absolute;
+                top: 50%;
+                right: -12px;
+                /* Adjust the distance from the right edge of the card */
+                width: 0;
+                height: 0;
+                border-left: 35px solid transparent;
+                border-right: 35px solid transparent;
+                border-bottom: 50px solid white;
+                /* You can change color */
+                transform: translateY(-50%) rotate(-90deg);
+                /* Rotate the triangle and center vertically */
+            }
+
+
+            .card-content {
+                color: white;
+                padding: 10px;
+                /* margin-left: 30%; */
+                font-size: 20px;
+                font-weight: 600;
+
+            }
+
+            .headbackground {
+                background-color: #1b949e !important;
+                /* Ensure background color */
+
+            }
+
+            .head1 {
+                padding-left: 30%;
+            }
+
+            .header img {
+                margin-left: 30px;
+            }
+
+            .aimsandobjectives-body {
+                font-size: 20px;
+                text-align: justify;
+            }
+
+            .aimsandobjectives {
+                font-size: 20px;
+                text-align: justify;
+            }
+        }
+

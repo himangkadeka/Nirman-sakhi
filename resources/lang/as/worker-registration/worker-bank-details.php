@@ -1,0 +1,32 @@
+<?php
+
+return [
+    'registrationconstructionworker' => 'পঞ্জীয়ন - নিৰ্মাণ শ্ৰমিক',
+    'updatebankaddress' => 'বেংকৰ বিৱৰণ আপডেট কৰক',
+    'bankdetails' => 'বেংকৰ বিৱৰণ',
+    'applicationno' => 'আবেদন নং',
+    'workername' => 'শ্ৰমিকৰ নাম',
+    'note' => 'টোকা',
+    'mandatory' => 'সকলোবোৰ বাধ্যতামূলক ক্ষেত্ৰ',
+    'mandatory2' => "আগবাঢ়ি যাবলৈ অনুগ্ৰহ কৰি বৈধ আই এফ এছ চি ক'ড দিয়ক",
+    'ifsccode' => "IFSC ক'ড",
+    'enterifsc' => "আপোনাৰ IFSC ক'ড সুমুৱাওক",
+    'searchbankdetails' => 'বেংকৰ বিৱৰণ সন্ধান কৰক',
+    'bankname' => 'বেংকৰ নাম',
+    'enterbankname' => 'বেংকৰ নাম লিখক',
+    'branch' => 'শাখা',
+    'enterbranchname' => 'শাখাৰ নাম লিখক',
+    'bankaddress' => 'বেংকৰ ঠিকনা',
+    'enterbankaddress' => 'বেংকৰ ঠিকনা দিয়ক',
+    'accountnumber' => 'একাউণ্ট নম্বৰ',
+    'enteraccountnumber' => 'অনুগ্ৰহ কৰি বৈধ একাউণ্ট নম্বৰ দিয়ক',
+    'confirmaccountnumber' => 'একাউণ্ট নম্বৰ নিশ্চিত কৰক',
+    'enterconfirm' => 'অনুগ্ৰহ কৰি পুনৰ আপোনাৰ একাউণ্ট নম্বৰ দিয়ক',
+    'prevoius' => 'পূৰ্ৱবৰ্তী',
+    'savebankdetails' => 'বেংকৰ বিৱৰণ সংৰক্ষণ কৰক',
+    'updatebankdetails'=>'বেংকৰ বিৱৰণ আপডেট কৰক',
+    '1'=>'১',
+    '2'=>'২',
+    'olddatabase'=>'পুৰণি ডাটাবেছ হিচাপে',
+
+];

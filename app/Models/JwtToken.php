@@ -1,0 +1,23 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class JwtToken extends Model
+{
+    use HasFactory;
+    protected $table = "Worker.jwt_tokens";
+    protected $primaryKey = 'id';
+    protected $fillable = [
+        'token',
+        'is_active',
+        'expires_at'
+    ];
+    public $timestamps = true;
+
+    protected $casts = [
+        'expires_at' => 'datetime',
+    ];
+}

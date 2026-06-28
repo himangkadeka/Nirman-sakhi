@@ -1,0 +1,112 @@
+
+/* body {
+    font-family: Arial, sans-serif;
+} */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+   .head1,.head2,.head3{
+       font-size: 25px;
+   }
+}
+ @media (min-width: 1024px) and (max-width: 1199.98px){
+   .head1,.head2,.head3{
+       font-size: 25px;
+   }
+ }
+ @media (min-width: 1200px) and (max-width: 1439.98px) {
+   .head1,.head2,.head3{
+       font-size: 25px;
+   }}
+@media (min-width: 1440px) and (max-width: 2559.98px){
+   .head1,.head2,.head3{
+       font-size: 25px;
+   }
+}
+@media (min-width: 2560px) {
+   .head1,.head2,.head3{
+       font-size: 25px;
+   }
+}
+/* body {
+   font-family: 'Poppins';
+} */
+.headbackground {
+   background-color: #1b949e !important;
+   /* Ensure background color */
+
+}
+
+.headbackground2 {
+   background-color: #fdcb3d !important;
+   /* Ensure background color */
+
+}
+
+.bodycolor {
+   background-color: #90CFD1;
+}
+
+.bodycolor2 {
+   background-color: #ffe7a0;
+}
+
+
+th {
+   position: relative;
+   color: white;
+}
+
+th:first-child::after {
+   content: "";
+   position: absolute;
+   top: 0;
+   right: -7px;
+   width: 5px;
+   /* Adjust this value as needed */
+   height: 100%;
+   background-color: white;
+}
+
+.table-bordered {
+   border-collapse: collapse;
+   /* Collapse border spacing */
+   border: 1.5px solid #1b949e;
+   /* Set border color for the whole table */
+}
+
+.table2-bordered {
+   border-collapse: collapse;
+   /* Collapse border spacing */
+   border: 1.5px solid #ffd27d;
+   /* Set border color for the whole table */
+}
+
+.table-bordered th,
+.table-bordered td {
+   padding: 8px;
+   /* Add padding to cells */
+   border: none;
+   /* Remove border from cells */
+}
+
+.table2-bordered th,
+.table2-bordered td {
+   padding: 8px;
+   /* Add padding to cells */
+   border: none;
+   /* Remove border from cells */
+}
+
+.table-bordered th:first-child,
+.table-bordered td:first-child {
+   border-left: none;
+   /* Remove left border from first column */
+}
+
+.table2-bordered th:first-child,
+.table2-bordered td:first-child {
+   border-left: none;
+   /* Remove left border from first column */
+}
+
+

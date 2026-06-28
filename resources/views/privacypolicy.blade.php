@@ -1,0 +1,77 @@
+@extends('layouts.user-app')
+
+@section('title', ' Privacy Policy')
+@section('style')
+
+
+
+@endsection
+
+
+@section('content')
+    <div class="container mt-3" id="b-homedb">
+
+        <h3 style="text-align: center;"> {!! __('privacypolicy.privacypolicy')!!}</h3>
+
+        <div class=" mt-4 " style="text-align: justify;">
+            {!! __('privacypolicy.privacypolicybody')!!}
+             {{-- <p>
+                <b>ABOCWWB</b> portal does not automatically capture any specific personal information from you (like name,
+                phone number or e-mail address), that allows us to identify you individually. you can generally visit the
+                portal without revealing your personal information, unless you choose to provide such information.
+                However,to avail online services offered through this portal, this portal requires user registration.
+                Information so collected is used to facilitate interaction and smooth delivery of services in future.
+            </p>
+            <p>
+
+                This portal may record your visit and logs the following information for ensuring supporting our efforts in
+                improving your experience continuously, such as Internet protocol (IP) addresses, server's address, domain
+                name, the date and time of the visit, operating system, browser type, the pages you have accessed and the
+                documents downloaded. Any personal information collected shall be primarily used for the purpose for which
+                you have provided it.</p>
+            <p>
+
+                We will not identify users or their browsing activities barring instances wherein there has been an impact
+                on our service continuty owing to such activities or are required for providing improved quality of services
+                to you in future. We make no attempt to link these addresses with the identity of individuars visiting our
+                portal unless an attempt to damage the portal has been detected or any curcumstances necessitate such
+                investigation. In very exceptional cases, data could be shared with other government agencies including
+                instances, but not limited to, sharing data with law enforcement agencies exercising a warrant to inspect
+                the service provider's logs, etc.
+
+            </p>
+            <p>This portal may contain links to third party sites whose data protection and privacy practices may differ
+                from ours. We therefore have no responsibility for the content and privacy for the third party sites.</p>
+            <p>
+
+                We do not sell or share any personally identifiable information volunteered on this portal to any third
+                party (public/private). Any informarion provided to this portal will be protected from loss, misuse,
+                unauthorized access or disclosure, alteration, or destruction. ARTPS portal may, however, reserves the right
+                to use the informafion collected at the time of your visit to this portal and provided to avail various
+                services at the time of filling the application form. The portal may use all such information in order to
+                facilitate improvement of services that Government of Assam as a whole intends to achieve for citizens of
+                Assam and India.</p>
+            <p>
+
+                Personal information collected such as, name, gender, email address, mobile number, date of application and
+                service applied for, may be used by the department for gathering feedback, making necessary communication on
+                services applied for or queries submitted to the team. The information gathered will be used only for the
+                purpose of improving the delivery of public services.
+            </p> --}}
+
+
+        </div>
+
+    </div>
+
+
+
+@endsection
+
+
+@section('footer')
+
+@endsection
+
+
+<!-- About Container -->

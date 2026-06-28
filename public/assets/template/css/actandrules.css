@@ -1,0 +1,97 @@
+
+
+
+.download {
+    background-color: #ffb153; !important;
+
+
+}
+
+.bodycolor {
+    background-color: #abe4e6;
+}
+
+.table-bordered {
+    border-collapse: collapse;    /* Collapse border spacing */
+    /*border: 1.5px solid #abe4e6;    !* Set border color for the whole table *!*/
+}
+
+.table-bordered td {
+    padding: 8px;    /* Add padding to cells */
+    border: none;    /* Remove border from cells */
+}
+.table-bordered tr{
+    height: 80px;
+    border-bottom: 1px solid #ccc;
+}
+
+.table-bordered tr:nth-child(even){
+
+
+    background: #f7f3f3;
+}
+.table-bordered td:first-child {
+    border-left: none;    /* Remove left border from first column */
+}
+
+.cardhead1 {
+
+    cursor: pointer;
+    position: relative;
+    background: linear-gradient(to right, #00008b, #279ca0);
+    width: 260px;
+    height: 40px;
+}
+
+.cardhead1triangle {
+    position: absolute;
+    top: 50%;
+    right: -12px;    /* Adjust the distance from the right edge of the card */
+    width: 0;
+    height: 0;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 50px solid white;    /* You can change color */
+    transform: translateY(-50%) rotate(-90deg);    /* Rotate the triangle and center vertically */
+}
+
+
+.card-content {
+    color: white;
+    padding: 10px;
+    margin-left: 16%;
+    font-size: 22px;
+    font-weight: 600;
+
+}
+
+
+.cardhead2 {
+
+    cursor: pointer;
+    position: relative;
+    width: 300px;
+}
+
+.cardhead2triangle {
+    position: absolute;
+    top: 50%;
+    right: -12px;    /* Adjust the distance from the right edge of the card */
+    width: 0;
+    height: 0;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 50px solid white;    /* You can change color */
+    transform: translateY(-50%) rotate(-90deg);    /* Rotate the triangle and center vertically */
+}
+
+
+.card-content2 {
+    color: white;
+    padding: 10px;
+    margin-left: 26%;
+    font-size: 22px;
+    font-weight: 600;
+
+}
+

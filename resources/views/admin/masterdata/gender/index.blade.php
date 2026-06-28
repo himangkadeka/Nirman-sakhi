@@ -1,0 +1,71 @@
+@extends('layouts.admin-app')
+
+@section('title', 'Admin | Genders')
+@section('breadcrumb_item_1', 'Master Data')
+@section('breadcrumb_item_2', 'Genders')
+
+@section('content')
+
+    <div class="container-fluid">
+
+        <h4 class="text-left mb-3 b-latest-data px-5">GENDERS</h4>
+        @include('admin.masterdata.gender.create')
+        @include('admin.masterdata.gender.edit')
+        <div class="row">
+            <div class="col-md-12 table-responsive px-5">
+                @can('create gender')
+                    <div class="add-butt p-3"><a href="javascript:void(0);" data-toggle="modal"
+                            data-target="#gender-add-modal"><button type="button" class="btn btn-primary b-btn"
+                                id="addpo">ADD<i class="fa fa-plus pl-2" aria-hidden="true"></i></button></a>
+                    </div>
+                @endcan
+                <table id="abaocTable" class="table table-bordered text-nowrap display nowrap">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>S. no.</th>
+                            <th>Gender Code</th>
+                            <th>Gender Name</th>
+                            <th>Created At</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach ($genders as $gender)
+                            <tr>
+                                <td>{{ $loop->iteration }}</td>
+                                <td>{{ $gender->gender_code }}</td>
+                                <td>{{ $gender->gender_name }}</td>
+                                <td>{{ $gender->created_at }}</td>
+                                <td>
+                                    <span>
+                                        @can('update gender')
+                                            <button data-toggle="modal" data-target="#gender-edit-modal" aria-hidden="true"
+                                                onclick="genderEditModal('{{ $gender->gender_code }}','{{ $gender->gender_name }}')"
+                                                style="border: none; background: none; padding: 0; cursor: pointer;">
+                                                <i class="fas fa-edit" style="color: #12d3d0;"></i>
+                                            </button>
+                                        @endcan
+                                        @can('delete gender')
+                                            <button onclick="confirmDelete('{{ $gender->gender_code }}','Gender')"
+                                                style="border: none; background: none; padding: 0; cursor: pointer;">
+                                                <i class="fas fa-solid fa-trash" style="color: #ee1b1b; padding-left:5px;"></i>
+                                            </button>
+                                        @endcan
+                                    </span>
+                                </td>
+                            </tr>
+                        @endforeach
+                    </tbody>
+
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <form id="deleteForm" action="{{ route('admin.genders.delete') }}" method="POST" style="display: none;"
+        class="delete-form">
+        @csrf
+        <input type="hidden" name="gender_id" id="primary_code_input">
+    </form>
+
+@endsection

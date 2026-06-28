@@ -1,0 +1,426 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.cardhead1 {
+
+    background: linear-gradient(to right, #00008b, #279ca0);
+    cursor: pointer;
+    position: relative;
+    border-radius: 0;
+    width: 90%;
+}
+
+.cardhead1triangle {
+    position: absolute;
+    top: 50%;
+    right: -12px;
+
+    width: 0;
+    height: 0;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 50px solid white;
+
+    transform: translateY(-50%) rotate(-90deg);
+
+}
+
+
+.card-content {
+    color: white;
+    padding: 10px;
+    margin-left: 100px;
+    font-size: 22px;
+    font-weight: 600;
+
+}
+
+@media (max-width: 575.98px) {
+    .cardhead1 {
+        cursor: pointer;
+        position: relative;
+        width: 300px;
+    }
+
+    .card-content {
+        color: white;
+
+        margin-left: 50px;
+        font-size: 16px;
+        font-weight: 600;
+
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .cardhead1 {
+        cursor: pointer;
+        position: relative;
+        width: 400px;
+    }
+
+    .card-content {
+        color: white;
+        padding: 10px;
+        margin-left: 60px;
+        font-size: 22px;
+        font-weight: 600;
+
+    }
+
+
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .cardhead1 {
+        cursor: pointer;
+        position: relative;
+        width: 400px;
+    }
+
+    .card-content {
+        margin-left: 20%;
+    }
+
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    .cardhead1 {
+        cursor: pointer;
+        position: relative;
+        width: 400px;
+    }
+
+    .card-content {
+        color: white;
+        padding: 10px;
+        margin-left: 60px;
+        font-size: 22px;
+        font-weight: 600;
+
+    }
+
+
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+
+
+
+    .card-content {
+        color: white;
+        font-size: 18px;
+        padding: 10px;
+        margin-left: 41%;
+
+
+    }
+
+
+
+    .cardhead1 {
+
+        cursor: pointer;
+        position: relative;
+        width: 450px;
+        height: 50px;
+        margin-left: 2px;
+    }
+
+    .cardhead1triangle {
+        position: absolute;
+        top: 50%;
+        right: -12px;
+
+        width: 0;
+        height: 0;
+        border-left: 35px solid transparent;
+        border-right: 35px solid transparent;
+        border-bottom: 50px solid white;
+
+        transform: translateY(-50%) rotate(-90deg);
+
+    }
+
+
+}
+
+/* @media (min-width: 2560px) {
+
+
+    .card-content {
+        margin-left: -2px;
+    }
+} */
+
+
+
+
+@media (min-width: 1400px) {
+
+
+
+    .card-content {
+        color: white;
+        font-size: 18px;
+        padding: 10px;
+        margin-left: 41%;
+
+
+    }
+
+
+
+    .cardhead1 {
+
+        cursor: pointer;
+        position: relative;
+        width: 450px;
+        height: 50px;
+        margin-left: 2px;
+    }
+
+    .cardhead1triangle {
+        position: absolute;
+        top: 50%;
+        right: -12px;
+
+        width: 0;
+        height: 0;
+        border-left: 35px solid transparent;
+        border-right: 35px solid transparent;
+        border-bottom: 50px solid white;
+
+        transform: translateY(-50%) rotate(-90deg);
+
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media (min-width: 320px) and (max-width: 374.98px) {
+    .cardhead1 {
+        cursor: pointer;
+        position: relative;
+        width: 300px;
+    }
+
+    .card-content {
+        color: white;
+
+        margin-left: 50px;
+        font-size: 16px;
+        font-weight: 600;
+
+    }
+
+
+} */
+/*
+@media (min-width: 375px) and (max-width: 424.98px) {
+    .cardhead1 {
+        cursor: pointer;
+        position: relative;
+        width: 370px;
+    }
+
+    .card-content {
+        color: white;
+        padding: 10px;
+        margin-left: 60px;
+        font-size: 18px;
+        font-weight: 600;
+
+    }
+
+
+
+
+}
+
+@media (min-width: 425px) and (max-width: 767.98px) {
+    .cardhead1 {
+        cursor: pointer;
+        position: relative;
+        width: 400px;
+    }
+
+    .card-content {
+        color: white;
+        padding: 10px;
+        margin-left: 60px;
+        font-size: 22px;
+        font-weight: 600;
+
+    }
+
+
+
+
+}
+
+@media (min-width: 488px) and (max-width: 767.98px) {
+    .cardhead1 {
+        cursor: pointer;
+        position: relative;
+        width: 400px;
+    }
+
+    .card-content {
+        color: white;
+        padding: 10px;
+        margin-left: 60px;
+        font-size: 22px;
+        font-weight: 600;
+
+    }
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .cardhead1 {
+        cursor: pointer;
+        position: relative;
+        width: 400px;
+    }
+
+    .card-content {
+        margin-left: 20%;
+    }
+
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1023.98px) {
+
+
+    .card-content {
+        color: white;
+        font-size: 18px;
+        padding: 10px;
+        margin-left: 41%;
+
+
+    }
+
+
+
+    .cardhead1 {
+
+        cursor: pointer;
+        position: relative;
+        width: 450px;
+        height: 50px;
+        margin-left: 2px;
+    }
+
+    .cardhead1triangle {
+        position: absolute;
+        top: 50%;
+        right: -12px;
+        width: 0;
+        height: 0;
+        border-left: 35px solid transparent;
+        border-right: 35px solid transparent;
+        border-bottom: 50px solid white;
+
+        transform: translateY(-50%) rotate(-90deg);
+
+    }
+
+
+}
+
+
+@media (min-width: 1024px) and (max-width: 1199.98px) {
+
+    .cardhead1 {
+        cursor: pointer;
+        position: relative;
+        width: 400px;
+    }
+
+    .card-content {
+        color: white;
+        padding: 10px;
+        margin-left: 60px;
+        font-size: 22px;
+        font-weight: 600;
+
+    }
+
+
+}
+
+@media (min-width: 1200px) and (max-width: 1439.98px) {}
+
+@media (min-width: 1440px) and (max-width: 2559.98px) {
+
+
+    .card-content {
+        color: white;
+        font-size: 18px;
+        padding: 10px;
+        margin-left: 41%;
+
+
+    }
+
+
+
+    .cardhead1 {
+
+        cursor: pointer;
+        position: relative;
+        width: 450px;
+        height: 50px;
+        margin-left: 2px;
+    }
+
+    .cardhead1triangle {
+        position: absolute;
+        top: 50%;
+        right: -12px;
+
+        width: 0;
+        height: 0;
+        border-left: 35px solid transparent;
+        border-right: 35px solid transparent;
+        border-bottom: 50px solid white;
+
+        transform: translateY(-50%) rotate(-90deg);
+
+    }
+
+
+}
+
+@media (min-width: 2560px) {
+
+
+    .card-content {
+        margin-left: -2px;
+    }
+} */

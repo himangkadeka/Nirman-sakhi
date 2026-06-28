@@ -1,0 +1,3947 @@
+/* body {
+    font-family:'Roboto',Sans-Serif;
+} */
+
+.cardhead1,
+.cardhead2 {
+    background: linear-gradient(to right, #00008b, #279ca0);
+}
+
+@media (min-width: 320px) and (max-width: 374.98px) {
+
+    .card-content,
+    .card-content2 {
+        color: white;
+        font-size: 14px;
+        padding: 10px;
+        margin-left: 2%;
+
+
+    }
+
+
+
+    .cardhead1 {
+        /* background-color: #076f6b;
+        border: 1.5px solid #076f6b; */
+
+        cursor: pointer;
+        position: relative;
+        width: 320px;
+        height: 50px;
+        margin-left: 2px;
+    }
+
+    .cardhead1triangle {
+        position: absolute;
+        top: 50%;
+        right: -12px;
+        /* Adjust the distance from the right edge of the card */
+        width: 0;
+        height: 0;
+        border-left: 35px solid transparent;
+        border-right: 35px solid transparent;
+        border-bottom: 50px solid white;
+        /* You can change color */
+        transform: translateY(-50%) rotate(-90deg);
+        /* Rotate the triangle and center vertically */
+    }
+
+
+
+    .card1 {
+        width: 200px;
+        height: 70px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .icon1background {
+        width: 42px;
+        height: 40px;
+    }
+
+    .card1text {
+        margin-top: 10px;
+        font-weight: 600;
+    }
+
+    .card1line1 {
+        margin-left: 20%;
+        height: 20px;
+        width: 2px;
+
+    }
+
+    .card2 {
+        width: 270px;
+        height: 80px;
+        /* margin-top: -15%; */
+    }
+
+    .icon2background {
+        width: 30%;
+        height: 65%;
+    }
+
+    .card2text {
+        font-weight: 600;
+        font-size: 13px;
+    }
+
+
+    .card2line {
+        margin-left: 50%;
+        height: 20px;
+        width: 2px;
+
+    }
+
+    .card3 {
+        width: 270px;
+        height: 80px;
+        /* margin-top: 10%; */
+    }
+
+    .icon3background {
+        width: 25%;
+        height: 40px;
+    }
+
+    .card3text {
+        font-weight: 600;
+        font-size: 13px;
+    }
+
+
+
+    .card3line1 {
+        margin-left: 50%;
+        height: 20px;
+        width: 2px;
+
+    }
+
+    .card3line2 {
+        margin-top: 0;
+        width: 50%;
+
+    }
+
+    .card3line3 {
+        height: 20px;
+        width: 1.5px;
+        margin-left: 25%;
+        margin-top: -16px;
+    }
+
+    .card3line4 {
+        height: 20px;
+        width: 1.5px;
+        margin-left: 49%;
+        margin-top: -16px;
+    }
+
+
+
+
+
+    .card4 {
+        width: 52%;
+        height: 110px;
+        margin-left: 1%;
+
+
+
+    }
+
+    .card4text {
+        font-size: 11px;
+
+        margin-bottom: -15px;
+        font-weight: 550;
+        line-height: 1.3;
+    }
+
+    .card4text2 {
+        font-size: 12px;
+        font-weight: 550;
+
+    }
+
+    .icon4background {
+        width: 55%;
+        height: 30px;
+        margin-left: -12px;
+        margin-right: 5px;
+    }
+.card4line0{
+    margin-left: 20%;
+    margin-top: 20px;
+
+
+}
+    .card4line1 {
+        margin-left: -10%;
+        margin-top: -5%;
+
+    }
+
+    .card4line2 {
+        margin-top: -1px;
+        max-width: 50%;
+        margin-left: 22%;
+    }
+
+    .card4line3 {
+        margin-top: 30px;
+        margin-left: 50px;
+
+
+    }
+
+    .card4line4 {
+        margin-left: 72%;
+
+    }
+
+
+    .card5 {
+        width: 47%;
+        height: 110px;
+        margin-left: 52%;
+        margin-top: -20%;
+    }
+
+    .card5text {
+        font-size: 13px;
+        font-weight: 600;
+        margin-bottom: -1px;
+        line-height: 1.3;
+
+    }
+
+    .icon5background {
+        width: 50%;
+        height: 30px;
+        margin-left: -10px;
+    }
+
+    .card6 {
+        width: 110px;
+        height: 70px;
+        margin-left: 1%;
+        margin-top: -5%;
+
+    }
+
+    .icon6background {
+        width: 50px;
+        height: 60%;
+        margin-left: -10%;
+    }
+
+    .card6text {
+        font-weight: 600;
+        font-size: 10px;
+    }
+
+    .card6line {
+        margin-top: -13.5px;
+        margin-left: 32%;
+        height: 100%;
+
+    }
+
+    .card7 {
+        width: 100px;
+        height: 70px;
+        margin-top: -18%;
+        margin-left: 36%;
+    }
+
+    .icon7background {
+        width: 40px;
+        height: 75%;
+        margin-left: -15%;
+    }
+
+    .card7text {
+        font-weight: 600;
+        font-size: 9px;
+        line-height: 1.2;
+
+
+    }
+
+    .card7line {
+        height: 50px;
+        margin-left: 50%;
+        margin-top: -20px;
+
+    }
+
+
+    .card10 {
+        width: 100px;
+        height: 70px;
+        margin-top: -33%;
+        margin-left: 66%;
+    }
+
+    .icon10background {
+        width: 80px;
+        height: 68%;
+        margin-left: -10%;
+    }
+
+    .card10text {
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 1.2;
+
+    }
+
+    .card10line {
+        height: 50px;
+        margin-left: 62%;
+        margin-top: -20px;
+    }
+
+    .officehorizontal {
+        width: 281px;
+
+        margin-top: -18px;
+
+        padding-left: 60px;
+    }
+
+    .officevertical1,
+    .officevertical2 {
+        height: 30px;
+    }
+
+    .card99 {
+        width: 150px;
+        height: 50px;
+margin-left: 1%;
+
+    }
+
+    .icon99background {
+        max-width: 40px;
+        height: 40px;
+    }
+
+    .card99text {
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+
+
+
+
+
+    .card100 {
+        width: 150px;
+        height: 50px;
+        margin-left: 51%;
+        margin-top: -15.5%;
+
+    }
+
+    .icon100background {
+        max-width: 40px;
+        height: 40px;
+    }
+
+    .card100text {
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+
+
+
+
+
+    .card11 {
+        width: 200px;
+        height: 70px;
+        margin-top: -10%;
+        margin-left: 15%;
+    }
+
+    .icon11background {
+        width: 20%;
+        height: 90%;
+        /* margin-left: -15%; */
+    }
+
+    .card11text {
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 1.2;
+
+    }
+
+    .card11line1 {
+        margin-top: -17%;
+        margin-left: 248px;
+        width: 5%;
+    }
+
+    .card11line2 {
+        margin-left: 82%;
+        height: 30px;
+        width: 2px;
+    }
+
+    .card-content2 {
+        color: white;
+        font-size: 14px;
+        padding: 10px;
+
+
+    }
+
+
+
+    .cardhead2 {
+        margin-top: -10px;
+        cursor: pointer;
+        position: relative;
+        width: 320px;
+        height: 50px;
+        margin-left: 2px;
+    }
+
+    .cardhead2triangle {
+        position: absolute;
+        top: 50%;
+        right: -12px;
+        /* Adjust the distance from the right edge of the card */
+        width: 0;
+        height: 0;
+        border-left: 35px solid transparent;
+        border-right: 35px solid transparent;
+        border-bottom: 50px solid white;
+        /* You can change color */
+        transform: translateY(-50%) rotate(-90deg);
+        /* Rotate the triangle and center vertically */
+    }
+
+    .card8 {
+        width: 280px;
+        height: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .icon8background {
+        width: 40%;
+        height: 40px;
+        margin-left: -10px;
+        margin-right: 10px;
+
+
+    }
+
+    .card8text {
+
+        font-weight: 550;
+        margin-bottom: -2px;
+    }
+
+    .card8text2 {
+
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    .card8line1 {
+        margin-left: 150px;
+        height: 20px;
+        width: 2px;
+    }
+
+    .card9 {
+        margin-left: 7%;
+        height: 58px;
+        width: 80%;
+    }
+
+    .icon9background {
+        margin-left: -5px;
+        height: 40px;
+        width: 25%;
+    }
+
+    .card9text {
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+
+}
+
+
+
+@media (min-width: 375px) and (max-width: 424.98px) {
+    .card-content {
+        color: white;
+        font-size: 15px;
+        padding: 10px;
+        margin-left: 3%;
+
+
+    }
+
+
+
+    .cardhead1 {
+        /* background-color: #076f6b;
+        border: 1.5px solid #076f6b; */
+
+        cursor: pointer;
+        position: relative;
+        width: 350px;
+        height: 50px;
+        margin-left: 2px;
+    }
+
+    .cardhead1triangle {
+        position: absolute;
+        top: 50%;
+        right: -12px;
+        /* Adjust the distance from the right edge of the card */
+        width: 0;
+        height: 0;
+        border-left: 35px solid transparent;
+        border-right: 35px solid transparent;
+        border-bottom: 50px solid white;
+        /* You can change color */
+        transform: translateY(-50%) rotate(-90deg);
+        /* Rotate the triangle and center vertically */
+    }
+
+
+
+
+    .card1 {
+        width: 200px;
+        height: 70px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .icon1background {
+        width: 42px;
+        height: 40px;
+    }
+
+    .card1text {
+        margin-top: 10px;
+        font-weight: 600;
+    }
+
+    .card1line1 {
+        margin-left: 20%;
+        height: 20px;
+        width: 2px;
+
+    }
+
+    .card2 {
+        width: 270px;
+        height: 80px;
+        /* margin-top: -15%; */
+    }
+
+    .icon2background {
+        width: 30%;
+        height: 65%;
+    }
+
+    .card2text {
+        font-weight: 600;
+        font-size: 13px;
+    }
+
+
+    .card2line {
+        margin-left: 50%;
+        height: 20px;
+        width: 2px;
+
+    }
+
+    .card3 {
+        width: 270px;
+        height: 80px;
+        /* margin-top: 10%; */
+    }
+
+    .icon3background {
+        width: 25%;
+        height: 40px;
+    }
+
+    .card3text {
+        font-weight: 600;
+        font-size: 13px;
+    }
+
+
+
+    .card3line1 {
+        margin-left: 50%;
+        height: 20px;
+        width: 2px;
+
+    }
+
+    .card3line2 {
+        margin-top: 0;
+        width: 50%;
+
+    }
+
+    .card3line3 {
+        height: 20px;
+        width: 1.5px;
+        margin-left: 25%;
+        margin-top: -16px;
+    }
+
+    .card3line4 {
+        height: 20px;
+        width: 1.5px;
+        margin-left: 49%;
+        margin-top: -16px;
+    }
+
+
+
+
+
+    .card4 {
+        width: 153px;
+        height: 110px;
+        margin-left: 1%;
+
+
+
+    }
+
+    .card4text {
+        font-size: 11px;
+
+        margin-bottom: -15px;
+        font-weight: 550;
+        line-height: 1.3;
+    }
+
+    .card4text2 {
+        font-size: 12px;
+        font-weight: 550;
+
+    }
+
+    .icon4background {
+        width: 55%;
+        height: 30px;
+        margin-left: -12px;
+        margin-right: 5px;
+    }
+
+    .card4line0{
+        margin-left: 20%;
+        margin-top: 40px;
+
+
+    }
+
+    .card4line1 {
+        margin-left: -30%;
+
+
+
+
+
+    }
+
+    .card4line2 {
+        /* margin-top: -1px; */
+        max-width: 45%;
+        margin-left: 16%;
+    }
+
+    .card4line3 {
+        margin-top: 5%;
+        max-height: 10px;
+        margin-left: 10%;
+
+
+    }
+
+    .card4line4 {
+        margin-left: 61%;
+        max-height: 20.2px;
+        margin-top: 4.5%;
+
+    }
+
+
+    .card5 {
+        width: 50%;
+        height: 110px;
+        margin-left: 50%;
+        margin-top: -16%;
+    }
+
+    .card5text {
+        font-size: 13px;
+        font-weight: 600;
+        margin-bottom: -1px;
+        line-height: 1.3;
+
+    }
+
+    .icon5background {
+        width: 50%;
+        height: 30px;
+        margin-left: -10px;
+    }
+
+    .card6 {
+        width: 90px;
+        height: 70px;
+        margin-left: 1%;
+        margin-top: -5%;
+        /* margin-top: 8%; */
+
+    }
+
+    .icon6background {
+        width: 50px;
+        height: 60%;
+        margin-left: -10%;
+    }
+
+    .card6text {
+        font-weight: 600;
+        font-size: 10px;
+    }
+
+    .card6line {
+        height: 50px;
+        max-height: 50px;
+        margin-left: 20%;
+        padding-top: 50px;
+
+
+    }
+
+
+    /* .card10line {
+        height: 50px;
+        margin-left: 50%;
+        margin-top: -20px;
+    } */
+
+
+    .card7 {
+        width: 80px;
+        height: 70px;
+        margin-top: -32%;
+        margin-left: 26%;
+    }
+
+    .icon7background {
+        width: 40px;
+        height: 75%;
+        margin-left: -15%;
+    }
+
+    .card7text {
+        font-weight: 600;
+        font-size: 9px;
+        line-height: 1.2;
+
+
+    }
+
+    .card7line {
+        height: 50px;
+        margin-left: 40%;
+        margin-top: -50px;
+
+    }
+
+    .cardline6 {
+        height: 50px;
+        margin-left: 20%;
+        margin-top: -20px;
+    }
+
+    .card10 {
+        width: 90px;
+        height: 70px;
+        margin-top: -33%;
+        margin-left: 46%;
+    }
+
+    .icon10background {
+        width: 80px;
+        height: 70%;
+        margin-left: -10%;
+    }
+
+    .card10text {
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 1.2;
+
+    }
+
+    .card10line {
+        height: 50px;
+        margin-left: 50%;
+        margin-top: -24px;
+    }
+
+    .officehorizontal {
+        width: 330px;
+
+        margin-top: -40px;
+        margin-left: 14.5%;
+        /* padding-left: 40px; */
+    }
+
+    .officevertical1,
+    .officevertical2 {
+        height: 30px;
+    }
+
+    .card99 {
+        width: 150px;
+        height: 50px;
+        margin-left: 1%;
+
+    }
+
+    .icon99background {
+        max-width: 40px;
+        height: 40px;
+    }
+
+    .card99text {
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+
+
+
+
+
+    .card100 {
+        width: 150px;
+        height: 50px;
+        margin-left: 50%;
+        margin-top: -13%;
+
+    }
+
+    .icon100background {
+        max-width: 40px;
+        height: 40px;
+    }
+
+    .card100text {
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+
+
+
+
+
+    .card11 {
+        width: 200px;
+        height: 70px;
+        margin-top: -10%;
+        margin-left: 15%;
+    }
+
+    .icon11background {
+        width: 20%;
+        height: 90%;
+        /* margin-left: -15%; */
+    }
+
+    .card11text {
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 1.2;
+
+    }
+
+    .card11line1 {
+        margin-top: -17%;
+        margin-left: 248px;
+        width: 5%;
+    }
+
+    .card11line2 {
+        margin-left: 82%;
+        height: 30px;
+        width: 2px;
+    }
+
+    .card-content2 {
+        color: white;
+        font-size: 14px;
+        padding: 10px;
+        margin-left: 3%;
+
+
+    }
+
+
+
+    .cardhead2 {
+        margin-top: -10px;
+        cursor: pointer;
+        position: relative;
+        width: 320px;
+        height: 50px;
+        margin-left: 2px;
+    }
+
+    .cardhead2triangle {
+        position: absolute;
+        top: 50%;
+        right: -12px;
+        /* Adjust the distance from the right edge of the card */
+        width: 0;
+        height: 0;
+        border-left: 35px solid transparent;
+        border-right: 35px solid transparent;
+        border-bottom: 50px solid white;
+        /* You can change color */
+        transform: translateY(-50%) rotate(-90deg);
+        /* Rotate the triangle and center vertically */
+    }
+
+    .card8 {
+        width: 280px;
+        height: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .icon8background {
+        width: 40%;
+        height: 40px;
+        margin-left: -10px;
+        margin-right: 10px;
+
+
+    }
+
+    .card8text {
+
+        font-weight: 550;
+        margin-bottom: -2px;
+    }
+
+    .card8text2 {
+
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    .card8line1 {
+        margin-left: 150px;
+        height: 20px;
+        width: 2px;
+    }
+
+    .card9 {
+        margin-left: 8%;
+        height: 58px;
+        width: 80%;
+    }
+
+    .icon9background {
+        margin-left: -5px;
+        height: 40px;
+        width: 15%;
+    }
+
+    .card9text {
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    .card-content2 {
+        color: white;
+        font-size: 15px;
+        padding: 10px;
+
+
+    }
+
+
+
+    .cardhead2 {
+
+        cursor: pointer;
+        position: relative;
+        width: 350px;
+        height: 50px;
+        margin-left: 2px;
+    }
+
+    .cardhead2triangle {
+        position: absolute;
+        top: 50%;
+        right: -12px;
+        /* Adjust the distance from the right edge of the card */
+        width: 0;
+        height: 0;
+        border-left: 35px solid transparent;
+        border-right: 35px solid transparent;
+        border-bottom: 50px solid white;
+        /* You can change color */
+        transform: translateY(-50%) rotate(-90deg);
+        /* Rotate the triangle and center vertically */
+    }
+
+
+}
+
+@media (min-width: 425px) and (max-width: 767.98px) {
+    .card-content {
+        color: white;
+        font-size: 15px;
+        padding: 10px;
+        margin-left: 3%;
+
+
+    }
+
+
+
+    .cardhead1 {
+        /* background-color: #076f6b;
+        border: 1.5px solid #076f6b; */
+
+        cursor: pointer;
+        position: relative;
+        width: 350px;
+        height: 50px;
+        margin-left: 2px;
+    }
+
+    .cardhead1triangle {
+        position: absolute;
+        top: 50%;
+        right: -12px;
+        /* Adjust the distance from the right edge of the card */
+        width: 0;
+        height: 0;
+        border-left: 35px solid transparent;
+        border-right: 35px solid transparent;
+        border-bottom: 50px solid white;
+        /* You can change color */
+        transform: translateY(-50%) rotate(-90deg);
+        /* Rotate the triangle and center vertically */
+    }
+
+
+
+
+    .card1 {
+        width: 200px;
+        height: 70px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .icon1background {
+        width: 42px;
+        height: 40px;
+    }
+
+    .card1text {
+        margin-top: 10px;
+        font-weight: 600;
+    }
+
+    .card1line1 {
+        margin-left: 20%;
+        height: 20px;
+        width: 2px;
+
+    }
+
+    .card2 {
+        width: 270px;
+        height: 80px;
+        /* margin-top: -15%; */
+    }
+
+    .icon2background {
+        width: 30%;
+        height: 65%;
+    }
+
+    .card2text {
+        font-weight: 600;
+        font-size: 13px;
+    }
+
+
+    .card2line {
+        margin-left: 50%;
+        height: 20px;
+        width: 2px;
+
+    }
+
+    .card3 {
+        width: 270px;
+        height: 80px;
+        /* margin-top: 10%; */
+    }
+
+    .icon3background {
+        width: 25%;
+        height: 40px;
+    }
+
+    .card3text {
+        font-weight: 600;
+        font-size: 13px;
+    }
+
+
+
+    .card3line1 {
+        margin-left: 50%;
+        height: 20px;
+        width: 2px;
+
+    }
+
+    .card3line2 {
+        margin-top: 0;
+        width: 50%;
+
+    }
+
+    .card3line3 {
+        height: 20px;
+        width: 1.5px;
+        margin-left: 25%;
+        margin-top: -16px;
+    }
+
+    .card3line4 {
+        height: 20px;
+        width: 1.5px;
+        margin-left: 49%;
+        margin-top: -16px;
+    }
+
+
+
+
+
+    .card4 {
+        width: 50%;
+        height: 110px;
+        margin-left: 1%;
+
+
+
+    }
+
+    .card4text {
+        font-size: 11px;
+
+        margin-bottom: -15px;
+        font-weight: 550;
+        line-height: 1.3;
+    }
+
+    .card4text2 {
+        font-size: 12px;
+        font-weight: 550;
+
+    }
+
+    .icon4background {
+        width: 50%;
+        height: 45px;
+        margin-left: -12px;
+        margin-right: 5px;
+    }
+
+.card4line0{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+    .card4line1 {
+        margin-left: -30%;
+        margin-top: 2%;
+
+
+
+
+
+
+    }
+
+    .card4line2 {
+        margin-top: 5%;
+        max-width: 50%;
+        margin-left: 16%;
+    }
+
+    .card4line3 {
+        margin-top: 5%;
+        margin-left: 10%;
+        max-height: 40px;
+
+
+
+    }
+
+    .card4line4 {
+        margin-left: 66%;
+        /* max-height: 25px; */
+        margin-top: 5%;
+
+
+    }
+
+
+    .card5 {
+        width: 50%;
+        height: 110px;
+        margin-left: 50%;
+        margin-top: -13.5%;
+    }
+
+    .card5text {
+        font-size: 13px;
+        font-weight: 600;
+        margin-bottom: -1px;
+        line-height: 1.3;
+
+    }
+
+    .icon5background {
+        width: 34%;
+        height: 45px;
+        margin-left: -10px;
+    }
+
+    .card6 {
+        width: 110px;
+        height: 70px;
+        /* margin-left: 4%; */
+        margin-top: -4%;
+        /* margin-top: 8%; */
+
+    }
+
+    .icon6background {
+        width: 50px;
+        height: 60%;
+        margin-left: -10%;
+    }
+
+    .card6text {
+        font-weight: 600;
+        font-size: 10px;
+    }
+
+    .card6line {
+        height: 50px;
+        max-height: 50px;
+        margin-left: 20%;
+        padding-top: 50px;
+
+
+    }
+
+
+    /* .card10line {
+        height: 50px;
+        margin-left: 50%;
+        margin-top: -20px;
+    } */
+
+
+    .card7 {
+        width: 110px;
+        height: 70px;
+        margin-top: -28.5%;
+        margin-left: 27%;
+    }
+
+    .icon7background {
+        width: 40px;
+        height: 75%;
+        margin-left: -15%;
+    }
+
+    .card7text {
+        font-weight: 600;
+        font-size: 9px;
+        line-height: 1.2;
+
+
+    }
+
+    .card7line {
+        height: 47px;
+        margin-left: 38%;
+        margin-top: -44px;
+
+    }
+
+    .cardline6 {
+        height: 40px;
+        margin-left: 22%;
+        margin-top: -14px;
+    }
+
+    .card10 {
+        width: 115px;
+        height: 70px;
+        margin-top: -30%;
+        margin-left: 52%;
+    }
+
+    .icon10background {
+        width: 80px;
+        height: 70%;
+        margin-left: -10%;
+    }
+
+    .card10text {
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 1.2;
+
+    }
+
+    .card10line {
+        height: 50px;
+        margin-left: 55%;
+        margin-top: -20px;
+    }
+
+    .officehorizontal {
+        width: 380px;
+
+        margin-top: -40px;
+        /* margin-left: 20%; */
+        padding-left: 7%;
+    }
+
+    .officevertical1,
+    .officevertical2 {
+        height: 30px;
+    }
+
+    .card99 {
+        width: 150px;
+        height: 50px;
+        margin-left: 8%;
+
+    }
+
+    .icon99background {
+        max-width: 40px;
+        height: 35px;
+    }
+
+    .card99text {
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+
+
+
+
+
+    .card100 {
+        width: 150px;
+        height: 50px;
+        margin-left: 45%;
+        margin-top: -12%;
+
+    }
+
+    .icon100background {
+        max-width: 38px;
+        height: 35px;
+    }
+
+    .card100text {
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+
+
+
+
+
+    .card11 {
+        width: 200px;
+        height: 70px;
+        margin-top: -10%;
+        margin-left: 15%;
+    }
+
+    .icon11background {
+        width: 20%;
+        height: 90%;
+        /* margin-left: -15%; */
+    }
+
+    .card11text {
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 1.2;
+
+    }
+
+    .card11line1 {
+        margin-top: -17%;
+        margin-left: 248px;
+        width: 5%;
+    }
+
+    .card11line2 {
+        margin-left: 82%;
+        height: 30px;
+        width: 2px;
+    }
+
+    .card-content2 {
+        color: white;
+        font-size: 14px;
+        padding: 10px;
+        margin-left: 3%;
+
+
+    }
+
+
+
+    .cardhead2 {
+        margin-top: -10px;
+        cursor: pointer;
+        position: relative;
+        width: 320px;
+        height: 50px;
+        margin-left: 2px;
+    }
+
+    .cardhead2triangle {
+        position: absolute;
+        top: 50%;
+        right: -12px;
+        /* Adjust the distance from the right edge of the card */
+        width: 0;
+        height: 0;
+        border-left: 35px solid transparent;
+        border-right: 35px solid transparent;
+        border-bottom: 50px solid white;
+        /* You can change color */
+        transform: translateY(-50%) rotate(-90deg);
+        /* Rotate the triangle and center vertically */
+    }
+
+    .card8 {
+        width: 280px;
+        height: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .icon8background {
+        width: 40%;
+        height: 40px;
+        margin-left: -10px;
+        margin-right: 10px;
+
+
+    }
+
+    .card8text {
+
+        font-weight: 550;
+        margin-bottom: -2px;
+    }
+
+    .card8text2 {
+
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    .card8line1 {
+        margin-left: 50%;
+        height: 20px;
+        width: 2px;
+    }
+
+    .card9 {
+        margin-left: 14%;
+        width: 70%;
+        height: 58px;
+    }
+
+    .icon9background {
+        margin-left: -5px;
+        height: 40px;
+        width: 15%;
+    }
+
+    .card9text {
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    .card-content2 {
+        color: white;
+        font-size: 15px;
+        padding: 10px;
+
+
+    }
+
+
+
+    .cardhead2 {
+
+        cursor: pointer;
+        position: relative;
+        width: 350px;
+        height: 50px;
+        margin-left: 2px;
+    }
+
+    .cardhead2triangle {
+        position: absolute;
+        top: 50%;
+        right: -12px;
+        /* Adjust the distance from the right edge of the card */
+        width: 0;
+        height: 0;
+        border-left: 35px solid transparent;
+        border-right: 35px solid transparent;
+        border-bottom: 50px solid white;
+        /* You can change color */
+        transform: translateY(-50%) rotate(-90deg);
+        /* Rotate the triangle and center vertically */
+    }
+
+
+}
+
+
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 1023.98px) {
+
+    .cardhead1 {
+
+        cursor: pointer;
+        position: relative;
+        width: 510px;
+    }
+
+    .cardhead1triangle {
+        position: absolute;
+        top: 50%;
+        right: -12px;
+        /* Adjust the distance from the right edge of the card */
+        width: 0;
+        height: 0;
+        border-left: 35px solid transparent;
+        border-right: 35px solid transparent;
+        border-bottom: 50px solid white;
+        /* You can change color */
+        transform: translateY(-50%) rotate(-90deg);
+        /* Rotate the triangle and center vertically */
+    }
+
+
+    .card-content {
+        color: white;
+        padding: 10px;
+        margin-left: 2%;
+        font-size: 22px;
+        font-weight: 600;
+
+    }
+
+
+
+
+
+
+
+    .card1 {
+        width: 200px;
+        height: 80%;
+        /* margin-left: -30px; */
+    }
+
+    .icon1background {
+        width: auto;
+        height: 40px;
+    }
+
+    .card1text {
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 16px;
+    }
+
+    .card2 {
+        width: 250px;
+        height: 82%;
+        margin-left: -10%;
+
+    }
+
+    .card2text {
+        font-size: 15px;
+        font-weight: 550;
+    }
+
+    .card2text2 {
+        font-size: 13px;
+    }
+
+
+
+
+    .icon2background {
+        max-width: 40px;
+        height: 40px;
+        margin-right: 5px;
+
+    }
+
+    .card2line {
+        margin-left: 20%;
+    }
+
+    .card3 {
+        width: 265px;
+        height: 80%;
+        margin-left: -10%;
+    }
+
+    .icon3background {
+        max-width: 40px;
+        height: 40px;
+    }
+
+    .card3text {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .card3text2 {
+        font-size: 15px;
+    }
+
+    .card3line1 {
+        margin-left: 20%;
+        max-height: 85%;
+    }
+
+    .card3line2 {
+        height: 67%;
+        width: 1.5px;
+        margin-top: 35px;
+        margin-left: -280px;
+    }
+
+    .card3line3 {
+        height: 67%;
+        width: 1.5px;
+        margin-top: 35px;
+        /* margin-left: -20px; */
+
+
+    }
+
+    .card4 {
+        width: 300px;
+        height: 100%;
+        margin-left: -40%;
+    }
+
+    .icon4background {
+        width: 25%;
+        height: 44px;
+        margin-left: -5px;
+        margin-right: 10px;
+    }
+
+    .card4text {
+        font-size: 15px;
+        font-weight: 600;
+
+    }
+
+    .card4text2 {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .card4line1 {
+        max-height: 100%;
+        width: 1.4px;
+        margin-left: 40%;
+
+    }
+
+    .card4line2 {
+        height: 1.5px;
+        width: 300px;
+        margin-left: -40%;
+        margin-top: -20%;
+
+    }
+
+
+    .card4line3 {
+
+        margin-left: -85px;
+
+
+    }
+
+    .card4line0 {
+        margin-left: -40%;
+        margin-top: -20%;
+    }
+
+    .card4line4 {
+        margin-left: 226px;
+        margin-top: -20%;
+    }
+
+
+
+
+
+    .card5 {
+        width: 300px;
+        height: 100%;
+        margin-left: -90%;
+    }
+
+    .icon5background {
+        width: 15%;
+        height: 41px;
+        margin-left: -5px;
+    }
+
+    .card5text {
+        font-size: 18px;
+        font-weight: 600;
+
+        margin-bottom: -1px;
+    }
+
+    .card6 {
+        width: 150px;
+        height: 80%;
+        margin-left: -10%;
+        margin-top: 5px;
+
+    }
+
+    .icon6background {
+        max-width: 40px;
+        height: 40px;
+        margin-left: -5px;
+    }
+
+    .card6text {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .card6text2 {
+        font-size: 13px;
+        margin-top: 3px;
+    }
+
+  .card6linetablet{
+    height: 60px;
+        margin-left: 48%;
+        margin-top: -21px;
+  }
+    .card7 {
+        width: 150px;
+        height: 80%;
+        margin-left: -26%;
+        margin-top: 5px;
+    }
+
+    .icon7background {
+        max-width: 40px;
+        height: 40px;
+    }
+
+    .card7text {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .card7linetablet{
+        height: 60px;
+            margin-left: 20%;
+            margin-top: -21px;
+      }
+
+    .card10 {
+        width: 150px;
+        height: 80%;
+        margin-left: -50%;
+
+        margin-top: 5px;
+
+    }
+
+    .icon10background {
+        max-width: 40px;
+        height: 40px;
+        margin-left: -5px;
+    }
+
+    .card10text {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .card10text2 {
+        font-size: 13px;
+        margin-top: 3px;
+    }
+    .card10linetablet{
+        height: 60px;
+            margin-left: -21%;
+            margin-top: -21px;
+      }
+    .officehorizontal {
+        width: 500px;
+margin-top: -1%;
+
+        /* margin-top: -40px; */
+        /* margin-left: 20%; */
+
+    }
+    .card99 {
+        width: 150px;
+        height: 50px;
+        margin-left: 8%;
+        margin-top: 10%;
+
+    }
+
+    .icon99background {
+        max-width: 40px;
+        height: 35px;
+    }
+
+    .card99text {
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+
+
+
+
+
+    .card100 {
+        width: 150px;
+        height: 50px;
+        margin-left: 45%;
+        margin-top: 10%;
+
+    }
+
+    .icon100background {
+        max-width: 38px;
+        height: 35px;
+    }
+
+    .card100text {
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+
+
+
+
+
+    .card11 {
+        width: 260px;
+        height: 80%;
+        margin-left: -40%;
+        margin-top: -23.5%;
+    }
+
+    .icon11background {
+        max-width: 40px;
+        height: 40px;
+    }
+
+    .card11text {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .card11text2 {
+        font-size: 15px;
+    }
+
+    .card11line1 {
+        height: 1.5px;
+        width: 100%;
+        margin-left: 20px;
+        margin-top: 45%;
+
+
+    }
+
+    .card11line2 {
+        height: 60%;
+        width: 1.4px;
+        margin-top: 70px;
+        margin-left: -105px;
+    }
+
+
+    .cardhead2 {
+        /* background-color: #076f6b;
+        border: 1.5px solid #076f6b; */
+        cursor: pointer;
+        position: relative;
+        width: 510px;
+    }
+
+    .cardhead2triangle {
+        position: absolute;
+        top: 50%;
+        right: -12px;
+        /* Adjust the distance from the right edge of the card */
+        width: 0;
+        height: 0;
+        border-left: 35px solid transparent;
+        border-right: 35px solid transparent;
+        border-bottom: 50px solid #f7f6f6;
+        /* You can change color */
+        transform: translateY(-50%) rotate(-90deg);
+        /* Rotate the triangle and center vertically */
+    }
+
+
+    .card-content2 {
+        color: white;
+        padding: 10px;
+        margin-left: 2%;
+        font-size: 22px;
+        font-weight: 600;
+
+    }
+
+    .card8 {
+
+        width: 320px;
+        height: 80%;
+
+    }
+
+    .card8line1 {
+        height: 1.5px;
+        width: 15%;
+        margin-left: 80px;
+        margin-top: 55px;
+    }
+
+    .card8line2 {
+        height: 20%;
+        width: 1.5px;
+        margin-top: 55px;
+    }
+
+    .card8text {
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 10px;
+        margin-bottom: -2px;
+
+    }
+
+    .card8text2 {
+        font-size: 13px;
+        font-weight: 600;
+    }
+
+    .icon8background {
+        width: 30%;
+        height: 55%;
+        margin-left: -5px;
+        margin-right: 10px;
+    }
+
+    .card9 {
+        width: 300px;
+        height: 70px;
+        margin-left: 50%;
+        margin-top: -65px;
+
+    }
+
+    .icon9background {
+        margin-left: -5px;
+        width: 18%;
+        height: 45px;
+    }
+
+    .card9text {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .card9text {
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+}
+
+
+
+@media (min-width: 1024px) and (max-width: 1199.98px) {
+
+    .cardhead1 {
+        /* background-color: #076f6b;
+        border: 1.5px solid #076f6b; */
+        cursor: pointer;
+        position: relative;
+        width: 550px;
+    }
+
+    .cardhead1triangle {
+        position: absolute;
+        top: 50%;
+        right: -12px;
+        /* Adjust the distance from the right edge of the card */
+        width: 0;
+        height: 0;
+        border-left: 35px solid transparent;
+        border-right: 35px solid transparent;
+        border-bottom: 50px solid white;
+        /* You can change color */
+        transform: translateY(-50%) rotate(-90deg);
+        /* Rotate the triangle and center vertically */
+    }
+
+
+    .card-content {
+        color: white;
+        padding: 10px;
+        margin-left: 8.3%;
+        font-size: 22px;
+        font-weight: 600;
+
+    }
+
+
+
+
+    .card1line1 {
+        margin-top: 60px;
+        margin-left: -5%;
+        height: 1.5px;
+        width: 10%;
+    }
+
+    /* .card1line2 {
+        height: 50%;
+        width: 1.5px;
+        margin-top: 60px;
+        margin-left:100%;
+
+
+    } */
+
+    .card1 {
+        width: 200px;
+        height: 80%;
+        /* margin-left: 30px; */
+    }
+
+    .icon1background {
+        width: auto;
+        height: 40px;
+    }
+
+    .card1text {
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 16px;
+    }
+
+    .card2 {
+        width: 350px;
+        height: 82%;
+
+
+    }
+
+    .card2text {
+        font-size: 15px;
+        font-weight: 550;
+    }
+
+    .card2text2 {
+        font-size: 13px;
+    }
+
+    .card2line {
+        margin-left: 30%;
+    }
+
+    .icon2background {
+        max-width: 40px;
+        height: 40px;
+        margin-right: 5px;
+
+    }
+
+    .card3 {
+        width: 350px;
+        height: 80%;
+        /* margin-left: 80px; */
+    }
+
+    .icon3background {
+        max-width: 40px;
+        height: 40px;
+    }
+
+    .card3text {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .card3text2 {
+        font-size: 15px;
+    }
+
+    .card3line1 {
+        margin-top: 10px;
+       max-height: 70px;
+
+ margin-left: 30%;
+    }
+
+    .card3line2 {
+        height: 67%;
+        width: 1.5px;
+        margin-top: 35px;
+        margin-left: -300px;
+    }
+
+    .card3line3 {
+        height: 67%;
+        width: 1.5px;
+        margin-top: 35px;
+        /* margin-left: -20px; */
+
+
+    }
+
+    .card4 {
+        width: 320px;
+        height: 100%;
+        margin-left: 15%;
+    }
+
+    .icon4background {
+        max-width: 40px;
+        height: 40px;
+    }
+
+    .card4text {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .card4text2 {
+        font-size: 15px;
+    }
+
+
+    /* .card4line1 {
+        height: 55%;
+        width: 1.4px;
+        margin-top: 50px;
+        margin-left: 100px;
+    } */
+
+    .card4line2 {
+        margin-top: -0.1%;
+
+    }
+
+
+    .card4line3 {
+        /* margin-top: 35px; */
+        margin-left: -6%;
+        margin-top: 1%;
+    }
+
+    .card4line4 {
+        /* margin-top: 35px; */
+        margin-left: 100%;
+
+    }
+
+
+    .card99 {
+        width: 230px;
+        height: 100%;
+        margin-left: 10%;
+
+    }
+
+    .icon99background {
+        max-width: 40px;
+        height: 40px;
+    }
+
+    .card99text {
+        font-size: 17px;
+        font-weight: 600;
+    }
+
+
+
+
+
+    .card5 {
+        width: 290px;
+        height: 100%;
+
+    }
+
+    .icon5background {
+        width: auto;
+        height: 41px;
+        margin-left: -5px;
+    }
+
+    .card5text {
+        font-size: 18px;
+        font-weight: 600;
+
+        margin-bottom: -1px;
+    }
+
+
+    .card100 {
+        width: 230px;
+        height: 100%;
+        margin-left: 30%;
+
+    }
+
+    .icon100background {
+        max-width: 40px;
+        height: 40px;
+
+        margin-left: -5px;
+    }
+
+    .card100text {
+        font-size: 20px;
+        font-weight: 600;
+
+        margin-bottom: -1px;
+    }
+
+    .card6 {
+        width: 150px;
+        height: 80%;
+        margin-left: 40%;
+        /* margin-top: 20px; */
+
+    }
+
+    .icon6background {
+        max-width: 40px;
+        height: 40px;
+        margin-left: -5px;
+    }
+
+    .card6text {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .card6text2 {
+        font-size: 13px;
+        margin-top: 3px;
+    }
+
+    .card6line {
+        margin-left: 100%;
+    }
+
+    .card7 {
+        width: 150px;
+        height: 80%;
+        margin-left: 45%;
+
+        /* margin-top: 5px; */
+    }
+
+    .icon7background {
+        max-width: 40px;
+        height: 40px;
+    }
+
+    .card7text {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .card7line1 {
+        height: 1.5px;
+        width: 5%;
+        margin-top: 40px;
+
+    }
+
+    .card7line2 {
+        height: 67%;
+        width: 1.5px;
+        margin-top: 35px;
+        margin-left: -150px;
+    }
+
+    .card10 {
+        width: 150px;
+        height: 80%;
+        margin-left: 43%;
+
+
+    }
+
+    .icon10background {
+        max-width: 40px;
+        height: 40px;
+        margin-left: -5px;
+    }
+
+    .card10text {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .card10text2 {
+        font-size: 13px;
+        margin-top: 3px;
+    }
+
+    .card11 {
+        width: 265px;
+        height: 80%;
+        margin-left: 48%;
+        margin-top: -18%;
+    }
+
+    .icon11background {
+        max-width: 40px;
+        height: 40px;
+    }
+
+    .card11text {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .card11text2 {
+        font-size: 15px;
+    }
+
+    .card11line1 {
+        height: 1.5px;
+        width: 40%;
+        margin-left: 87%;
+        margin-top: 17%;
+
+    }
+
+    .card11line2 {
+        height: 56%;
+        width: 1.4px;
+        margin-top: 70px;
+        margin-left: -140px;
+    }
+
+
+    .cardhead2 {
+        /* background-color: #076f6b;
+        border: 1.5px solid #076f6b; */
+        cursor: pointer;
+        position: relative;
+        width: 550px;
+    }
+
+    .cardhead2triangle {
+        position: absolute;
+        top: 50%;
+        right: -12px;
+        /* Adjust the distance from the right edge of the card */
+        width: 0;
+        height: 0;
+        border-left: 35px solid transparent;
+        border-right: 35px solid transparent;
+        border-bottom: 50px solid #f7f6f6;
+        /* You can change color */
+        transform: translateY(-50%) rotate(-90deg);
+        /* Rotate the triangle and center vertically */
+    }
+
+
+    .card-content2 {
+        color: white;
+        padding: 10px;
+        margin-left: 8.3%;
+        font-size: 22px;
+        font-weight: 600;
+
+    }
+
+
+
+    .card8 {
+        /* margin-left: 10%; */
+        margin-top: 10px;
+        width: 320px;
+        height: 80%;
+
+    }
+
+    .card8line1 {
+        height: 1.5px;
+        width: 15%;
+        margin-left: 80px;
+        margin-top: 55px;
+    }
+
+    .card8line2 {
+        height: 20%;
+        width: 1.5px;
+        margin-top: 55px;
+    }
+
+    .card8text {
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 10px;
+        margin-bottom: -2px;
+
+    }
+
+    .card8text2 {
+        font-size: 13px;
+        font-weight: 600;
+    }
+
+    .icon8background {
+        width: auto;
+        height: 55%;
+        margin-left: -5px;
+        margin-right: 10px;
+    }
+
+    .card9 {
+        width: 320px;
+        height: 70px;
+        margin-left: 10%;
+        margin-top: -65px;
+
+    }
+
+    .icon9background {
+        margin-left: -5px;
+        width: auto;
+        height: 45px;
+    }
+
+    .card9text {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+}
+
+
+
+@media (min-width: 1200px) and (max-width: 1439.98px) {
+
+    .cardhead1 {
+        /* background-color: #076f6b;
+        border: 1.5px solid #076f6b; */
+        cursor: pointer;
+        position: relative;
+        width: 435px;
+    }
+
+    .cardhead1triangle {
+        position: absolute;
+        top: 50%;
+        right: -12px;
+        /* Adjust the distance from the right edge of the card */
+        width: 0;
+        height: 0;
+        border-left: 35px solid transparent;
+        border-right: 35px solid transparent;
+        border-bottom: 50px solid white;
+        /* You can change color */
+        transform: translateY(-50%) rotate(-90deg);
+        /* Rotate the triangle and center vertically */
+    }
+
+
+    .card-content {
+        color: white;
+        padding: 10px;
+        margin-left: 8.3%;
+        font-size: 17px;
+        font-weight: 600;
+
+    }
+
+
+
+
+    .card1line1 {
+        margin-top: 60px;
+        margin-left: -5%;
+        height: 1.5px;
+        width: 10%;
+    }
+
+    /* .card1line2 {
+        height: 50%;
+        width: 1.5px;
+        margin-top: 60px;
+        margin-left:100%;
+
+
+    } */
+
+    .card1 {
+        width: 200px;
+        height: 80%;
+        /* margin-left: 30px; */
+    }
+
+    .icon1background {
+        width: auto;
+        height: 40px;
+    }
+
+    .card1text {
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 16px;
+    }
+
+    .card2 {
+        width: 350px;
+        height: 82%;
+
+
+    }
+
+    .card2text {
+        font-size: 15px;
+        font-weight: 550;
+    }
+
+    .card2text2 {
+        font-size: 13px;
+    }
+
+    .card2line {
+        margin-left: 30%;
+    }
+
+    .icon2background {
+        max-width: 40px;
+        height: 40px;
+        margin-right: 5px;
+
+    }
+
+    .card3 {
+        width: 350px;
+        height: 80%;
+        /* margin-left: 80px; */
+    }
+
+    .icon3background {
+        max-width: 40px;
+        height: 40px;
+    }
+
+    .card3text {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .card3text2 {
+        font-size: 15px;
+    }
+
+    .card3line1 {
+        margin-top: 10px;
+       margin-left: 30%;
+       max-height: 70px;
+    }
+
+    .card3line2 {
+        height: 67%;
+        width: 1.5px;
+        margin-top: 35px;
+        margin-left: -300px;
+    }
+
+    .card3line3 {
+        height: 67%;
+        width: 1.5px;
+        margin-top: 35px;
+        /* margin-left: -20px; */
+
+
+    }
+
+    .card4 {
+        width: 320px;
+        height: 100%;
+        margin-left: 15%;
+    }
+
+    .icon4background {
+        max-width: 40px;
+        height: 40px;
+    }
+
+    .card4text {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .card4text2 {
+        font-size: 15px;
+    }
+
+
+    .card4line2 {
+        margin-top: -0.5%;
+    }
+
+
+    .card4line3 {
+        /* margin-top: 35px; */
+        margin-left: -6%;
+        margin-top: 1%;
+    }
+
+    .card4line4 {
+        margin-left: 100%;
+
+
+    }
+
+
+    .card99 {
+        width: 230px;
+        height: 100%;
+        margin-left: 10%;
+
+    }
+
+    .icon99background {
+        max-width: 40px;
+        height: 40px;
+    }
+
+    .card99text {
+        font-size: 17px;
+        font-weight: 600;
+    }
+
+
+
+
+
+    .card5 {
+        width: 290px;
+        height: 100%;
+
+    }
+
+    .icon5background {
+        width: auto;
+        height: 41px;
+        margin-left: -5px;
+    }
+
+    .card5text {
+        font-size: 18px;
+        font-weight: 600;
+
+        margin-bottom: -1px;
+    }
+
+
+    .card100 {
+        width: 230px;
+        height: 100%;
+        margin-left: 30%;
+
+    }
+
+    .icon100background {
+        max-width: 40px;
+        height: 40px;
+
+        margin-left: -5px;
+    }
+
+    .card100text {
+        font-size: 20px;
+        font-weight: 600;
+
+        margin-bottom: -1px;
+    }
+
+    .card6 {
+        width: 190px;
+        height: 80%;
+        margin-left: 40%;
+        /* margin-top: 20px; */
+
+    }
+
+    .icon6background {
+        max-width: 40px;
+        height: 40px;
+        margin-left: -5px;
+    }
+
+    .card6text {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .card6text2 {
+        font-size: 13px;
+        margin-top: 3px;
+    }
+
+    .card6line {
+        margin-left: 100%;
+    }
+
+    .card7 {
+        width: 190px;
+        height: 80%;
+        margin-left: 45%;
+
+        /* margin-top: 5px; */
+    }
+
+    .icon7background {
+        max-width: 40px;
+        height: 40px;
+    }
+
+    .card7text {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .card7line1 {
+        height: 1.5px;
+        width: 5%;
+        margin-top: 40px;
+
+    }
+
+    .card7line2 {
+        height: 67%;
+        width: 1.5px;
+        margin-top: 35px;
+        margin-left: -150px;
+    }
+
+    .card10 {
+        width: 190px;
+        height: 80%;
+        margin-left: 43%;
+
+
+    }
+
+    .icon10background {
+        max-width: 40px;
+        height: 40px;
+        margin-left: -5px;
+    }
+
+    .card10text {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .card10text2 {
+        font-size: 13px;
+        margin-top: 3px;
+    }
+
+    .card11 {
+        width: 265px;
+        height: 80%;
+        margin-left: 48%;
+        margin-top: -18%;
+    }
+
+    .icon11background {
+        max-width: 40px;
+        height: 40px;
+    }
+
+    .card11text {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .card11text2 {
+        font-size: 15px;
+    }
+
+    .card11line1 {
+        height: 1.5px;
+        width: 40%;
+        margin-left: 87%;
+        margin-top: 17%;
+
+    }
+
+    .card11line2 {
+        height: 56%;
+        width: 1.4px;
+        margin-top: 70px;
+        margin-left: -140px;
+    }
+
+
+    .cardhead2 {
+        /* background-color: #076f6b;
+        border: 1.5px solid #076f6b; */
+        cursor: pointer;
+        position: relative;
+        width: 435px;
+    }
+
+    .cardhead2triangle {
+        position: absolute;
+        top: 50%;
+        right: -12px;
+        /* Adjust the distance from the right edge of the card */
+        width: 0;
+        height: 0;
+        border-left: 35px solid transparent;
+        border-right: 35px solid transparent;
+        border-bottom: 50px solid #f7f6f6;
+        /* You can change color */
+        transform: translateY(-50%) rotate(-90deg);
+        /* Rotate the triangle and center vertically */
+    }
+
+
+    .card-content2 {
+        color: white;
+        padding: 10px;
+        margin-left: 8.3%;
+        font-size: 17px;
+        font-weight: 600;
+
+    }
+
+
+
+    .card8 {
+        /* margin-left: 10%; */
+        margin-top: 10px;
+        width: 320px;
+        height: 80%;
+
+    }
+
+    .card8line1 {
+        height: 1.5px;
+        width: 15%;
+        margin-left: 80px;
+        margin-top: 55px;
+    }
+
+    .card8line2 {
+        height: 30%;
+        width: 1.5px;
+        margin-top: 55px;
+    }
+
+    .card8text {
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 10px;
+        margin-bottom: -2px;
+
+    }
+
+    .card8text2 {
+        font-size: 13px;
+        font-weight: 600;
+    }
+
+    .icon8background {
+        width: auto;
+        height: 55%;
+        margin-left: -5px;
+        margin-right: 10px;
+    }
+
+    .card9 {
+        width: 320px;
+        height: 70px;
+        margin-left: 10%;
+        margin-top: -65px;
+
+    }
+
+    .icon9background {
+        margin-left: -5px;
+        width: auto;
+        height: 45px;
+    }
+
+    .card9text {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+}
+
+
+@media (min-width: 1440px) and (max-width: 2559.98px) {
+
+    .cardhead1 {
+        /* background-color: #076f6b;
+        border: 1.5px solid #076f6b; */
+        cursor: pointer;
+        position: relative;
+        width: 550px;
+    }
+
+    .cardhead1triangle {
+        position: absolute;
+        top: 50%;
+        right: -12px;
+        /* Adjust the distance from the right edge of the card */
+        width: 0;
+        height: 0;
+        border-left: 35px solid transparent;
+        border-right: 35px solid transparent;
+        border-bottom: 50px solid white;
+        /* You can change color */
+        transform: translateY(-50%) rotate(-90deg);
+        /* Rotate the triangle and center vertically */
+    }
+
+
+    .card-content {
+        color: white;
+        padding: 10px;
+        margin-left: 8.3%;
+        font-size: 17px;
+        font-weight: 600;
+
+    }
+
+
+
+
+    .card1line1 {
+        margin-top: 60px;
+        margin-left: -5%;
+        height: 1.5px;
+        width: 10%;
+    }
+
+    /* .card1line2 {
+        height: 50%;
+        width: 1.5px;
+        margin-top: 60px;
+        margin-left:100%;
+
+
+    } */
+
+    .card1 {
+        width: 200px;
+        height: 80%;
+        /* margin-left: 30px; */
+    }
+
+    .icon1background {
+        width: auto;
+        height: 40px;
+    }
+
+    .card1text {
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 16px;
+    }
+
+    .card2 {
+        width: 350px;
+        height: 82%;
+
+
+    }
+
+    .card2text {
+        font-size: 15px;
+        font-weight: 550;
+    }
+
+    .card2text2 {
+        font-size: 13px;
+    }
+
+    .card2line {
+        margin-left: 30%;
+    }
+
+    .icon2background {
+        max-width: 40px;
+        height: 40px;
+        margin-right: 5px;
+
+    }
+
+    .card3 {
+        width: 350px;
+        height: 80%;
+        /* margin-left: 80px; */
+    }
+
+    .icon3background {
+        max-width: 40px;
+        height: 40px;
+    }
+
+    .card3text {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .card3text2 {
+        font-size: 15px;
+    }
+
+    .card3line1 {
+        margin-top: 23px;
+       margin-left: 30%;
+       max-height: 40px;
+    }
+
+    .card3line2 {
+        height: 67%;
+        width: 1.5px;
+        margin-top: 35px;
+        margin-left: -300px;
+    }
+
+    .card3line3 {
+        height: 67%;
+        width: 1.5px;
+        margin-top: 35px;
+        /* margin-left: -20px; */
+
+
+    }
+
+    .card4 {
+        width: 320px;
+        height: 100%;
+        margin-left: 15%;
+    }
+
+    .icon4background {
+        max-width: 40px;
+        height: 40px;
+    }
+
+    .card4text {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .card4text2 {
+        font-size: 15px;
+    }
+
+
+    /* .card4line1 {
+        height: 55%;
+        width: 1.4px;
+        margin-top: 50px;
+        margin-left: 100px;
+    } */
+
+    .card4line2 {
+        margin-top: -0.5%;
+    }
+
+
+    .card4line3 {
+        /* margin-top: 35px; */
+        margin-left: -6%;
+        margin-top: 1%;
+    }
+
+    .card4line4 {
+        /* margin-top: 35px; */
+        margin-left: 100%;
+
+    }
+
+    .card99 {
+        width: 230px;
+        height: 100%;
+        margin-left: 10%;
+
+    }
+
+    .icon99background {
+        max-width: 40px;
+        height: 40px;
+    }
+
+    .card99text {
+        font-size: 17px;
+        font-weight: 600;
+    }
+
+
+
+
+
+    .card5 {
+        width: 290px;
+        height: 100%;
+
+    }
+
+    .icon5background {
+        width: auto;
+        height: 41px;
+        margin-left: -5px;
+    }
+
+    .card5text {
+        font-size: 18px;
+        font-weight: 600;
+
+        margin-bottom: -1px;
+    }
+
+
+    .card100 {
+        width: 230px;
+        height: 100%;
+        margin-left: 30%;
+
+    }
+
+    .icon100background {
+        max-width: 40px;
+        height: 40px;
+
+        margin-left: -5px;
+    }
+
+    .card100text {
+        font-size: 20px;
+        font-weight: 600;
+
+        margin-bottom: -1px;
+    }
+
+    .card6 {
+        width: 190px;
+        height: 80%;
+        margin-left: 40%;
+        /* margin-top: 20px; */
+
+    }
+
+    .icon6background {
+        max-width: 40px;
+        height: 40px;
+        margin-left: -5px;
+    }
+
+    .card6text {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .card6text2 {
+        font-size: 13px;
+        margin-top: 3px;
+    }
+
+    .card6line {
+        margin-left: 100%;
+    }
+
+    .card7 {
+        width: 190px;
+        height: 80%;
+        margin-left: 45%;
+
+        /* margin-top: 5px; */
+    }
+
+    .icon7background {
+        max-width: 40px;
+        height: 40px;
+    }
+
+    .card7text {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .card7line1 {
+        height: 1.5px;
+        width: 5%;
+        margin-top: 40px;
+
+    }
+
+    .card7line2 {
+        height: 67%;
+        width: 1.5px;
+        margin-top: 35px;
+        margin-left: -150px;
+    }
+
+    .card10 {
+        width: 190px;
+        height: 80%;
+        margin-left: 43%;
+
+
+    }
+
+    .icon10background {
+        max-width: 40px;
+        height: 40px;
+        margin-left: -5px;
+    }
+
+    .card10text {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .card10text2 {
+        font-size: 13px;
+        margin-top: 3px;
+    }
+
+    .card11 {
+        width: 265px;
+        height: 80%;
+        margin-left: 48%;
+        margin-top: -18%;
+    }
+
+    .icon11background {
+        max-width: 40px;
+        height: 40px;
+    }
+
+    .card11text {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .card11text2 {
+        font-size: 15px;
+    }
+
+    .card11line1 {
+        height: 1.5px;
+        width: 40%;
+        margin-left: 87%;
+        margin-top: 17%;
+
+    }
+
+    .card11line2 {
+        height: 56%;
+        width: 1.4px;
+        margin-top: 70px;
+        margin-left: -140px;
+    }
+
+
+    .cardhead2 {
+        /* background-color: #076f6b;
+        border: 1.5px solid #076f6b; */
+        cursor: pointer;
+        position: relative;
+        width: 550px;
+    }
+
+    .cardhead2triangle {
+        position: absolute;
+        top: 50%;
+        right: -12px;
+        /* Adjust the distance from the right edge of the card */
+        width: 0;
+        height: 0;
+        border-left: 35px solid transparent;
+        border-right: 35px solid transparent;
+        border-bottom: 50px solid #f7f6f6;
+        /* You can change color */
+        transform: translateY(-50%) rotate(-90deg);
+        /* Rotate the triangle and center vertically */
+    }
+
+
+    .card-content2 {
+        color: white;
+        padding: 10px;
+        margin-left: 8.3%;
+        font-size: 17px;
+        font-weight: 600;
+
+    }
+
+
+
+    .card8 {
+        /* margin-left: 10%; */
+        margin-top: 10px;
+        width: 320px;
+        height: 80%;
+
+    }
+
+    .card8line1 {
+        height: 1.5px;
+        width: 15%;
+        margin-left: 80px;
+        margin-top: 55px;
+    }
+
+    .card8line2 {
+        height: 20%;
+        width: 1.5px;
+        margin-top: 55px;
+    }
+
+    .card8text {
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 10px;
+        margin-bottom: -2px;
+
+    }
+
+    .card8text2 {
+        font-size: 13px;
+        font-weight: 600;
+    }
+
+    .icon8background {
+        width: auto;
+        height: 55%;
+        margin-left: -5px;
+        margin-right: 10px;
+    }
+
+    .card9 {
+        width: 320px;
+        height: 70px;
+        margin-left: 10%;
+        margin-top: -65px;
+
+    }
+
+    .icon9background {
+        margin-left: -5px;
+        width: auto;
+        height: 45px;
+    }
+
+    .card9text {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+}
+
+
+
+
+@media (min-width: 2560px) {
+
+    .cardhead1 {
+        /* background-color: #076f6b;
+        border: 1.5px solid #076f6b; */
+        cursor: pointer;
+        position: relative;
+        width: 550px;
+    }
+
+    .cardhead1triangle {
+        position: absolute;
+        top: 50%;
+        right: -12px;
+        /* Adjust the distance from the right edge of the card */
+        width: 0;
+        height: 0;
+        border-left: 35px solid transparent;
+        border-right: 35px solid transparent;
+        border-bottom: 50px solid white;
+        /* You can change color */
+        transform: translateY(-50%) rotate(-90deg);
+        /* Rotate the triangle and center vertically */
+    }
+
+
+    .card-content {
+        color: white;
+        padding: 10px;
+        margin-left: 8.3%;
+        font-size: 17px;
+        font-weight: 600;
+
+    }
+
+
+
+
+    .card1line1 {
+        margin-top: 60px;
+        margin-left: -5%;
+        height: 1.5px;
+        width: 10%;
+    }
+
+    /* .card1line2 {
+        height: 50%;
+        width: 1.5px;
+        margin-top: 60px;
+        margin-left:100%;
+
+
+    } */
+
+    .card1 {
+        width: 200px;
+        height: 80%;
+        /* margin-left: 30px; */
+    }
+
+    .icon1background {
+        width: auto;
+        height: 40px;
+    }
+
+    .card1text {
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 16px;
+    }
+
+    .card2 {
+        width: 350px;
+        height: 82%;
+
+
+    }
+
+    .card2text {
+        font-size: 15px;
+        font-weight: 550;
+    }
+
+    .card2text2 {
+        font-size: 13px;
+    }
+
+    .card2line {
+        margin-left: 30%;
+    }
+
+
+
+    .icon2background {
+        max-width: 40px;
+        height: 40px;
+        margin-right: 5px;
+
+    }
+
+    .card3 {
+        width: 350px;
+        height: 80%;
+        /* margin-left: 80px; */
+    }
+
+    .icon3background {
+        max-width: 40px;
+        height: 40px;
+    }
+
+    .card3text {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .card3text2 {
+        font-size: 15px;
+    }
+
+    .card3line1 {
+        margin-top: -10px;
+        margin-left: 30%;
+    }
+
+    .card3line2 {
+        height: 67%;
+        width: 1.5px;
+        margin-top: 35px;
+        margin-left: -300px;
+    }
+
+    .card3line3 {
+        height: 67%;
+        width: 1.5px;
+        margin-top: 35px;
+        /* margin-left: -20px; */
+
+
+    }
+
+    .card4 {
+        width: 320px;
+        height: 100%;
+        margin-left: 15%;
+    }
+
+    .icon4background {
+        max-width: 40px;
+        height: 40px;
+    }
+
+    .card4text {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .card4text2 {
+        font-size: 15px;
+    }
+
+
+    /* .card4line1 {
+        height: 55%;
+        width: 1.4px;
+        margin-top: 50px;
+        margin-left: 100px;
+    } */
+    .card4line2 {
+        margin-top: -0.5%;
+    }
+
+
+    .card4line3 {
+        /* margin-top: 35px; */
+        margin-left: -6%;
+        margin-top: 1%;
+    }
+
+    .card4line4 {
+        /* margin-top: 35px; */
+        margin-left: 100%;
+
+    }
+
+
+
+    .card99 {
+        width: 230px;
+        height: 100%;
+        margin-left: 10%;
+
+    }
+
+    .icon99background {
+        max-width: 40px;
+        height: 40px;
+    }
+
+    .card99text {
+        font-size: 17px;
+        font-weight: 600;
+    }
+
+
+
+
+
+    .card5 {
+        width: 290px;
+        height: 100%;
+
+    }
+
+    .icon5background {
+        width: auto;
+        height: 41px;
+        margin-left: -5px;
+    }
+
+    .card5text {
+        font-size: 18px;
+        font-weight: 600;
+
+        margin-bottom: -1px;
+    }
+
+
+    .card100 {
+        width: 230px;
+        height: 100%;
+        margin-left: 30%;
+
+    }
+
+    .icon100background {
+        max-width: 40px;
+        height: 40px;
+
+        margin-left: -5px;
+    }
+
+    .card100text {
+        font-size: 20px;
+        font-weight: 600;
+
+        margin-bottom: -1px;
+    }
+
+    .card6 {
+        width: 190px;
+        height: 80%;
+        margin-left: 40%;
+        /* margin-top: 20px; */
+
+    }
+
+    .icon6background {
+        max-width: 40px;
+        height: 40px;
+        margin-left: -5px;
+    }
+
+    .card6text {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .card6text2 {
+        font-size: 13px;
+        margin-top: 3px;
+    }
+
+    .card6line {
+        margin-left: 100%;
+    }
+
+    .card7 {
+        width: 190px;
+        height: 80%;
+        margin-left: 45%;
+
+        /* margin-top: 5px; */
+    }
+
+    .icon7background {
+        max-width: 40px;
+        height: 40px;
+    }
+
+    .card7text {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .card7line1 {
+        height: 1.5px;
+        width: 5%;
+        margin-top: 40px;
+
+    }
+
+    .card7line2 {
+        height: 67%;
+        width: 1.5px;
+        margin-top: 35px;
+        margin-left: -150px;
+    }
+
+    .card10 {
+        width: 190px;
+        height: 80%;
+        margin-left: 43%;
+
+
+    }
+
+    .icon10background {
+        max-width: 40px;
+        height: 40px;
+        margin-left: -5px;
+    }
+
+    .card10text {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .card10text2 {
+        font-size: 13px;
+        margin-top: 3px;
+    }
+
+    .card11 {
+        width: 265px;
+        height: 80%;
+        margin-left: 48%;
+        margin-top: -18%;
+    }
+
+    .icon11background {
+        max-width: 40px;
+        height: 40px;
+    }
+
+    .card11text {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .card11text2 {
+        font-size: 15px;
+    }
+
+    .card11line1 {
+        height: 1.5px;
+        width: 40%;
+        margin-left: 87%;
+        margin-top: 17%;
+
+    }
+
+    .card11line2 {
+        height: 56%;
+        width: 1.4px;
+        margin-top: 70px;
+        margin-left: -140px;
+    }
+
+
+    .cardhead2 {
+        /* background-color: #076f6b;
+        border: 1.5px solid #076f6b; */
+        cursor: pointer;
+        position: relative;
+        width: 550px;
+    }
+
+    .cardhead2triangle {
+        position: absolute;
+        top: 50%;
+        right: -12px;
+        /* Adjust the distance from the right edge of the card */
+        width: 0;
+        height: 0;
+        border-left: 35px solid transparent;
+        border-right: 35px solid transparent;
+        border-bottom: 50px solid #f7f6f6;
+        /* You can change color */
+        transform: translateY(-50%) rotate(-90deg);
+        /* Rotate the triangle and center vertically */
+    }
+
+
+    .card-content2 {
+        color: white;
+        padding: 10px;
+        margin-left: 8.3%;
+        font-size: 17px;
+        font-weight: 600;
+
+    }
+
+
+
+    .card8 {
+        /* margin-left: 10%; */
+        margin-top: 10px;
+        width: 350px;
+        height: 80%;
+
+    }
+
+    .card8line1 {
+        height: 1.5px;
+        width: 15%;
+        margin-left: 80px;
+        margin-top: 55px;
+    }
+
+    .card8line2 {
+        height: 30%;
+        width: 1.5px;
+        margin-top: 55px;
+    }
+
+    .card8text {
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 10px;
+        margin-bottom: -2px;
+
+    }
+
+    .card8text2 {
+        font-size: 13px;
+        font-weight: 600;
+    }
+
+    .icon8background {
+        width: auto;
+        height: 55%;
+        /* margin-left: -5px; */
+        margin-right: 10px;
+    }
+
+    .card9 {
+        width: 320px;
+        height: 70px;
+        margin-left: 10%;
+        margin-top: -65px;
+
+    }
+
+    .icon9background {
+        margin-left: -5px;
+        width: auto;
+        height: 45px;
+    }
+
+    .card9text {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    .card4line2 {
+        width: 100%;
+    }
+
+    .card6line {
+        height: 100%;
+    }
+
+    .card7line {
+        height: 100%;
+        margin-left: 100%;
+    }
+
+    .card10line {
+        height: 100%;
+        margin-left: 100%;
+    }
+
+    .officehorizontal {
+        margin-top: 1%;
+    }
+
+    .officevertical1,
+    .officevertical2 {
+        height: 30px;
+    }
+}

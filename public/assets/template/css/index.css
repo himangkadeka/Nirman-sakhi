@@ -1,0 +1,2484 @@
+.circle-bg {
+            width: 60px;
+            height: 60px;
+            background-color: #0f4547;
+            /* Default color, can be overridden inline */
+            border-radius: 50%;
+            /* Ensures the element is perfectly round */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-shrink: 0;
+            /* Prevents the element from shrinking */
+        }
+
+        .card-body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #f2f2f2;
+            border-radius: 60px;
+        }
+
+        .pad1{
+            padding: 13.5px;
+        }
+
+@media (min-width: 320px) and (max-width: 374.98px) {
+
+
+    .card-deck {
+        flex-direction: column;
+        padding-left: 5%;
+        padding-top: 60px;
+    }
+
+    .card1,
+    .card2,
+    .card3,
+    .card4 {
+        width: 270px;
+    }
+
+    .card1row {
+        height: 60px;
+    }
+
+    .img1background {
+        /* margin-top: 5px; */
+        max-width: 55px;
+        height: 55px;
+
+    }
+
+    .img1background img {
+        width: 30px;
+        height: 30px;
+        margin-top: -5px;
+    }
+
+    .card2row {
+        height: 60px;
+    }
+
+    .img2background {
+        /* margin-top: 5px; */
+        max-width: 55px;
+        max-height: 55px;
+
+    }
+
+    .img2background img {
+        width: 30px;
+        max-height: 30px;
+        /* margin-top: -5px; */
+    }
+
+
+
+    .card1text {
+        font-size: 14px;
+
+    }
+
+    .card2text {
+        font-size: 14px;
+
+    }
+
+    .card3text {
+        font-size: 14px;
+
+    }
+
+    .card4text {
+        font-size: 14px;
+
+    }
+
+
+    .card3row {
+        height: 60px;
+    }
+
+    .img3background {
+        /* margin-top: 5px; */
+        max-width: 55px;
+        max-height: 55px;
+
+    }
+
+    .img3background img {
+        width: 30px;
+        max-height: 30px;
+        /* margin-top: -5px; */
+    }
+
+    .card4row {
+        height: 60px;
+    }
+
+    .img4background {
+        width: 55px;
+        height: 55px;
+        /* margin-bottom: 10px; */
+
+
+    }
+
+    .img4background img {
+        width: 30px;
+        height: 30px;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+    .welcome {
+        margin-top: -20px;
+        margin-left: 25px;
+        font-size: 20px;
+
+    }
+
+    .welcometo {
+        font-size: 18px;
+        margin-left: 25px;
+        font-weight: 580;
+
+    }
+
+
+    .welcometoinfo1 {
+        margin-left: 25px;
+        font-size: 15px;
+
+    }
+
+    .welcometoinfo2 {
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 15px;
+
+    }
+
+    .welcomebar {
+        max-width: 87%;
+        margin-left: 20px;
+    }
+
+
+
+
+    .image1 img {
+        width: 259px;
+        max-height: 205px;
+
+        margin-left: 20px;
+    }
+
+    .image2 img {
+
+
+        width: 250px;
+
+        margin-left: 20px;
+    }
+
+    .image3 img {
+
+
+        width: 250px;
+        margin-top: 10px;
+        margin-left: 20px;
+
+
+
+    }
+
+    .rulesandresolutions {
+        font-size: 20px;
+        margin-left: 20px;
+        margin-top: -500px;
+
+
+    }
+
+    .bar {
+        width: 68%;
+    }
+
+    .rulescard1 {
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .rulescard2 {
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .rulescard3 {
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .rule1,
+    .rule2,
+    .rule3 {
+        font-size: 13px;
+    }
+
+    .rule1circle,
+    .rule2circle,
+    .rule3circle {
+        margin-left: -20px;
+
+
+    }
+
+    .newsletter {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .newsletterbody {
+        font-size: 16px;
+    }
+
+    .notifications {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .notificationsbody {
+        font-size: 16px;
+    }
+
+    .yourtitle {
+        font-size: 25px;
+
+        margin-top: 30px;
+    }
+
+    .img-fluid.rounded-circle {
+        width: 150px;
+        margin-top: 10px;
+        height: 150px;
+
+    }
+
+    .cmname {
+        margin-top: 10px;
+        font-size: 16px;
+
+    }
+
+    .cmtext {
+
+        font-size: 16px;
+    }
+
+    .skname {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .sktext {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .barbottom {
+        padding-top: 40px;
+    }
+
+}
+
+
+
+
+@media (min-width: 375px) and (max-width: 424.98px) {
+
+
+    .card-deck {
+        flex-direction: column;
+        padding-left: 25px;
+        padding-top: 60px;
+    }
+
+    .card1,
+    .card2,
+    .card3,
+    .card4 {
+        width: 300px;
+    }
+
+    .card1row {
+        height: 60px;
+    }
+
+    .img1background {
+        /* margin-top: 5px; */
+        max-width: 55px;
+        height: 55px;
+
+    }
+
+    .img1background img {
+        width: 30px;
+        height: 30px;
+        margin-top: -5px;
+    }
+
+    .card2row {
+        height: 60px;
+    }
+
+    .img2background {
+        /* margin-top: 5px; */
+        max-width: 55px;
+        max-height: 55px;
+
+    }
+
+    .img2background img {
+        width: 30px;
+        max-height: 30px;
+        /* margin-top: -5px; */
+    }
+
+
+    .card3row {
+        height: 60px;
+    }
+
+    .img3background {
+        /* margin-top: 5px; */
+        max-width: 55px;
+        max-height: 55px;
+
+    }
+
+    .img3background img {
+        width: 30px;
+        max-height: 30px;
+        /* margin-top: -5px; */
+    }
+
+    .card4row {
+        height: 60px;
+    }
+
+    .img4background {
+        width: 55px;
+        height: 55px;
+        /* margin-bottom: 10px; */
+
+
+    }
+
+    .img4background img {
+        width: 30px;
+        height: 30px;
+
+    }
+
+
+
+
+
+
+
+
+
+    .image1 img {
+        max-width: 205px;
+        max-height: 205px;
+
+        margin-left: 80px;
+    }
+
+    .image2 img {
+
+
+        width: 200px;
+
+        margin-left: 80px;
+    }
+
+    .image3 img {
+
+
+        width: 200px;
+        margin-top: 10px;
+        margin-left: 80px;
+
+
+
+    }
+
+
+
+    .welcome {
+        margin-top: -20px;
+        margin-left: 10px;
+        font-size: 20px;
+
+    }
+
+    .welcometo {
+        font-size: 18px;
+        font-weight: 600;
+        margin-left: 10px;
+
+    }
+
+
+
+    .welcometoinfo1 {
+        margin-left: 10px;
+        margin-right: -10px;
+        text-align: justify;
+    }
+
+    .welcometoinfo2 {
+        margin-left: 5px;
+        margin-right: 10px;
+        text-align: justify;
+    }
+
+    .rules {
+        margin-left: 10px;
+    }
+
+    .bar {
+        width: 73%;
+    }
+
+    .newsletter {
+        font-size: 25px;
+        margin-top: 10px;
+    }
+
+    .newsletterbody {
+        font-size: 16px;
+    }
+
+    .notifications {
+        font-size: 25px;
+        margin-top: 10px;
+    }
+
+    .notificationsbody {
+        font-size: 16px;
+    }
+
+    .yourtitle {
+        font-size: 25px;
+
+        margin-top: 30px;
+    }
+
+
+
+    .img-fluid.rounded-circle {
+        width: 150px;
+
+        height: 150px;
+
+    }
+
+    .cmname {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .cmtext {
+        text-align: center;
+
+        font-size: 18px;
+    }
+
+    .skname {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .sktext {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .barbottom {
+        padding-top: 30px;
+    }
+
+
+
+
+
+
+}
+
+@media (min-width: 425px) and (max-width: 487.98px) {
+
+
+    .card-deck {
+        flex-direction: column;
+        padding-left: 50px;
+        padding-top: 50px;
+    }
+
+    .card1,
+    .card2,
+    .card3,
+    .card4 {
+        width: 290px;
+    }
+
+    .card1row {
+        height: 60px;
+    }
+
+    .img1background {
+        /* margin-top: 5px; */
+        width: 55px;
+        height: 55px;
+
+    }
+
+    .img1background img {
+        width: 30px;
+        height: 40px;
+        margin-top: -5px;
+    }
+
+    .card2row {
+        height: 60px;
+    }
+
+    .img2background {
+        /* margin-top: 5px; */
+        width: 55px;
+        height: 55px;
+
+    }
+
+    .img2background img {
+        width: 30px;
+        max-height: 30px;
+        /* margin-top: -5px; */
+    }
+
+
+
+
+
+
+    .card3row {
+        height: 60px;
+    }
+
+    .img3background {
+        /* margin-top: 5px; */
+        width: 55px;
+        height: 55px;
+
+    }
+
+    .img3background img {
+        width: 30px;
+        max-height: 30px;
+        /* margin-top: -5px; */
+    }
+
+    .card4row {
+        height: 60px;
+    }
+
+    .img4background {
+        /* margin-top: 5px; */
+        width: 55px;
+        height: 55px;
+
+    }
+
+    .img4background img {
+        width: 30px;
+        height: 40px;
+        margin-top: -5px;
+    }
+
+    .card4text {
+        font-size: 15px;
+
+    }
+
+
+
+
+
+
+
+    .welcome {
+        margin-top: 30px;
+        margin-left: 20px;
+        font-size: 20px;
+    }
+
+
+    .welcometo {
+        font-size: 20px;
+        margin-left: 20px;
+    }
+
+    .welcometoinfo1 {
+        margin-left: 18px;
+        margin-right: -7px;
+        text-align: justify;
+
+    }
+
+    .welcometoinfo2 {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        text-align: justify;
+    }
+
+
+
+
+    .counter-item-container {
+        display: flex;
+        flex-direction: row;
+        align-items: left;
+    }
+
+    .counter-item {
+        font-size: 24px;
+
+        margin-bottom: 5px;
+
+    }
+
+    .counter-text {
+        font-size: 12px;
+
+    }
+
+    .img-fluid {
+        max-width: 80%;
+        height: auto;
+        margin-bottom: -50px;
+
+    }
+
+    .section-bg-image {
+        margin-top: 50px;
+        padding-bottom: 700px;
+
+    }
+
+
+
+    .rules {
+        text-align: left;
+    }
+
+    .bar {
+        max-width: 65%;
+    }
+
+
+    .image1 img {
+        margin-left: 60px;
+        width: 280px;
+
+    }
+
+    .image2 img {
+
+        margin-top: 60px;
+        margin-left: 60px;
+        width: 270px;
+
+    }
+
+    .image3 img {
+        margin-left: 60px;
+        width: 270px;
+        margin-top: 70px;
+    }
+
+    .newsletter {
+        font-size: 25px;
+
+    }
+
+    .newsletterbody {
+        font-size: 16px;
+    }
+
+    .notifications {
+        font-size: 25px;
+
+    }
+
+    .notificationsbody {
+        font-size: 16px;
+    }
+
+    .yourtitle {
+        font-size: 25px;
+
+
+    }
+
+    .img-fluid.rounded-circle {
+        width: 200px;
+
+        height: 200px;
+
+    }
+
+
+
+    .cmname {
+        margin-top: 60px;
+        display: flex;
+
+        justify-content: center;
+
+        align-items: center;
+
+    }
+
+    .cmtext {
+        text-align: center;
+
+        font-size: 20px;
+    }
+
+    .skname {
+        padding-top: 50px;
+    }
+
+    .sktext {
+        margin-left: 10px;
+    }
+
+
+
+}
+
+@media (min-width: 488px) and (max-width: 767.98px) {
+
+
+    .card-deck {
+        flex-direction: column;
+        padding-left: 45px;
+        padding-top: 50px;
+
+    }
+
+    .card1,
+    .card2,
+    .card3,
+    .card4 {
+        width: 370px;
+        margin-top: 10px;
+    }
+
+    .img1background {
+        /* margin-top: 5px; */
+        width: 55px;
+        height: 55px;
+
+    }
+
+    .img1background img {
+        width: 30px;
+        height: 30px;
+        margin-top: -5px;
+    }
+
+    .img2background {
+        /* margin-top: 5px; */
+        width: 55px;
+        height: 55px;
+
+    }
+
+    .img2background img {
+        width: 30px;
+        max-height: 30px;
+        /* margin-top: -5px; */
+    }
+
+
+
+
+    .img3background {
+        /* margin-top: 5px; */
+        width: 55px;
+        height: 55px;
+
+    }
+
+    .img3background img {
+        width: 30px;
+        max-height: 30px;
+        /* margin-top: -5px; */
+    }
+
+
+
+    .img4background {
+        /* margin-top: 5px; */
+        width: 55px;
+        height: 55px;
+
+    }
+
+    .img4background img {
+        width: 30px;
+        height: 30px;
+        margin-top: -5px;
+    }
+
+
+
+
+
+    .image1 img {
+        margin-left: 100px;
+        width: 280px;
+
+
+    }
+
+    .image2 img {
+
+        margin-top: 10px;
+        margin-left: 100px;
+        width: 270px;
+
+    }
+
+    .image3 img {
+        margin-left: 100px;
+        width: 270px;
+        margin-top: 20px;
+    }
+
+    .welcome {
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+
+
+    .welcometo {
+        font-size: 20px;
+        margin-left: 20px;
+    }
+
+    .welcometoinfo1 {
+        margin-left: 18px;
+        margin-right: -7px;
+        text-align: justify;
+
+    }
+
+    .welcometoinfo2 {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        text-align: justify;
+    }
+
+
+    .bar {
+        max-width: 65%;
+    }
+
+
+
+
+    .newsletter {
+        font-size: 25px;
+
+    }
+
+    .newsletterbody {
+        font-size: 16px;
+    }
+
+    .notifications {
+        font-size: 25px;
+
+    }
+
+    .notificationsbody {
+        font-size: 16px;
+    }
+
+    .yourtitle {
+        font-size: 25px;
+
+
+    }
+
+    .img-fluid.rounded-circle {
+        width: 200px;
+
+        height: 200px;
+
+    }
+
+
+
+    .cmname {
+        margin-top: 10px;
+        display: flex;
+
+        justify-content: center;
+
+        align-items: center;
+
+    }
+
+    .cmtext {
+        text-align: center;
+        padding-left: 10px;
+        font-size: 20px;
+    }
+
+    .sktext {
+        margin-left: 10px;
+    }
+
+
+
+
+
+}
+
+@media (min-width: 500px) and (max-width: 767.98px) {
+    .barbottom {
+        padding-top: 30px;
+    }
+}
+
+@media (min-width: 522px) and (max-width: 767.98px) {
+    .welcome {
+        font-size: 18px;
+    }
+
+    .welcometo {
+        font-size: 18px;
+
+    }
+
+    .rulesandresolutions {
+        padding-top: 10px;
+    }
+
+    .yourtitle {
+        margin-top: 20px;
+    }
+
+    .img-fluid.rounded-circle {
+        margin-top: 20px;
+    }
+
+    .barbottom {
+        padding-top: 40px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .sidecontainer {
+        height: 100%;
+    }
+
+    .card-deck {
+        flex-direction: row;
+        padding-left: 5%
+            /* margin-right: auto; */
+
+
+
+    }
+
+    .card1row {
+        height: 60px;
+
+    }
+
+    .card2 {
+        max-width: 300px;
+    }
+
+    .card2row {
+        height: 60px;
+        width: auto;
+    }
+
+    .card3 {
+        margin-top: 20px;
+        max-width: 300px;
+    }
+
+    .card3row {
+        height: 60px;
+        width: auto;
+    }
+
+    .card4 {
+        margin-top: 20px;
+        max-width: 300px;
+    }
+
+    .card4row {
+        height: 60px;
+        width: auto;
+    }
+
+
+
+
+
+
+
+
+    .card1 {
+        max-width: 300px;
+    }
+
+    .img1background {
+
+        width: auto;
+        height: 55px;
+        /* margin-left: 10px; */
+        /* margin-top: 5px; */
+    }
+
+    .img1background img {
+        margin-top: -5px;
+        width: 30px;
+    }
+
+    .img2background {
+        width: auto;
+        height: 55px;
+        /* margin-bottom: 25px; */
+    }
+
+    .img2background img {
+        /* margin-top: -5px; */
+        max-height: 30px;
+        width: 30px;
+    }
+
+
+    .img3background {
+        width: auto;
+        height: 55px;
+        /* margin-bottom: 25px; */
+    }
+
+    .img3background img {
+        /* margin-top: -5px; */
+        max-height: 30px;
+        width: 30px;
+    }
+
+
+    .img4background {
+        width: auto;
+        height: 55px;
+        /* margin-bottom: 25px; */
+    }
+
+    .img4background img {
+        /* margin-top: -5px; */
+        max-height: 30px;
+        width: 30px;
+    }
+
+    .card4text {
+        /* margin-top: -15px; */
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+
+
+
+
+
+    .image1 img {
+        margin-top: 4px;
+        margin-bottom: 10px;
+        height: 160px;
+        width: 200px;
+
+
+
+    }
+
+
+
+
+    .image2 img {
+        height: 192px;
+
+        max-width: 250px;
+
+        margin-top: -10px;
+
+    }
+
+    .image3 img {
+
+        max-height: 200px;
+
+        margin-left: -95px;
+        margin-top: 190px;
+        max-width: 190px;
+
+    }
+
+    .newdesign {
+        flex-direction: row;
+    }
+
+    .welcome {
+
+        margin-left: 1px;
+        font-size: 23px;
+        margin-top: 5px;
+    }
+
+    .welcometo {
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: -10px;
+    }
+
+
+    .welcometoinfo1 {
+        font-size: 13.2px;
+        /* text-align: justify; */
+
+
+
+
+    }
+
+    .welcometoinfo2 {
+        font-size: 13.2px;
+        margin-right: 20px;
+        text-align: justify;
+
+
+    }
+
+
+    .bar {
+        width: 40%;
+    }
+
+    .rulesandresolutions {
+        font-size: 18px;
+    }
+
+    .rulescard1 {
+        max-width: 450px;
+        font-size: 15px;
+    }
+
+    .rulescard2 {
+        max-width: 450px;
+        font-size: 15px;
+    }
+
+    .rulescard3 {
+        max-width: 450px;
+        font-size: 15px;
+    }
+
+
+
+    .newsletter {
+        font-size: 16px;
+    }
+
+    .newsletterbody {
+        font-size: 14px;
+    }
+
+    .notifications {
+        padding-top: 10px;
+        font-size: 16px;
+    }
+
+    .notificationsbody {
+        font-size: 14px;
+    }
+
+    .yourtitle {
+        padding-top: 30px;
+        font-size: 18px;
+    }
+
+    .img-fluid.rounded-circle {
+        max-width: 150px;
+
+        max-height: 150px;
+        margin-left: -35px;
+
+
+    }
+
+
+    .cmname {
+        font-size: 16px;
+        margin-top: 10px;
+        display: flex;
+
+        justify-content: center;
+
+        align-items: center;
+
+    }
+
+    .minister1 img {
+        margin-top: 5px;
+    }
+
+    .minister2 img {
+        margin-top: -15px;
+    }
+
+    .cmtext {
+
+
+
+        font-size: 13px;
+        margin-bottom: 40px;
+    }
+
+    .skname {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .sktext {
+        font-size: 13px;
+    }
+
+    .newsletter {
+        margin-top: 8px;
+    }
+
+
+
+
+
+
+
+
+
+    .rules1 {
+        margin-top: -10px;
+    }
+
+    .rules2 {
+        margin-top: -10px;
+    }
+
+    .rules3 {
+        margin-top: -10px;
+    }
+
+
+
+    .barbottom {
+        /* padding-top: 10px; */
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1023.98px) {
+
+    .sidecontainer {
+        height: 100%;
+    }
+
+    .card-deck {
+        flex-direction: row;
+
+
+
+
+
+    }
+
+    .card2row {
+        height: 80px;
+    }
+
+    .card3row {
+        height: 80px;
+    }
+
+    .card1row {
+        height: 80px;
+    }
+
+    .card4row {
+        height: 80px;
+    }
+
+    .card1 {
+        max-width: 260px;
+        margin-left: -20px;
+    }
+
+    .card2 {
+        max-width: 260px;
+        /* margin-left: -15px; */
+    }
+
+    .card3 {
+        max-width: 260px;
+        /* margin-left: -15px; */
+    }
+
+
+
+    .card4 {
+
+        max-width: 250px;
+        /* margin-left: -10px; */
+    }
+
+    .img1background {
+
+        width: 50px;
+        height: 55px;
+        margin-left: 10px;
+
+    }
+
+    .img1background img {
+
+        width: 30px;
+        margin-top: -7px;
+    }
+
+    .img2background {
+        width: 50px;
+        height: 55px;
+
+    }
+
+    .img2background img {
+        width: 30px;
+        max-height: 30px;
+    }
+
+    .card1text {
+        font-size: 13px;
+    }
+
+    .card2text {
+        /* margin-top: -10px; */
+        font-size: 13px;
+        font-weight: 600;
+
+
+    }
+
+    .img3background {
+        width: 55px;
+        height: 55px;
+        margin-top: 5px;
+    }
+
+    .img3background img {
+
+        max-height: 35px;
+        width: 35px;
+    }
+
+    .card3text {
+
+        font-size: 13px;
+        font-weight: 600;
+        margin-left: -11px;
+    }
+
+    .img4background {
+        width: 55px;
+        height: 55px;
+
+    }
+
+    .img4background img {
+        margin-left: -4px;
+    }
+
+    .card4text {
+        /* margin-top: 30px; */
+        font-size: 13px;
+        font-weight: 600;
+    }
+
+
+
+
+
+
+    .image1 img {
+        margin-top: 4px;
+        margin-bottom: 10px;
+        max-height: 200px;
+
+
+
+
+    }
+
+
+    .image1 img {
+        width: 285px;
+        height: 230px;
+    }
+
+    .image2 img {
+        width: 138px;
+        height: 230px;
+    }
+
+    .image3 img {
+
+        margin-left: 8px;
+        width: 138px;
+        height: 230px;
+    }
+
+
+
+    .newdesign {
+        flex-direction: row;
+    }
+
+    .welcome {
+
+        margin-left: 1px;
+        font-size: 25px;
+        margin-top: 5px;
+    }
+
+    .welcometo {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .welcometoinfo1 {
+        font-size: 14.75px;
+
+        text-align: justify;
+
+
+    }
+
+    .welcometoinfo2 {
+        font-size: 14.75px;
+
+        text-align: justify;
+
+
+    }
+
+
+    .bar {
+        width: 57%;
+    }
+
+    .rulescard1 {
+        max-width: 450px;
+    }
+
+    .rulescard2 {
+        max-width: 450px;
+    }
+
+    .rulescard3 {
+        max-width: 450px;
+    }
+
+
+
+    .newsletter {
+        font-size: 16.5px;
+    }
+
+    .newsletterbody {
+        font-size: 15px;
+    }
+
+    .notifications {
+        padding-top: 10px;
+        font-size: 16.5px;
+    }
+
+    .notificationsbody {
+        font-size: 15px;
+    }
+
+    .yourtitle {
+        padding-top: 30px;
+        font-size: 20px;
+    }
+
+    .img-fluid.rounded-circle {
+        max-width: 170px;
+
+        max-height: 170px;
+        margin-left: -35px;
+
+
+    }
+
+
+    .cmname {
+        font-size: 18px;
+        margin-top: 10px;
+        display: flex;
+
+        justify-content: center;
+
+        align-items: center;
+
+    }
+
+    .minister1 img {
+        margin-top: 20px;
+    }
+
+    .cmtext {
+
+
+
+        font-size: 14.5px;
+        margin-bottom: 40px;
+    }
+
+    .skname {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .sktext {
+        font-size: 15.5px;
+    }
+
+    .newsletter {
+        margin-top: 8px;
+    }
+
+
+
+
+
+
+
+
+
+    .rules1 {
+        margin-top: -10px;
+    }
+
+    .rules2 {
+        margin-top: -10px;
+    }
+
+    .rules3 {
+        margin-top: -10px;
+    }
+
+    .card-deck {
+        padding-top: 70px;
+    }
+
+    .barbottom {
+        padding-top: 55px;
+    }
+
+
+
+
+
+
+
+
+
+
+}
+
+@media (min-width: 1024px) and (max-width: 1199.98px) {
+
+    .card4row {
+        height: 70px;
+
+    }
+
+    .img1background {
+        height: 50px;
+        width: 60px;
+        margin-top: 5px;
+    }
+
+    .img1background img {
+        width: 30px;
+        height: 30px;
+        margin-top: -10px;
+    }
+
+
+    .cardbox2 {
+        height: 80px;
+        width: 220px;
+    }
+
+    .img2background {
+        height: 50px;
+        width: 100px;
+
+    }
+
+    .img2background img {
+        width: 25px;
+        max-height: 30px;
+        /* margin-top: -2px; */
+
+    }
+
+    .card1text {
+        font-size: 13px;
+    }
+
+    .card2text {
+        font-size: 13px;
+        font-weight: 600;
+        /* margin-top: -10px; */
+    }
+
+    .cardbox3 {
+        height: 80px;
+        width: 220px;
+    }
+
+    .img3background {
+        /* margin-bottom: 10px; */
+        height: 50px;
+        width: 80px;
+
+    }
+
+    .card2row {
+        height: 70px;
+    }
+
+    .card3row {
+        height: 70px;
+    }
+
+    .card1row {
+        height: 70px;
+    }
+
+    .img3background img {
+        width: 30px;
+        max-height: 35px;
+        margin-top: -5px;
+    }
+
+    .card3text {
+        font-size: 13px;
+        font-weight: 600;
+        margin-top: -10px;
+    }
+
+    .cardbox4 {
+        height: 80px;
+        width: 220px;
+    }
+
+    .img4background {
+        height: 50px;
+        width: 80px;
+
+
+    }
+
+    .img4background img {
+        width: 30px;
+        height: 30px;
+        margin-top: -8px;
+    }
+
+
+
+
+
+
+    .card4text {
+
+        font-size: 13px;
+        font-weight: 600;
+    }
+
+    .image2 img {
+        max-width: 138px;
+        height: 230px;
+    }
+
+    .image3 img {
+
+        margin-left: 8px;
+        max-width: 138px;
+        height: 230px;
+    }
+
+    .welcome {
+        font-size: 25px;
+    }
+
+    .welcometo {
+        font-size: 25px;
+        font-weight: 550;
+    }
+
+    .welcometoinfo1 {
+
+        font-size: 14px;
+        text-align: justify;
+
+    }
+
+    .welcometoinfo2 {
+        margin-top: 10px;
+        font-size: 14px;
+        text-align: justify;
+        margin-right: 18px;
+
+    }
+
+
+    .welcome {
+        line-height: 1.35;
+    }
+
+    .bar {
+        width: 41%;
+    }
+
+    .rulescard1 {
+        max-width: 600px;
+        font-size: 13.5px;
+    }
+
+    .circle1 {
+        max-width: 100px;
+        margin-left: 40px;
+
+    }
+
+
+    .rulescard2 {
+        max-width: 600px;
+        font-size: 13.5px;
+    }
+
+    .rulescard3 {
+        max-width: 600px;
+        font-size: 13.5px;
+    }
+
+
+    .sidecontainer {
+        height: 100%;
+    }
+
+    .newsletter {
+        font-size: 22px;
+        margin-top: 15px;
+    }
+
+    .newsletterbody {
+        font-size: 15.27px;
+    }
+
+    .notifications {
+        font-size: 22px;
+        margin-top: 10px;
+    }
+
+    .notificationsbody {
+        font-size: 15.27px;
+
+    }
+
+
+    .minister1 img {
+        margin-top: -18px;
+    }
+
+    .minister2 img {
+        margin-top: -15px;
+    }
+
+    .barbottom {
+        padding-top: 3px;
+    }
+
+    .sktext {
+        font-size: 15.5px;
+    }
+
+
+
+
+
+
+}
+
+@media (min-width: 1200px) and (max-width: 1439.98px) {
+    .sidecontainer {
+        height: 100%;
+    }
+
+    .card1row {
+        height: 65px;
+    }
+
+    .card2row {
+        height: 65px;
+    }
+
+
+    .card3row {
+        height: 65px;
+    }
+
+    .card4row {
+        height: 65px;
+    }
+
+    .img1background {
+        height: 60px;
+        /* margin-top: 5px; */
+    }
+
+    .img1background img {
+        width: 40px;
+        height: 40px;
+    }
+
+
+    .img4background {
+        height: 60px;
+        width: auto;
+    }
+
+    .img4background img {
+        height: 20px;
+    }
+
+    .img2background {
+        height: 60px;
+
+    }
+
+    .img2background img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .card2text {
+        font-size: 14px;
+        font-weight: 600;
+        margin-top: -2px;
+    }
+
+    .cardbox3 {
+        height: 80px;
+        width: 250px;
+    }
+
+    .img3background {
+        /* margin-bottom: 10px; */
+        height: 60px;
+
+    }
+
+    .img3background img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .card3text {
+        font-size: 15px;
+        font-weight: 600;
+        margin-top: -5px;
+    }
+
+
+
+
+
+
+
+
+
+    .card4text {
+        /* margin-top: -13px; */
+
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .image1 img {
+        height: 290px;
+        width: 350px;
+    }
+
+
+
+
+    .welcome {
+        font-size: 25px;
+    }
+
+    .welcometo {
+        font-size: 25px;
+        font-weight: 550;
+
+
+    }
+
+    .welcometoinfo1 {
+        font-size: 15px;
+
+        text-align: justify;
+
+
+
+
+    }
+
+
+    .welcometoinfo2 {
+        font-size: 15.5px;
+        margin-top: 10px;
+        text-align: justify;
+        margin-right: 20px;
+    }
+
+    /* Styles for Assamese language */
+
+
+
+    .bar {
+        width: 35%;
+    }
+
+    .rulescard1 {
+        width: 740px;
+    }
+
+    .rulescard2 {
+        width: 740px;
+    }
+
+    .rulescard3 {
+        width: 740px;
+    }
+
+    /* .sidecontainer {
+        height: 1060px;
+    } */
+    .TrackApplication {
+        font-size: 20px;
+    }
+
+    .newsletter {
+        font-size: 20px;
+        margin-top: -10%;
+
+    }
+
+    .newsletterbody {
+        font-size: 15.5px;
+    }
+
+    .notifications {
+        font-size: 20px;
+    }
+
+    .notificationsbody {
+        font-size: 15.5px;
+    }
+
+    .yourtitle {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .minister1 img {
+        height: 65%;
+        margin-top: -18px;
+
+    }
+
+    .minister2 img {
+        margin-top: -50px;
+        height: 70%;
+    }
+
+    .barbottom {
+        margin-top: -50px;
+    }
+
+    .sktext {
+        font-size: 15.5px;
+    }
+
+
+
+
+
+
+
+}
+
+@media (min-width: 1440px) and (max-width: 2559.98px) {
+    .sidecontainer {
+        height: 100%;
+    }
+
+
+
+
+    .img1background {
+        height: 60px;
+        width: auto;
+        /* margin-top: 5px; */
+    }
+
+    .img1background img {
+        width: 35px;
+        height: 35px;
+    }
+
+
+    .card1row {
+        height: 70px;
+    }
+
+    .card2row {
+        height: 70px;
+    }
+
+    .img2background {
+        height: 60px;
+        width: auto;
+        /* margin-bottom: 20px; */
+    }
+
+    .img2background img {
+        width: auto;
+        height: 30px;
+    }
+
+
+
+    .card2text {
+        font-size: 14px;
+        font-weight: 600;
+        /* margin-top: -10px; */
+    }
+
+
+    .card3row {
+        height: 70px;
+    }
+
+    .img3background {
+        height: 60px;
+        width: auto;
+        /* margin-bottom: 20px; */
+    }
+
+    .img3background img {
+        width: auto;
+        height: 30px;
+    }
+
+
+
+    .card4row {
+        height: 70px;
+    }
+
+    .img4background {
+        height: 60px;
+        width: auto;
+        /* margin-bottom: 20px; */
+    }
+
+    .img4background img {
+        width: auto;
+        height: 30px;
+    }
+
+
+
+
+
+
+
+    .bar {
+        width: 35%;
+    }
+
+    .welcome {
+        font-size: 25px;
+    }
+
+    .welcometo {
+        font-size: 20px;
+    }
+
+    .welcometoinfo1 {
+        font-size: 18px;
+        text-align: justify;
+    }
+
+    .welcometoinfo2 {
+        font-size: 18px;
+        text-align: justify;
+
+        margin-right: 20px;
+    }
+
+    .image2 img {
+
+        max-width: 170px;
+
+    }
+
+    .image3 img {
+        max-width: 170px;
+        margin-left: 7px;
+
+    }
+
+    .barbottom {
+        padding-top: 10px;
+    }
+
+
+    .newsletter {
+        /* margin-top: 5px; */
+        font-size: 25px;
+    }
+
+    .newsletterbody {
+        font-size: 15.5px;
+
+    }
+
+    .notifications {
+        margin-top: 5px;
+        font-size: 25px;
+    }
+
+    .notificationsbody {
+        font-size: 15.5px;
+    }
+
+
+    .yourtitle {
+        padding-top: 30px;
+        font-size: 25px;
+    }
+
+    .minister1 img {
+        /* margin-top: 10px; */
+    }
+
+    .minister2 img {
+        /* margin-top: 20px; */
+    }
+
+    .cmname {
+        margin-top: 10px;
+    }
+
+
+    .skname {
+        margin-top: 10px;
+    }
+
+    .sktext {
+        font-size: 15.5px;
+    }
+}
+
+@media (min-width: 2560px) {
+    .card1row {
+
+        height: 70px;
+
+    }
+
+    .card2row {
+        margin-top: 5px;
+        height: 65px;
+    }
+
+    .card3row {
+        margin-top: 3px;
+        height: 65px;
+    }
+
+    .card4row {
+        height: 65px;
+        margin-top: 3px;
+    }
+
+    .img1background {
+        height: 60px;
+        width: auto;
+        margin-top: 5px;
+    }
+
+    .img1background img {
+        width: 35px;
+        height: 35px;
+    }
+
+
+    .cardbox2 {
+        height: 80px;
+        width: 220px;
+    }
+
+    .img2background {
+        height: 60px;
+        width: auto;
+        /* margin-top: 2px; */
+    }
+
+    .img2background img {
+        width: auto;
+        height: 20px;
+    }
+
+    .card2text {
+        font-size: 14px;
+        font-weight: 600;
+        /* margin-top: -10px; */
+    }
+
+    .cardbox3 {
+        height: 80px;
+        width: 220px;
+    }
+
+    .img3background {
+
+        height: 58px;
+        width: auto;
+
+    }
+
+    .img3background img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .card3text {
+        font-size: 15px;
+        font-weight: 600;
+        /* margin-top: -10px; */
+    }
+
+    .cardbox4 {
+        height: 80px;
+        width: 220px;
+    }
+
+    .img4background {
+        height: 56px;
+        width: auto;
+
+
+    }
+
+    .img4background img {
+        width: 30px;
+        height: 30px;
+        margin-top: -5px;
+    }
+
+
+
+
+
+
+    .card4text {
+
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .bar {
+        width: 35%;
+        padding-top: -200px;
+    }
+
+    .welcome {
+        font-size: 25px;
+    }
+
+    .welcometo {
+        font-size: 20px;
+    }
+
+    .welcometoinfo1 {
+        font-size: 17px;
+        padding-top: 13px;
+        text-align: justify;
+
+    }
+
+    .welcometoinfo2 {
+        font-size: 17px;
+        margin-top: 8px;
+        text-align: justify;
+        margin-right: 20px;
+    }
+
+    .image1 img {
+        height: 350px;
+    }
+
+    .image2 img {
+        max-width: 170px;
+    }
+
+    .image3 img {
+        max-width: 170px;
+        margin-left: 6px;
+
+    }
+
+    .newsletter {
+        font-size: 20px;
+    }
+
+    .newsletterbody {
+        font-size: 15.5px;
+    }
+
+    .notifications {
+        font-size: 20px;
+    }
+
+    .notificationsbody {
+        font-size: 15.5px;
+    }
+
+    .yourtitle {
+        padding-top: 10px;
+        font-size: 20px;
+    }
+
+    .minister1 img {
+        margin-top: 10px;
+
+    }
+
+    .cmname {
+        margin-top: 10px;
+    }
+
+    .minister2 img {
+        margin-top: 20px;
+
+    }
+
+    .skname {
+        margin-top: 10px;
+    }
+
+    .sktext {
+        font-size: 15.5px;
+    }
+
+    .sidecontainer {
+        height: 100%;
+    }
+
+}
+
+/* MEDIA QUERIES END */
+
+
+
+.reveal {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.5s ease, transform 1s ease;
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+body {
+    font-style: poppins;
+}
+
+/* dont create conflict */

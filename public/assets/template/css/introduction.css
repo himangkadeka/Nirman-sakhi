@@ -1,0 +1,3270 @@
+.introhead{
+    font-family:'Poppins',sans-serif;
+}
+.introbody,.introbodyreadmore{
+    font-family: 'Roboto',sans-serif;
+}
+.officer1 {
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+
+.officer2 {
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+
+.officer3 {
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+
+@media (min-width: 320px) and (max-width: 374.98px) {
+
+.introbody{
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.read-more-toggle, .introbodyreadmore{
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+    .horizontal-line1 {
+        position: absolute;
+        width: 12%;
+        left: 50%;
+        top: 1%;
+        border-top: 1.5px solid #2195a4;
+
+        z-index: 1;
+
+
+    }
+
+    .vertical-line1 {
+        position: absolute;
+        width: 1px;
+        height: 15%;
+        left: 62%;
+
+        top: 8.3%;
+
+        border: 1px solid #2195a4;
+
+        z-index: 2;
+
+        transform: translateX(-50%);
+
+    }
+
+    .vertical-line2 {
+        position: absolute;
+        width: 1px;
+        height: 16.8%;
+        left: 62%;
+
+        top: 69.5%;
+
+        border: 1px solid #2195a4;
+        z-index: 2;
+
+        transform: translateX(-50%);
+
+    }
+
+    .vertical-line3 {
+        position: absolute;
+        width: 1px;
+        height: 7.5%;
+        left: 33%;
+
+        top: 46.5%;
+
+        border: 1px solid #2195a4;
+        z-index: 2;
+
+        transform: translateX(-50%);
+
+    }
+
+    .horizontal-line2 {
+        position: absolute;
+        width: 12%;
+        left: 50%;
+        top: 78.2%;
+        border-top: 1.5px solid #2195a4;
+
+        z-index: 1;
+
+    }
+
+    
+
+    .about_section .about_img_1 {
+        height: 100px;
+
+    }
+
+    .about_section .about_img_2 {
+        height: 100px;
+        margin: -50px 0 0 70px;
+
+    }
+
+    .about_section .about_img_3 {
+        height: 100px;
+        margin: -35px 0 0 0;
+    }
+
+    .introduction {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .officials {
+        flex-direction: column;
+        margin-bottom: 10%;
+    }
+
+
+
+    .officer1img {
+        margin-top: 6%;
+        width: 60%;
+        height: 80%;
+    }
+
+
+    .officer1name {
+        font-weight: 600;
+        font-size: 12px;
+        margin-top: -30px;
+
+    }
+
+    .officer1text {
+        font-size: 10px;
+        margin-right: 20%;
+        margin-left: 20%;
+        margin-top: -2.5%;
+
+
+    }
+
+    .officer1horizontal-line1 {
+        position: absolute;
+        width: 70%;
+        border-top: 1.5px solid #ffd27d;
+        z-index: -1;
+
+    }
+
+    .officer1vertical-line1 {
+        position: absolute;
+        width: 1px;
+        height: 77%;
+        margin-left: -70%;
+        margin-top: 47.5%;
+        border: 1px solid #ffd27d;
+        z-index: 1;
+    }
+
+    .officer1vertical-line2 {
+        position: absolute;
+        width: 1px;
+        height: 77%;
+
+        margin-top: 47.5%;
+        margin-left: 70%;
+
+
+        border: 1px solid #ffd27d;
+
+        z-index: 1;
+
+    }
+
+    .officer1horizontal-line2 {
+        position: absolute;
+        width: 70%;
+
+        margin-top: 100%;
+        border-top: 1.5px solid #ffd27d;
+
+        z-index: 1;
+
+    }
+
+
+    .officer2img {
+        margin-top: 10%;
+        max-height: 100%;
+        max-width: 60%;
+
+    }
+
+    .officer2name {
+        font-weight: 600;
+        font-size: 12px;
+        margin-top: -6%;
+
+    }
+
+    .officer2text {
+        font-size: 10px;
+        padding-left: 40px;
+        padding-right: 35px;
+        margin-top: -3%;
+    }
+
+    .officer2horizontal-line1 {
+        position: absolute;
+        width: 70%;
+
+        border-top: 1.5px solid #0f4547;
+
+        z-index: -1;
+
+    }
+
+    .officer2vertical-line1 {
+        position: absolute;
+        width: 1px;
+        height: 66.6%;
+        margin-left: -70%;
+        margin-top: 46.5%;
+
+        border: 1px solid #0f4547;
+
+        z-index: 1;
+
+    }
+
+    .officer2vertical-line2 {
+        position: absolute;
+        width: 1px;
+        height: 66.6%;
+
+        margin-top: 46.5%;
+        margin-left: 70%;
+
+        border: 1px solid #0f4547;
+
+        z-index: 1;
+
+    }
+
+    .officer2horizontal-line2 {
+        position: absolute;
+        width: 70%;
+
+        margin-top: 98%;
+        border-top: 1.5px solid #0f4547;
+
+        z-index: 1;
+
+    }
+
+
+    .officer3img {
+        margin-top: 10%;
+        max-height: 100%;
+        max-width: 60%;
+
+    }
+
+    .officer3name {
+        font-weight: 600;
+        font-size: 12px;
+        margin-top: -10px;
+
+    }
+
+    .officer3text {
+        font-size: 10px;
+        padding-left: 40px;
+        padding-right: 35px;
+        margin-top: -4%;
+
+    }
+
+    .officer3horizontal-line1 {
+        position: absolute;
+        width: 70%;
+
+        border-top: 1.5px solid #ffd27d;
+
+        z-index: -1;
+
+    }
+
+    .officer3vertical-line1 {
+        position: absolute;
+        width: 1px;
+
+        margin-left: -70%;
+        margin-top: 47%;
+        height: 68%;
+
+        border: 1px solid #ffd27d;
+
+        z-index: 1;
+
+    }
+
+    .officer3vertical-line2 {
+        position: absolute;
+        width: 1px;
+        margin-top: 47%;
+        height: 68%;
+
+        margin-left: 70%;
+
+        border: 1px solid #ffd27d;
+
+        z-index: 1;
+
+    }
+
+    .officer3horizontal-line2 {
+        position: absolute;
+        width: 70%;
+
+        margin-top: 100%;
+        border-top: 1.5px solid #ffd27d;
+
+        z-index: 1;
+
+
+    }
+
+
+
+
+
+}
+
+@media (min-width: 375px) and (max-width: 424.98px) {
+
+    .introbody{
+        font-size: 14px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .read-more-toggle, .introbodyreadmore{
+        font-size: 14px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .horizontal-line1 {
+        position: absolute;
+        width: 12%;
+        left: 65%;
+        top: 1%;
+        border-top: 1.5px solid #2195a4;
+
+        z-index: 1;
+
+
+    }
+
+    .vertical-line1 {
+        position: absolute;
+        width: 1px;
+        height: 15%;
+        left: 77%;
+
+        top: 8.3%;
+
+        border: 1px solid #2195a4;
+
+        z-index: 2;
+
+        transform: translateX(-50%);
+
+    }
+
+    .vertical-line2 {
+        position: absolute;
+        width: 1px;
+        height: 16.8%;
+        left: 77%;
+
+        top: 69.5%;
+
+        border: 1px solid #2195a4;
+        z-index: 2;
+
+        transform: translateX(-50%);
+
+    }
+
+    .vertical-line3 {
+        position: absolute;
+        width: 1px;
+        height: 7.5%;
+        left: 33%;
+
+        top: 46.5%;
+
+        border: 1px solid #2195a4;
+        z-index: 2;
+
+        transform: translateX(-50%);
+
+    }
+
+    .horizontal-line2 {
+        position: absolute;
+        width: 12%;
+        left: 65%;
+        top: 78.2%;
+        border-top: 1.5px solid #2195a4;
+
+        z-index: 1;
+
+    }
+
+    
+
+    .about_section .about_img_1 {
+        height: 100px;
+
+    }
+
+    .about_section .about_img_2 {
+        height: 100px;
+        margin: -50px 0 0 120px;
+
+    }
+
+    .about_section .about_img_3 {
+        height: 100px;
+        margin: -35px 0 0 0;
+    }
+    .officials {
+        flex-direction: column;
+        margin-bottom: 10%;
+    }
+
+
+
+    .officer1img {
+        margin-top: 6%;
+        width: 60%;
+        height: 80%;
+    }
+
+
+    .officer1name {
+        font-weight: 600;
+        font-size: 12px;
+        margin-top: -30px;
+
+    }
+
+    .officer1text {
+        font-size: 10px;
+        margin-right: 20%;
+        margin-left: 20%;
+        margin-top: -2%;
+
+
+    }
+
+    .officer1horizontal-line1 {
+        position: absolute;
+        width: 70%;
+        border-top: 1.5px solid #ffd27d;
+        z-index: -1;
+
+    }
+
+    .officer1vertical-line1 {
+        position: absolute;
+        width: 1px;
+        height: 77%;
+        margin-left: -70%;
+        margin-top: 47.5%;
+        border: 1px solid #ffd27d;
+        z-index: 1;
+    }
+
+    .officer1vertical-line2 {
+        position: absolute;
+        width: 1px;
+        height: 77%;
+
+        margin-top: 47.5%;
+        margin-left: 70%;
+
+
+        border: 1px solid #ffd27d;
+
+        z-index: 1;
+
+    }
+
+    .officer1horizontal-line2 {
+        position: absolute;
+        width: 70%;
+
+        margin-top: 100%;
+        border-top: 1.5px solid #ffd27d;
+
+        z-index: 1;
+
+    }
+
+
+    .officer2img {
+        margin-top: 10%;
+        max-height: 100%;
+        max-width: 60%;
+
+    }
+
+    .officer2name {
+        font-weight: 600;
+        font-size: 12px;
+        margin-top: -6%;
+
+    }
+
+    .officer2text {
+        font-size: 10px;
+        padding-left: 40px;
+        padding-right: 35px;
+        margin-top: -3%;
+    }
+
+    .officer2horizontal-line1 {
+        position: absolute;
+        width: 70%;
+
+        border-top: 1.5px solid #0f4547;
+
+        z-index: -1;
+
+    }
+
+    .officer2vertical-line1 {
+        position: absolute;
+        width: 1px;
+        height: 66.6%;
+        margin-left: -70%;
+        margin-top: 46.5%;
+
+        border: 1px solid #0f4547;
+
+        z-index: 1;
+
+    }
+
+    .officer2vertical-line2 {
+        position: absolute;
+        width: 1px;
+        height: 66.6%;
+
+        margin-top: 46.5%;
+        margin-left: 70%;
+
+        border: 1px solid #0f4547;
+
+        z-index: 1;
+
+    }
+
+    .officer2horizontal-line2 {
+        position: absolute;
+        width: 70%;
+
+        margin-top: 98%;
+        border-top: 1.5px solid #0f4547;
+
+        z-index: 1;
+
+    }
+
+
+    .officer3img {
+        margin-top: 10%;
+        max-height: 100%;
+        max-width: 60%;
+
+    }
+
+    .officer3name {
+        font-weight: 600;
+        font-size: 12px;
+        margin-top: -10px;
+
+    }
+
+    .officer3text {
+        font-size: 10px;
+        padding-left: 40px;
+        padding-right: 35px;
+        margin-top: -4%;
+
+    }
+
+    .officer3horizontal-line1 {
+        position: absolute;
+        width: 70%;
+
+        border-top: 1.5px solid #ffd27d;
+
+        z-index: -1;
+
+    }
+
+    .officer3vertical-line1 {
+        position: absolute;
+        width: 1px;
+
+        margin-left: -70%;
+        margin-top: 47%;
+        height: 68%;
+
+        border: 1px solid #ffd27d;
+
+        z-index: 1;
+
+    }
+
+    .officer3vertical-line2 {
+        position: absolute;
+        width: 1px;
+        margin-top: 47%;
+        height: 68%;
+
+        margin-left: 70%;
+
+        border: 1px solid #ffd27d;
+
+        z-index: 1;
+
+    }
+
+    .officer3horizontal-line2 {
+        position: absolute;
+        width: 70%;
+
+        margin-top: 100%;
+        border-top: 1.5px solid #ffd27d;
+
+        z-index: 1;
+
+
+    }
+
+
+
+}
+
+@media (min-width: 425px) and (max-width: 487.98px) {
+
+    .introbody{
+        font-size: 14px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .read-more-toggle, .introbodyreadmore{
+        font-size: 14px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .horizontal-line1 {
+        position: absolute;
+        width: 12%;
+        left: 65%;
+        top: 1%;
+        border-top: 1.5px solid #2195a4;
+
+        z-index: 1;
+
+
+    }
+
+    .vertical-line1 {
+        position: absolute;
+        width: 1px;
+        height: 15%;
+        left: 77%;
+
+        top: 8.3%;
+
+        border: 1px solid #2195a4;
+
+        z-index: 2;
+
+        transform: translateX(-50%);
+
+    }
+
+    .vertical-line2 {
+        position: absolute;
+        width: 1px;
+        height: 16.8%;
+        left: 77%;
+
+        top: 69.5%;
+
+        border: 1px solid #2195a4;
+        z-index: 2;
+
+        transform: translateX(-50%);
+
+    }
+
+    .vertical-line3 {
+        position: absolute;
+        width: 1px;
+        height: 7.5%;
+        left: 33%;
+
+        top: 46.5%;
+
+        border: 1px solid #2195a4;
+        z-index: 2;
+
+        transform: translateX(-50%);
+
+    }
+
+    .horizontal-line2 {
+        position: absolute;
+        width: 12%;
+        left: 65%;
+        top: 78.2%;
+        border-top: 1.5px solid #2195a4;
+
+        z-index: 1;
+
+    }
+
+    
+
+    .about_section .about_img_1 {
+        height: 100px;
+
+    }
+
+    .about_section .about_img_2 {
+        height: 100px;
+        margin: -50px 0 0 120px;
+
+    }
+
+    .about_section .about_img_3 {
+        height: 100px;
+        margin: -35px 0 0 0;
+    }
+
+
+    .officials {
+        flex-direction: column;
+        margin-bottom: 10%;
+    }
+
+
+
+    .officer1img {
+        margin-top: 6%;
+        width: 60%;
+        height: 80%;
+    }
+
+
+    .officer1name {
+        font-weight: 600;
+        font-size: 12px;
+        margin-top: -50px;
+
+    }
+
+    .officer1text {
+        font-size: 10px;
+        margin-right: 20%;
+        margin-left: 20%;
+
+
+
+    }
+
+    .officer1horizontal-line1 {
+        position: absolute;
+        width: 70%;
+        border-top: 1.5px solid #ffd27d;
+        z-index: -1;
+
+    }
+
+    .officer1vertical-line1 {
+        position: absolute;
+        width: 1px;
+        height: 77%;
+        margin-left: -70%;
+        margin-top: 47.5%;
+        border: 1px solid #ffd27d;
+        z-index: 1;
+    }
+
+    .officer1vertical-line2 {
+        position: absolute;
+        width: 1px;
+        height: 77%;
+
+        margin-top: 47.5%;
+        margin-left: 70%;
+
+
+        border: 1px solid #ffd27d;
+
+        z-index: 1;
+
+    }
+
+    .officer1horizontal-line2 {
+        position: absolute;
+        width: 70%;
+
+        margin-top: 99%;
+        border-top: 1.5px solid #ffd27d;
+
+        z-index: 1;
+
+    }
+
+
+    .officer2img {
+        margin-top: 10%;
+        max-height: 100%;
+        max-width: 60%;
+
+    }
+
+    .officer2name {
+        font-weight: 600;
+        font-size: 12px;
+        margin-top: -7%;
+
+    }
+
+    .officer2text {
+        font-size: 10px;
+        padding-left: 40px;
+        padding-right: 35px;
+margin-top: -2%;
+    }
+
+    .officer2horizontal-line1 {
+        position: absolute;
+        width: 70%;
+
+        border-top: 1.5px solid #0f4547;
+
+        z-index: -1;
+
+    }
+
+    .officer2vertical-line1 {
+        position: absolute;
+        width: 1px;
+        height: 66.6%;
+        margin-left: -70%;
+        margin-top: 46.5%;
+
+        border: 1px solid #0f4547;
+
+        z-index: 1;
+
+    }
+
+    .officer2vertical-line2 {
+        position: absolute;
+        width: 1px;
+        height: 66.6%;
+
+        margin-top: 46.5%;
+        margin-left: 70%;
+
+        border: 1px solid #0f4547;
+
+        z-index: 1;
+
+    }
+
+    .officer2horizontal-line2 {
+        position: absolute;
+        width: 70%;
+
+        margin-top: 97%;
+        border-top: 1.5px solid #0f4547;
+
+        z-index: 1;
+
+    }
+
+
+    .officer3img {
+        margin-top: 10%;
+        max-height: 100%;
+        max-width: 60%;
+
+    }
+
+    .officer3name {
+        font-weight: 600;
+        font-size: 12px;
+        margin-top: -8%;
+        margin-left: 5%;
+
+    }
+
+    .officer3text {
+        font-size: 10px;
+        margin-left: 5%;
+        padding-right: 35px;
+        margin-top: -2%;
+
+    }
+
+    .officer3horizontal-line1 {
+        position: absolute;
+        width: 70%;
+
+        border-top: 1.5px solid #ffd27d;
+
+        z-index: -1;
+
+    }
+
+    .officer3vertical-line1 {
+        position: absolute;
+        width: 1px;
+
+        margin-left: -70%;
+        margin-top: 47%;
+        height: 68%;
+
+        border: 1px solid #ffd27d;
+
+        z-index: 1;
+
+    }
+
+    .officer3vertical-line2 {
+        position: absolute;
+        width: 1px;
+        margin-top: 47%;
+        height: 68%;
+
+        margin-left: 70%;
+
+        border: 1px solid #ffd27d;
+
+        z-index: 1;
+
+    }
+
+    .officer3horizontal-line2 {
+        position: absolute;
+        width: 70%;
+
+        margin-top: 99%;
+        border-top: 1.5px solid #ffd27d;
+
+        z-index: 1;
+
+
+    }
+
+
+
+
+
+}
+
+@media (min-width: 488px) and (max-width: 767.98px) {
+
+    .horizontal-line1 {
+        position: absolute;
+        width: 12%;
+        left: 50%;
+        top: 5%;
+        border-top: 1.5px solid #2195a4;
+
+        z-index: 1;
+
+    }
+
+    .vertical-line1 {
+        position: absolute;
+        width: 1px;
+        height: 14.7%;
+        left: 62%;
+
+        top: 8.8%;
+
+        border: 1px solid #2195a4;
+
+        z-index: 2;
+
+        transform: translateX(-50%);
+
+    }
+
+    .vertical-line2 {
+        position: absolute;
+        width: 1px;
+        height: 15%;
+        left: 62%;
+
+        top: 69.4%;
+
+        border: 1px solid #2195a4;
+        z-index: 2;
+
+        transform: translateX(-50%);
+
+    }
+
+    .vertical-line3 {
+        position: absolute;
+        width: 1px;
+        height: 7.3%;
+        left: 20%;
+
+        top: 46.2%;
+
+        border: 1px solid #2195a4;
+        z-index: 2;
+
+        transform: translateX(-50%);
+
+    }
+
+    .horizontal-line2 {
+        position: absolute;
+        width: 12%;
+        left: 50%;
+        top: 80.6%;
+        border-top: 1.5px solid #2195a4;
+
+        z-index: 1;
+
+    }
+
+    
+
+    .about_section .about_img_2 {
+        margin: -100px 0 0 200px;
+
+    }
+
+    .about_section .about_img_3 {
+        margin: -70px 0 0 0;
+    }
+
+    .officials {
+        flex-direction: column;
+        margin-bottom: 18%;
+    }
+
+    .officer1img {
+        margin-top: 10%;
+        max-height: 100%;
+        max-width: 60%;
+
+    }
+
+    .officer1img {
+        margin-top: 7%;
+        max-height: 100%;
+        max-width: 60%;
+
+    }
+
+    .officer1name {
+        font-weight: 600;
+        font-size: 18px;
+        margin-top: -20%;
+        padding-left: 10%;
+
+
+
+    }
+
+    .officer1text {
+        font-size: 13px;
+        margin-right: 10%;
+        margin-left: 20%;
+
+
+    }
+
+
+    .officer1horizontal-line1 {
+        position: absolute;
+        width: 70%;
+
+        border-top: 1.5px solid #ffd27d;
+
+        z-index: -1;
+
+    }
+
+    .officer1vertical-line1 {
+        position: absolute;
+        width: 1px;
+        height: 80%;
+        margin-left: -70%;
+        margin-top: 47.5%;
+
+
+        border: 1px solid #ffd27d;
+
+        z-index: 1;
+
+    }
+
+    .officer1vertical-line2 {
+        position: absolute;
+        width: 1px;
+        height: 80%;
+
+        margin-top: 47.5%;
+        margin-left: 70%;
+
+
+        border: 1px solid #ffd27d;
+
+        z-index: 1;
+
+    }
+
+    .officer1horizontal-line2 {
+        position: absolute;
+        width: 70%;
+
+        margin-top: 98%;
+        border-top: 1.5px solid #ffd27d;
+
+        z-index: 1;
+
+    }
+
+
+
+
+
+
+    .officer2img {
+        margin-top: 20%;
+        max-height: 100%;
+        max-width: 60%;
+
+    }
+
+    .officer2name {
+        font-weight: 600;
+        font-size: 18px;
+        margin-top: -70px;
+        margin-left: 50px;
+
+    }
+
+    .officer2text {
+        font-size: 13px;
+        margin-left: 45px;
+        margin-top: -2%;
+
+    }
+
+    .officer2horizontal-line1 {
+        position: absolute;
+        width: 70%;
+
+        border-top: 1.5px solid #0f4547;
+
+        z-index: -1;
+
+    }
+
+    .officer2vertical-line1 {
+        position: absolute;
+        width: 1px;
+        height: 64.7%;
+        margin-left: -70%;
+        margin-top: 48.5%;
+
+
+        border: 1px solid #0f4547;
+
+        z-index: 1;
+
+    }
+
+    .officer2vertical-line2 {
+        position: absolute;
+        width: 1px;
+        height: 64.7%;
+        margin-left: 70%;
+        margin-top: 48.5%;
+
+
+        border: 1px solid #0f4547;
+
+        z-index: 1;
+
+    }
+
+    .officer2horizontal-line2 {
+        position: absolute;
+        width: 70%;
+
+        margin-top: 100%;
+        border-top: 1.5px solid #0f4547;
+
+        z-index: 1;
+
+    }
+
+
+
+
+
+    .officer3img {
+        margin-top: 15%;
+        max-height: 100%;
+        max-width: 60%;
+
+    }
+
+    .officer3name {
+        font-weight: 600;
+        font-size: 18px;
+        margin-top: -7%;
+        margin-left: 50px;
+
+    }
+
+    .officer3text {
+        font-size: 13px;
+        margin-left: 45px;
+
+    }
+
+    .officer3horizontal-line1 {
+        position: absolute;
+        width: 70%;
+
+        border-top: 1.5px solid #ffd27d;
+
+        z-index: -1;
+
+    }
+
+    .officer3vertical-line1 {
+        position: absolute;
+        width: 1px;
+        height: 69%;
+        margin-left: -70%;
+        margin-top: 48.5%;
+
+
+        border: 1px solid #ffd27d;
+
+        z-index: 1;
+
+    }
+
+    .officer3vertical-line2 {
+        position: absolute;
+        width: 1px;
+        height: 69%;
+        margin-left: 70%;
+        margin-top: 48.5%;
+
+        border: 1px solid #ffd27d;
+
+        z-index: 1;
+
+    }
+
+    .officer3horizontal-line2 {
+        position: absolute;
+        width: 70%;
+
+        margin-top: 100%;
+        border-top: 1.5px solid #ffd27d;
+
+        z-index: 1;
+
+    }
+
+
+}
+
+
+@media (min-width: 1200px) and (max-width: 1439.98px) {
+
+
+    .horizontal-line1 {
+        position: absolute;
+        width: 17.1%;
+        left: 45%;
+        top: 5%;
+        border-top: 1.5px solid #2195a4;
+
+        z-index: 1;
+
+    }
+
+    .vertical-line1 {
+        position: absolute;
+        width: 1px;
+        height: 14.7%;
+        left: 62%;
+
+        top: 8.8%;
+
+        border: 1px solid #2195a4;
+
+        z-index: 2;
+
+        transform: translateX(-50%);
+
+    }
+
+    .vertical-line2 {
+        position: absolute;
+        width: 1px;
+        height: 15%;
+        left: 62%;
+
+        top: 69.4%;
+
+        border: 1px solid #2195a4;
+        z-index: 2;
+
+        transform: translateX(-50%);
+
+    }
+
+    .vertical-line3 {
+        position: absolute;
+        width: 1px;
+        height: 7.3%;
+        left: 20%;
+
+        top: 46.2%;
+
+        border: 1px solid #2195a4;
+        z-index: 2;
+
+        transform: translateX(-50%);
+        /* Center the line horizontally */
+    }
+
+    .horizontal-line2 {
+        position: absolute;
+        width: 17.1%;
+        left: 45%;
+        top: 80.6%;
+        border-top: 1.5px solid #2195a4;
+        /* Adjust border style as needed */
+        z-index: 1;
+        /* Ensure it's above the images */
+    }
+
+    .about_section {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    
+
+    .about_section .about_img_2 {
+        margin: -100px 0 0 200px;
+
+    }
+
+    .about_section .about_img_3 {
+        margin:30px 0 0 0; filter: grayscale(1); transition: 0.4s linear;
+    }
+    .about_section .about_img_3:hover {
+        filter: grayscale(0);
+    }
+    .about_section .about_img_1:hover {
+        filter: grayscale(1); transition: 0.4s linear;
+    }
+    
+
+    .officials {
+
+        flex-direction: row;
+        margin-top: 3%;
+        margin-bottom: 100px;
+    }
+    .officials h2{font-size: 25px;}
+
+    .img-fluid.officer1img,
+    .officer2img
+   {
+        width: 80%;
+        height: 93%;
+    }
+    .officer3img {
+        width: 80%;
+        height: 81%;
+        margin-top: -11%;
+    }
+
+
+    .officer1name,
+    .officer2name,
+    .officer3name {
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    .officer3name{
+        margin-top: -20%;
+        margin-left: 5%;
+    }
+
+    .officer1horizontal-line1 {
+        position: absolute;
+        width: 90%;
+        /* left: 50%; */
+        /* top: 32.5%; */
+        border-top: 1.5px solid #ffd27d;
+        /* Adjust border style as needed */
+        z-index: -1;
+        /* Ensure it's above the images */
+    }
+
+    .officer1vertical-line1 {
+        position: absolute;
+        width: 1px;
+        height: 77%;
+        margin-left: -90%;
+        margin-top: 61.5%;
+        border: 1px solid #ffd27d;
+        z-index: 1;
+
+    }
+
+    .officer1vertical-line2 {
+        position: absolute;
+        width: 1px;
+        height: 77%;
+
+        margin-top: 61.5%;
+        margin-left: 90%;
+        /* Adjust horizontal position as needed */
+        /* top: 8.8%; */
+
+        border: 1px solid #ffd27d;
+        /* Adjust color as needed */
+        z-index: 1;
+        /* Ensure it's above the horizontal line */
+        /* transform: translateX(-50%); */
+        /* Center the line horizontally */
+    }
+
+    .officer1horizontal-line2 {
+        position: absolute;
+        width: 90%;
+        /* left: 50%; */
+        top: 400px;
+        border-top: 1.5px solid #ffd27d;
+        /* Adjust border style as needed */
+        z-index: 1;
+        /* Ensure it's above the images */
+    }
+
+
+
+    .officer2horizontal-line1 {
+        position: absolute;
+        width: 90%;
+        /* left: 50%; */
+        /* top: 32.5%; */
+        border-top: 1.5px solid #0f4547;
+        /* Adjust border style as needed */
+        z-index: -1;
+        /* Ensure it's above the images */
+    }
+
+    .officer2vertical-line1 {
+        position: absolute;
+        width: 1px;
+        height: 77%;
+        margin-left: -90%;
+        margin-top: 61.5%;
+        /* left: 62%; */
+        /* Adjust horizontal position as needed */
+        /* top: 8.8%; */
+
+        border: 1px solid #0f4547;
+        /* Adjust color as needed */
+        z-index: 1;
+        /* Ensure it's above the horizontal line */
+        /* transform: translateX(-50%); */
+        /* Center the line horizontally */
+    }
+
+    .officer2vertical-line2 {
+        position: absolute;
+        width: 1px;
+        height: 77%;
+
+        margin-top: 61.5%;
+        margin-left: 90%;
+        /* Adjust horizontal position as needed */
+        /* top: 8.8%; */
+
+        border: 1px solid #0f4547;
+        /* Adjust color as needed */
+        z-index: 1;
+        /* Ensure it's above the horizontal line */
+        /* transform: translateX(-50%); */
+        /* Center the line horizontally */
+    }
+
+    .officer2horizontal-line2 {
+        position: absolute;
+        width: 90%;
+        /* left: 50%; */
+        top: 400px;
+        border-top: 1.5px solid #0f4547;
+        /* Adjust border style as needed */
+        z-index: 1;
+        /* Ensure it's above the images */
+    }
+
+
+    .officer3horizontal-line1 {
+        position: absolute;
+        width: 90%;
+        margin-top: -7%;
+        border-top: 1.5px solid #ffd27d;
+        /* Adjust border style as needed */
+        z-index: -1;
+        /* Ensure it's above the images */
+    }
+
+    .officer3vertical-line1 {
+        position: absolute;
+        width: 1px;
+        height: 66%;
+        margin-left: -90%;
+        margin-top: 50%;
+        /* left: 62%; */
+        /* Adjust horizontal position as needed */
+        /* top: 8.8%; */
+
+        border: 1px solid #ffd27d;
+        /* Adjust color as needed */
+        z-index: 1;
+        /* Ensure it's above the horizontal line */
+        /* transform: translateX(-50%); */
+        /* Center the line horizontally */
+    }
+
+    .officer3vertical-line2 {
+        position: absolute;
+        width: 1px;
+        height: 66%;
+
+        margin-top: 50%;
+        margin-left: 90%;
+        /* Adjust horizontal position as needed */
+        /* top: 8.8%; */
+
+        border: 1px solid #ffd27d;
+        /* Adjust color as needed */
+        z-index: 1;
+        /* Ensure it's above the horizontal line */
+        /* transform: translateX(-50%); */
+        /* Center the line horizontally */
+    }
+
+    .officer3horizontal-line2 {
+        position: absolute;
+        width: 90%;
+        /* left: 50%; */
+        top: 400px;
+        border-top: 1.5px solid #ffd27d;
+        /* Adjust border style as needed */
+        z-index: 1;
+        /* Ensure it's above the images */
+    }
+
+
+
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1023.98px) {
+    /* .introductionline {
+        width: 45%;
+    } */
+
+    .horizontal-line1 {
+        position: absolute;
+        width: 12%;
+        left: 50%;
+        top: 5%;
+        border-top: 1.5px solid #2195a4;
+        /* Adjust border style as needed */
+        z-index: 1;
+        /* Ensure it's above the images */
+    }
+
+    .vertical-line1 {
+        position: absolute;
+        width: 1px;
+        height: 14.7%;
+        left: 62%;
+        /* Adjust horizontal position as needed */
+        top: 8.8%;
+
+        border: 1px solid #2195a4;
+        /* Adjust color as needed */
+        z-index: 2;
+        /* Ensure it's above the horizontal line */
+        transform: translateX(-50%);
+        /* Center the line horizontally */
+    }
+
+    .vertical-line2 {
+        position: absolute;
+        width: 1px;
+        height: 15%;
+        left: 62%;
+        /* Adjust horizontal position as needed */
+        top: 69.4%;
+
+        border: 1px solid #2195a4;
+        z-index: 2;
+        /* Ensure it's above the horizontal line */
+        transform: translateX(-50%);
+        /* Center the line horizontally */
+    }
+
+    .vertical-line3 {
+        position: absolute;
+        width: 1px;
+        height: 7.3%;
+        left: 20%;
+        /* Adjust horizontal position as needed */
+        top: 46.2%;
+
+        border: 1px solid #2195a4;
+        z-index: 2;
+        /* Ensure it's above the horizontal line */
+        transform: translateX(-50%);
+        /* Center the line horizontally */
+    }
+
+    .horizontal-line2 {
+        position: absolute;
+        width: 12%;
+        left: 50%;
+        top: 80.6%;
+        border-top: 1.5px solid #2195a4;
+        /* Adjust border style as needed */
+        z-index: 1;
+        /* Ensure it's above the images */
+    }
+
+    
+
+    .about_section .about_img_2 {
+        margin: -100px 0 0 200px;
+
+    }
+
+    .about_section .about_img_3 {
+        margin: -70px 0 0 0;
+    }
+
+    .officials {
+        flex-direction: row;
+        margin-top: 3%;
+        margin-bottom: 70px;
+    }
+
+    .img-fluid.officer1img,
+    .officer2img,
+    .officer3img {
+        width: 80%;
+        height: 93%;
+    }
+
+    .officer1img {
+        width: 80%;
+        height: 85%;
+    }
+
+    .officer1name {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .officer1text {
+        font-size: 12.5px;
+        text-align: left;
+        padding-right: 20px;
+        padding-left: 10px;
+    }
+
+    .officer2name {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .officer2text {
+        font-size: 12.5px;
+        padding-right: 20px;
+        padding-left: 10px;
+    }
+
+    .officer3name {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .officer3text {
+        font-size: 12.5px;
+        padding-right: 20px;
+        padding-left: 10px;
+    }
+
+
+
+    .officer1name,
+    .officer2name,
+    .officer3name {
+        font-weight: 600;
+    }
+
+
+    .officer1horizontal-line1 {
+        position: absolute;
+        width: 90%;
+        /* left: 50%; */
+        /* top: 32.5%; */
+        border-top: 1.5px solid #ffd27d;
+        /* Adjust border style as needed */
+        z-index: -1;
+        /* Ensure it's above the images */
+    }
+
+    .officer1vertical-line1 {
+        position: absolute;
+        width: 1px;
+        height: 100%;
+        margin-left: -90%;
+        margin-top: 69.5%;
+        /* left: 62%; */
+        /* Adjust horizontal position as needed */
+        /* top: 8.8%; */
+
+        border: 1px solid #ffd27d;
+        /* Adjust color as needed */
+        z-index: 1;
+        /* Ensure it's above the horizontal line */
+        /* transform: translateX(-50%); */
+        /* Center the line horizontally */
+    }
+
+    .officer1vertical-line2 {
+        position: absolute;
+        width: 1px;
+        height: 100%;
+
+        margin-top: 69.5%;
+        margin-left: 90%;
+        /* Adjust horizontal position as needed */
+        /* top: 8.8%; */
+
+        border: 1px solid #ffd27d;
+        /* Adjust color as needed */
+        z-index: 1;
+        /* Ensure it's above the horizontal line */
+        /* transform: translateX(-50%); */
+        /* Center the line horizontally */
+    }
+
+    .officer1horizontal-line2 {
+        position: absolute;
+        width: 90%;
+        /* left: 50%; */
+        margin-top: 350px;
+        border-top: 1.5px solid #ffd27d;
+        /* Adjust border style as needed */
+        z-index: 1;
+        /* Ensure it's above the images */
+    }
+
+
+
+    .officer2horizontal-line1 {
+        position: absolute;
+        width: 90%;
+        /* left: 50%; */
+        /* top: 32.5%; */
+        border-top: 1.5px solid #0f4547;
+        /* Adjust border style as needed */
+        z-index: -1;
+        /* Ensure it's above the images */
+    }
+
+    .officer2vertical-line1 {
+        position: absolute;
+        width: 1px;
+        height: 100%;
+        margin-left: -90%;
+        margin-top: 69.5%;
+        /* left: 62%; */
+        /* Adjust horizontal position as needed */
+        /* top: 8.8%; */
+
+        border: 1px solid #0f4547;
+        /* Adjust color as needed */
+        z-index: 1;
+        /* Ensure it's above the horizontal line */
+        /* transform: translateX(-50%); */
+        /* Center the line horizontally */
+    }
+
+    .officer2vertical-line2 {
+        position: absolute;
+        width: 1px;
+        height: 100%;
+
+        margin-top: 69.5%;
+        margin-left: 90%;
+        /* Adjust horizontal position as needed */
+        /* top: 8.8%; */
+
+        border: 1px solid #0f4547;
+        /* Adjust color as needed */
+        z-index: 1;
+        /* Ensure it's above the horizontal line */
+        /* transform: translateX(-50%); */
+        /* Center the line horizontally */
+    }
+
+    .officer2horizontal-line2 {
+        position: absolute;
+        width: 90%;
+        /* left: 50%; */
+        margin-top: 350px;
+        border-top: 1.5px solid #0f4547;
+        /* Adjust border style as needed */
+        z-index: 1;
+        /* Ensure it's above the images */
+    }
+
+
+    .officer3horizontal-line1 {
+        position: absolute;
+        width: 90%;
+        /* left: 50%; */
+        /* top: 32.5%; */
+        border-top: 1.5px solid #ffd27d;
+        /* Adjust border style as needed */
+        z-index: -1;
+        /* Ensure it's above the images */
+    }
+
+    .officer3vertical-line1 {
+        position: absolute;
+        width: 1px;
+        height: 100%;
+        margin-left: -90%;
+        margin-top: 69.5%;
+        /* left: 62%; */
+        /* Adjust horizontal position as needed */
+        /* top: 8.8%; */
+
+        border: 1px solid #ffd27d;
+        /* Adjust color as needed */
+        z-index: 1;
+        /* Ensure it's above the horizontal line */
+        /* transform: translateX(-50%); */
+        /* Center the line horizontally */
+    }
+
+    .officer3vertical-line2 {
+        position: absolute;
+        width: 1px;
+        height: 100%;
+
+        margin-top: 69.5%;
+        margin-left: 90%;
+        /* Adjust horizontal position as needed */
+        /* top: 8.8%; */
+
+        border: 1px solid #ffd27d;
+        /* Adjust color as needed */
+        z-index: 1;
+        /* Ensure it's above the horizontal line */
+        /* transform: translateX(-50%); */
+        /* Center the line horizontally */
+    }
+
+    .officer3horizontal-line2 {
+        position: absolute;
+        width: 90%;
+        /* left: 50%; */
+        margin-top: 350px;
+        border-top: 1.5px solid #ffd27d;
+        /* Adjust border style as needed */
+        z-index: 1;
+        /* Ensure it's above the images */
+    }
+
+
+
+
+}
+
+@media (min-width: 1024px) and (max-width: 1199.98px) {
+
+
+    .horizontal-line1 {
+        position: absolute;
+        width: 12%;
+        left: 50%;
+        top: 5%;
+        border-top: 1.5px solid #2195a4;
+        /* Adjust border style as needed */
+        z-index: 1;
+        /* Ensure it's above the images */
+    }
+
+    .vertical-line1 {
+        position: absolute;
+        width: 1px;
+        height: 14.7%;
+        left: 62%;
+        /* Adjust horizontal position as needed */
+        top: 8.8%;
+
+        border: 1px solid #2195a4;
+        /* Adjust color as needed */
+        z-index: 2;
+        /* Ensure it's above the horizontal line */
+        transform: translateX(-50%);
+        /* Center the line horizontally */
+    }
+
+    .vertical-line2 {
+        position: absolute;
+        width: 1px;
+        height: 15%;
+        left: 62%;
+        /* Adjust horizontal position as needed */
+        top: 69.4%;
+
+        border: 1px solid #2195a4;
+        z-index: 2;
+        /* Ensure it's above the horizontal line */
+        transform: translateX(-50%);
+        /* Center the line horizontally */
+    }
+
+    .vertical-line3 {
+        position: absolute;
+        width: 1px;
+        height: 7.3%;
+        left: 20%;
+        /* Adjust horizontal position as needed */
+        top: 46.2%;
+
+        border: 1px solid #2195a4;
+        z-index: 2;
+        /* Ensure it's above the horizontal line */
+        transform: translateX(-50%);
+        /* Center the line horizontally */
+    }
+
+    .horizontal-line2 {
+        position: absolute;
+        width: 12%;
+        left: 50%;
+        top: 80.6%;
+        border-top: 1.5px solid #2195a4;
+        /* Adjust border style as needed */
+        z-index: 1;
+        /* Ensure it's above the images */
+    }
+
+    
+
+    .about_section .about_img_2 {
+        margin: -100px 0 0 200px;
+
+    }
+
+    .about_section .about_img_3 {
+        margin: -70px 0 0 0;
+    }
+    .officials {
+        flex-direction: row;
+        margin-top: 3%;
+        margin-bottom: 70px;
+    }
+
+    .img-fluid.officer1img,
+    .officer2img
+     {
+        width: 80%;
+        height: 93%;
+    }
+
+    .officer3img {
+        width: 80%;
+        height: 79%;
+        margin-top: -14%;
+    }
+
+    /* .officer1img{
+                            max-height: 100%;
+                        } */
+
+    .officer1name {
+        font-size: 12.5px;
+        font-weight: 600;
+        /* margin-top: 10%; */
+
+    }
+
+    .officer1text {
+        font-size: 11px;
+       padding: 0 30px 0 30px;
+        /* padding-right: 20px;
+                            padding-left: 10px; */
+    }
+
+    .officer2name {
+        font-size: 13px;
+        font-weight: 600;
+        margin-top: 5%;
+        margin-left: -10px;
+
+    }
+
+    .officer2text {
+        font-size: 12.5px;
+        /* margin-left: -15%; */
+        margin-top: -2%;
+        /* padding-right: 40px; */
+        /* padding-left: 10px; */
+    }
+
+    .officer3name {
+        font-size: 13px;
+        font-weight: 600;
+        margin-top: -23%;
+        /* margin-left: -20px; */
+
+    }
+
+    .officer3text {
+        font-size: 12.5px;
+        /* margin-left: -5%; */
+        /* padding-right: 20px; */
+        /* padding-left: 10px; */
+    }
+
+
+
+
+
+
+    .officer1horizontal-line1 {
+        position: absolute;
+        width: 93%;
+        /* left: 50%; */
+        /* top: 32.5%; */
+        border-top: 1.5px solid #ffd27d;
+        /* Adjust border style as needed */
+        z-index: -1;
+        /* Ensure it's above the images */
+    }
+
+    .officer1vertical-line1 {
+        position: absolute;
+        width: 1px;
+        height: 192px;
+        margin-left: -93%;
+        margin-top: 58%;
+        /* left: 62%; */
+        /* Adjust horizontal position as needed */
+        /* top: 8.8%; */
+
+        border: 1px solid #ffd27d;
+        /* Adjust color as needed */
+        z-index: 1;
+        /* Ensure it's above the horizontal line */
+        /* transform: translateX(-50%); */
+        /* Center the line horizontally */
+    }
+
+    .officer1vertical-line2 {
+        position: absolute;
+        width: 1px;
+        height: 192px;
+
+        margin-top: 58%;
+        margin-left: 93%;
+        /* Adjust horizontal position as needed */
+        /* top: 8.8%; */
+
+        border: 1px solid #ffd27d;
+        /* Adjust color as needed */
+        z-index: 1;
+        /* Ensure it's above the horizontal line */
+        /* transform: translateX(-50%); */
+        /* Center the line horizontally */
+    }
+
+    .officer1horizontal-line2 {
+        position: absolute;
+        width: 93%;
+        /* left: 50%; */
+        margin-top: 400px;
+        border-top: 1.5px solid #ffd27d;
+        /* Adjust border style as needed */
+        z-index: 1;
+        /* Ensure it's above the images */
+    }
+
+
+
+    .officer2horizontal-line1 {
+        position: absolute;
+        width: 92%;
+        /* left: 50%; */
+        /* top: 32.5%; */
+        border-top: 1.5px solid #0f4547;
+        /* Adjust border style as needed */
+        z-index: -1;
+        /* Ensure it's above the images */
+    }
+
+    .officer2vertical-line1 {
+        position: absolute;
+        width: 1px;
+        height: 192px;
+        margin-left: -92%;
+        margin-top: 58%;
+        /* left: 62%; */
+        /* Adjust horizontal position as needed */
+        /* top: 8.8%; */
+
+        border: 1px solid #0f4547;
+        /* Adjust color as needed */
+        z-index: 1;
+        /* Ensure it's above the horizontal line */
+        /* transform: translateX(-50%); */
+        /* Center the line horizontally */
+    }
+
+    .officer2vertical-line2 {
+        position: absolute;
+        width: 1px;
+        height: 192px;
+
+        margin-top: 58%;
+        margin-left: 92%;
+        /* Adjust horizontal position as needed */
+        /* top: 8.8%; */
+
+        border: 1px solid #0f4547;
+        /* Adjust color as needed */
+        z-index: 1;
+        /* Ensure it's above the horizontal line */
+        /* transform: translateX(-50%); */
+        /* Center the line horizontally */
+    }
+
+    .officer2horizontal-line2 {
+        position: absolute;
+        width: 92%;
+        /* left: 50%; */
+        margin-top:400px;
+        border-top: 1.5px solid #0f4547;
+        /* Adjust border style as needed */
+        z-index: 1;
+        /* Ensure it's above the images */
+    }
+
+
+    .officer3horizontal-line1 {
+        position: absolute;
+        width: 92%;
+       margin-top:-10% ;
+        border-top: 1.5px solid #ffd27d;
+        /* Adjust border style as needed */
+        z-index: -1;
+        /* Ensure it's above the images */
+    }
+
+    .officer3vertical-line1 {
+        position: absolute;
+        width: 1px;
+        height: 192px;
+        margin-left: -92%;
+        margin-top: 43%;
+        /* left: 62%; */
+        /* Adjust horizontal position as needed */
+        /* top: 8.8%; */
+
+        border: 1px solid #ffd27d;
+        /* Adjust color as needed */
+        z-index: 1;
+
+    }
+
+    .officer3vertical-line2 {
+        position: absolute;
+        width: 1px;
+        height: 192px;
+
+        margin-top: 43%;
+        margin-left: 92%;
+        /* Adjust horizontal position as needed */
+        /* top: 8.8%; */
+
+        border: 1px solid #ffd27d;
+        /* Adjust color as needed */
+        z-index: 1;
+        /* Ensure it's above the horizontal line */
+        /* transform: translateX(-50%); */
+        /* Center the line horizontally */
+    }
+
+    .officer3horizontal-line2 {
+        position: absolute;
+        width: 92%;
+        /* left: 50%; */
+        margin-top: 350px;
+        border-top: 1.5px solid #ffd27d;
+        /* Adjust border style as needed */
+        z-index: 1;
+        /* Ensure it's above the images */
+    }
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .introbody{
+        font-size: 14px;
+
+    }
+    .read-more-toggle, .introbodyreadmore{
+        font-size: 14px;
+
+    }
+    .horizontal-line1 {
+        position: absolute;
+        width: 12%;
+        left: 50%;
+        top: 5%;
+        border-top: 1.5px solid #2195a4;
+        /* Adjust border style as needed */
+        z-index: 1;
+        /* Ensure it's above the images */
+    }
+
+    .vertical-line1 {
+        position: absolute;
+        width: 1px;
+        height: 14.7%;
+        left: 62%;
+        /* Adjust horizontal position as needed */
+        top: 8.8%;
+
+        border: 1px solid #2195a4;
+        /* Adjust color as needed */
+        z-index: 2;
+        /* Ensure it's above the horizontal line */
+        transform: translateX(-50%);
+        /* Center the line horizontally */
+    }
+
+    .vertical-line2 {
+        position: absolute;
+        width: 1px;
+        height: 15%;
+        left: 62%;
+        /* Adjust horizontal position as needed */
+        top: 69.4%;
+
+        border: 1px solid #2195a4;
+        z-index: 2;
+        /* Ensure it's above the horizontal line */
+        transform: translateX(-50%);
+        /* Center the line horizontally */
+    }
+
+    .vertical-line3 {
+        position: absolute;
+        width: 1px;
+        height: 7.3%;
+        left: 20%;
+        /* Adjust horizontal position as needed */
+        top: 46.2%;
+
+        border: 1px solid #2195a4;
+        z-index: 2;
+        /* Ensure it's above the horizontal line */
+        transform: translateX(-50%);
+        /* Center the line horizontally */
+    }
+
+    .horizontal-line2 {
+        position: absolute;
+        width: 12%;
+        left: 50%;
+        top: 80.6%;
+        border-top: 1.5px solid #2195a4;
+        /* Adjust border style as needed */
+        z-index: 1;
+        /* Ensure it's above the images */
+    }
+
+    
+
+    .about_section .about_img_2 {
+        margin: -100px 0 0 100px;
+
+    }
+
+    .about_section .about_img_3 {
+        margin: -70px 0 0 0;
+    }
+
+    .officials {
+        flex-direction: row;
+        margin-top: 3%;
+        margin-bottom: 70px;
+    }
+
+    .img-fluid.officer1img,
+    .officer2img
+     {
+        width: 80%;
+        height: 93%;
+    }
+
+    .officer3img {
+        width: 80%;
+        height: 75%;
+        margin-top: -20%;
+    }
+
+    /* .officer1img{
+                            max-height: 100%;
+                        } */
+
+    .officer1name {
+        font-size: 12.5px;
+        font-weight: 600;
+        margin-top: 10%;
+
+    }
+
+    .officer1text {
+        font-size: 11px;
+       padding: 0 30px 0 30px;
+        /* padding-right: 20px;
+                            padding-left: 10px; */
+    }
+
+    .officer2name {
+        font-size: 13px;
+        font-weight: 600;
+        margin-top: 5%;
+        margin-left: -10px;
+
+    }
+
+    .officer2text {
+        font-size: 12.5px;
+        /* margin-left: -15%; */
+        margin-top: -2%;
+        /* padding-right: 40px; */
+        /* padding-left: 10px; */
+    }
+
+    .officer3name {
+        font-size: 13px;
+        font-weight: 600;
+        margin-top: -23%;
+        margin-left: -22px;
+
+    }
+
+    .officer3text {
+        font-size: 12.5px;
+        margin-left: -5%;
+        /* padding-right: 20px; */
+        /* padding-left: 10px; */
+    }
+
+
+
+
+
+
+    .officer1horizontal-line1 {
+        position: absolute;
+        width: 93%;
+        /* left: 50%; */
+        /* top: 32.5%; */
+        border-top: 1.5px solid #ffd27d;
+        /* Adjust border style as needed */
+        z-index: -1;
+        /* Ensure it's above the images */
+    }
+
+    .officer1vertical-line1 {
+        position: absolute;
+        width: 1px;
+        height: 160px;
+        margin-left: -93%;
+        margin-top: 65%;
+        /* left: 62%; */
+        /* Adjust horizontal position as needed */
+        /* top: 8.8%; */
+
+        border: 1px solid #ffd27d;
+        /* Adjust color as needed */
+        z-index: 1;
+        /* Ensure it's above the horizontal line */
+        /* transform: translateX(-50%); */
+        /* Center the line horizontally */
+    }
+
+    .officer1vertical-line2 {
+        position: absolute;
+        width: 1px;
+        height: 160px;
+
+        margin-top: 65%;
+        margin-left: 93%;
+        /* Adjust horizontal position as needed */
+        /* top: 8.8%; */
+
+        border: 1px solid #ffd27d;
+        /* Adjust color as needed */
+        z-index: 1;
+        /* Ensure it's above the horizontal line */
+        /* transform: translateX(-50%); */
+        /* Center the line horizontally */
+    }
+
+    .officer1horizontal-line2 {
+        position: absolute;
+        width: 93%;
+        /* left: 50%; */
+        margin-top: 335px;
+        border-top: 1.5px solid #ffd27d;
+        /* Adjust border style as needed */
+        z-index: 1;
+        /* Ensure it's above the images */
+    }
+
+
+
+    .officer2horizontal-line1 {
+        position: absolute;
+        width: 92%;
+        /* left: 50%; */
+        /* top: 32.5%; */
+        border-top: 1.5px solid #0f4547;
+        /* Adjust border style as needed */
+        z-index: -1;
+        /* Ensure it's above the images */
+    }
+
+    .officer2vertical-line1 {
+        position: absolute;
+        width: 1px;
+        height: 160px;
+        margin-left: -92%;
+        margin-top: 65%;
+        /* left: 62%; */
+        /* Adjust horizontal position as needed */
+        /* top: 8.8%; */
+
+        border: 1px solid #0f4547;
+        /* Adjust color as needed */
+        z-index: 1;
+        /* Ensure it's above the horizontal line */
+        /* transform: translateX(-50%); */
+        /* Center the line horizontally */
+    }
+
+    .officer2vertical-line2 {
+        position: absolute;
+        width: 1px;
+        height: 160px;
+
+        margin-top: 65%;
+        margin-left: 92%;
+        /* Adjust horizontal position as needed */
+        /* top: 8.8%; */
+
+        border: 1px solid #0f4547;
+        /* Adjust color as needed */
+        z-index: 1;
+        /* Ensure it's above the horizontal line */
+        /* transform: translateX(-50%); */
+        /* Center the line horizontally */
+    }
+
+    .officer2horizontal-line2 {
+        position: absolute;
+        width: 92%;
+        /* left: 50%; */
+        margin-top: 335px;
+        border-top: 1.5px solid #0f4547;
+        /* Adjust border style as needed */
+        z-index: 1;
+        /* Ensure it's above the images */
+    }
+
+
+    .officer3horizontal-line1 {
+        position: absolute;
+        width: 92%;
+       margin-top:-13% ;
+        border-top: 1.5px solid #ffd27d;
+        /* Adjust border style as needed */
+        z-index: -1;
+        /* Ensure it's above the images */
+    }
+
+    .officer3vertical-line1 {
+        position: absolute;
+        width: 1px;
+        height: 160px;
+        margin-left: -92%;
+        margin-top: 45%;
+        /* left: 62%; */
+        /* Adjust horizontal position as needed */
+        /* top: 8.8%; */
+
+        border: 1px solid #ffd27d;
+        /* Adjust color as needed */
+        z-index: 1;
+        /* Ensure it's above the horizontal line */
+        /* transform: translateX(-50%); */
+        /* Center the line horizontally */
+    }
+
+    .officer3vertical-line2 {
+        position: absolute;
+        width: 1px;
+        height: 160px;
+
+        margin-top: 45%;
+        margin-left: 92%;
+        /* Adjust horizontal position as needed */
+        /* top: 8.8%; */
+
+        border: 1px solid #ffd27d;
+        /* Adjust color as needed */
+        z-index: 1;
+        /* Ensure it's above the horizontal line */
+        /* transform: translateX(-50%); */
+        /* Center the line horizontally */
+    }
+
+    .officer3horizontal-line2 {
+        position: absolute;
+        width: 92%;
+        /* left: 50%; */
+        margin-top: 285px;
+        border-top: 1.5px solid #ffd27d;
+        /* Adjust border style as needed */
+        z-index: 1;
+        /* Ensure it's above the images */
+    }
+
+}
+
+@media (min-width: 1440px) and (max-width: 2559.98px) {
+
+
+    .horizontal-line1 {
+        position: absolute;
+        width: 12%;
+        left: 50%;
+        top: 5%;
+        border-top: 1.5px solid #2195a4;
+        /* Adjust border style as needed */
+        z-index: 1;
+        /* Ensure it's above the images */
+    }
+
+    .vertical-line1 {
+        position: absolute;
+        width: 1px;
+        height: 14.7%;
+        left: 62%;
+        /* Adjust horizontal position as needed */
+        top: 8.8%;
+
+        border: 1px solid #2195a4;
+        /* Adjust color as needed */
+        z-index: 2;
+        /* Ensure it's above the horizontal line */
+        transform: translateX(-50%);
+        /* Center the line horizontally */
+    }
+
+    .vertical-line2 {
+        position: absolute;
+        width: 1px;
+        height: 15%;
+        left: 62%;
+        /* Adjust horizontal position as needed */
+        top: 69.4%;
+
+        border: 1px solid #2195a4;
+        z-index: 2;
+        /* Ensure it's above the horizontal line */
+        transform: translateX(-50%);
+        /* Center the line horizontally */
+    }
+
+    .vertical-line3 {
+        position: absolute;
+        width: 1px;
+        height: 7.3%;
+        left: 20%;
+        /* Adjust horizontal position as needed */
+        top: 46.2%;
+
+        border: 1px solid #2195a4;
+        z-index: 2;
+        /* Ensure it's above the horizontal line */
+        transform: translateX(-50%);
+        /* Center the line horizontally */
+    }
+
+    .horizontal-line2 {
+        position: absolute;
+        width: 12%;
+        left: 50%;
+        top: 80.6%;
+        border-top: 1.5px solid #2195a4;
+        /* Adjust border style as needed */
+        z-index: 1;
+        /* Ensure it's above the images */
+    }
+
+    
+
+    .about_section .about_img_2 {
+        margin: -100px 0 0 200px;
+
+    }
+
+    .about_section .about_img_3 {
+        margin: -70px 0 0 0;
+    }
+
+
+    .officials {
+        flex-direction: row;
+        margin-top: 3%;
+        margin-bottom: 100px;
+    }
+
+    .img-fluid.officer1img,
+    .officer2img
+     {
+        width: 80%;
+        height: 93%;
+    }
+    .officer3img{
+        width: 80%;
+        height: 83%;
+        margin-top: -10%;
+    }
+
+    .officer1name {
+        font-size: 19px;
+        font-weight: 600;
+    }
+
+    .officer1text {
+        font-size: 14px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .officer2name {
+        font-size: 19px;
+        font-weight: 600;
+    }
+
+    .officer2text {
+        font-size: 14px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .officer3name {
+
+        font-weight: 600;
+margin-top: -20%;
+        margin-left: 10%;
+    }
+
+    .officer3text {
+        margin-left: 10%;
+
+    }
+
+
+
+    /* .officer1img {
+        width: 80%;
+        height: 85%;
+    } */
+
+    .officer1name,
+    .officer2name,
+    .officer3name {
+        font-weight: 600;
+    }
+
+
+    .officer1horizontal-line1 {
+        position: absolute;
+        width: 90%;
+        /* left: 50%; */
+        /* top: 32.5%; */
+        border-top: 1.5px solid #ffd27d;
+        /* Adjust border style as needed */
+        z-index: -1;
+        /* Ensure it's above the images */
+    }
+
+    .officer1vertical-line1 {
+        position: absolute;
+        width: 1px;
+        height: 74%;
+        margin-top: 59%;
+        margin-left: -90%;
+
+        border: 1px solid #ffd27d;
+        z-index: 1;
+
+    }
+
+    .officer1vertical-line2 {
+        position: absolute;
+        width: 1px;
+        height: 74%;
+        margin-top: 59%;
+        margin-left: 90%;
+        /* Adjust horizontal position as needed */
+        /* top: 8.8%; */
+
+        border: 1px solid #ffd27d;
+        /* Adjust color as needed */
+        z-index: 1;
+        /* Ensure it's above the horizontal line */
+        /* transform: translateX(-50%); */
+        /* Center the line horizontally */
+    }
+
+    .officer1horizontal-line2 {
+        position: absolute;
+        width: 90%;
+        /* left: 50%; */
+        top: 450px;
+        border-top: 1.5px solid #ffd27d;
+        /* Adjust border style as needed */
+        z-index: 1;
+        /* Ensure it's above the images */
+    }
+
+
+
+    .officer2horizontal-line1 {
+        position: absolute;
+        width: 90%;
+        /* left: 50%; */
+        /* top: 32.5%; */
+        border-top: 1.5px solid #0f4547;
+        /* Adjust border style as needed */
+        z-index: -1;
+        /* Ensure it's above the images */
+    }
+
+    .officer2vertical-line1 {
+        position: absolute;
+        width: 1px;
+        height: 74%;
+        margin-top: 59%;
+        margin-left: -90%;
+
+        /* left: 62%; */
+        /* Adjust horizontal position as needed */
+        /* top: 8.8%; */
+
+        border: 1px solid #0f4547;
+        /* Adjust color as needed */
+        z-index: 1;
+        /* Ensure it's above the horizontal line */
+        /* transform: translateX(-50%); */
+        /* Center the line horizontally */
+    }
+
+    .officer2vertical-line2 {
+        position: absolute;
+        width: 1px;
+        height: 74%;
+        margin-top: 59%;
+        margin-left: 90%;
+        /* Adjust horizontal position as needed */
+        /* top: 8.8%; */
+
+        border: 1px solid #0f4547;
+        /* Adjust color as needed */
+        z-index: 1;
+        /* Ensure it's above the horizontal line */
+        /* transform: translateX(-50%); */
+        /* Center the line horizontally */
+    }
+
+    .officer2horizontal-line2 {
+        position: absolute;
+        width: 90%;
+        /* left: 50%; */
+        top: 450px;
+        border-top: 1.5px solid #0f4547;
+        /* Adjust border style as needed */
+        z-index: 1;
+        /* Ensure it's above the images */
+    }
+
+
+    .officer3horizontal-line1 {
+        position: absolute;
+        width: 90%;
+        margin-top: -7%;
+        border-top: 1.5px solid #ffd27d;
+        /* Adjust border style as needed */
+        z-index: -1;
+        /* Ensure it's above the images */
+    }
+
+    .officer3vertical-line1 {
+        position: absolute;
+        width: 1px;
+        margin-left: -90%;
+        height: 66%;
+        margin-top: 49%;
+        /* left: 62%; */
+        /* Adjust horizontal position as needed */
+        /* top: 8.8%; */
+
+        border: 1px solid #ffd27d;
+        /* Adjust color as needed */
+        z-index: 1;
+        /* Ensure it's above the horizontal line */
+        /* transform: translateX(-50%); */
+        /* Center the line horizontally */
+    }
+
+    .officer3vertical-line2 {
+        position: absolute;
+        width: 1px;
+        height: 66%;
+        margin-top: 49%;
+        margin-left: 90%;
+        /* Adjust horizontal position as needed */
+        /* top: 8.8%; */
+
+        border: 1px solid #ffd27d;
+        /* Adjust color as needed */
+        z-index: 1;
+        /* Ensure it's above the horizontal line */
+        /* transform: translateX(-50%); */
+        /* Center the line horizontally */
+    }
+
+    .officer3horizontal-line2 {
+        position: absolute;
+        width: 90%;
+        /* left: 50%; */
+        top: 450px;
+        border-top: 1.5px solid #ffd27d;
+        /* Adjust border style as needed */
+        z-index: 1;
+        /* Ensure it's above the images */
+    }
+
+
+
+
+}
+
+@media (min-width: 2560px) {
+
+    .introbody{
+        font-size: 18px;
+
+    }
+    .read-more-toggle, .introbodyreadmore{
+        font-size: 18px;
+
+    }
+    .horizontal-line1 {
+        position: absolute;
+        width: 12%;
+        left: 50%;
+        top: 5%;
+        border-top: 1.5px solid #2195a4;
+        /* Adjust border style as needed */
+        z-index: 1;
+        /* Ensure it's above the images */
+    }
+
+    .vertical-line1 {
+        position: absolute;
+        width: 1px;
+        height: 14.7%;
+        left: 62%;
+        /* Adjust horizontal position as needed */
+        top: 8.8%;
+
+        border: 1px solid #2195a4;
+        /* Adjust color as needed */
+        z-index: 2;
+        /* Ensure it's above the horizontal line */
+        transform: translateX(-50%);
+        /* Center the line horizontally */
+    }
+
+    .vertical-line2 {
+        position: absolute;
+        width: 1px;
+        height: 15%;
+        left: 62%;
+        /* Adjust horizontal position as needed */
+        top: 69.4%;
+
+        border: 1px solid #2195a4;
+        z-index: 2;
+        /* Ensure it's above the horizontal line */
+        transform: translateX(-50%);
+        /* Center the line horizontally */
+    }
+
+    .vertical-line3 {
+        position: absolute;
+        width: 1px;
+        height: 7.3%;
+        left: 20%;
+        /* Adjust horizontal position as needed */
+        top: 46.2%;
+
+        border: 1px solid #2195a4;
+        z-index: 2;
+        /* Ensure it's above the horizontal line */
+        transform: translateX(-50%);
+        /* Center the line horizontally */
+    }
+
+    .horizontal-line2 {
+        position: absolute;
+        width: 12%;
+        left: 50%;
+        top: 80.6%;
+        border-top: 1.5px solid #2195a4;
+        /* Adjust border style as needed */
+        z-index: 1;
+        /* Ensure it's above the images */
+    }
+
+    
+
+    .about_section .about_img_2 {
+        margin: -100px 0 0 200px;
+
+    }
+
+    .about_section .about_img_3 {
+        margin: -70px 0 0 0;
+    }
+
+    .officials {
+        flex-direction: row;
+        margin-top: 3%;
+        margin-bottom: 100px;
+    }
+
+    .img-fluid.officer1img,
+    .officer2img,
+    .officer3img {
+        width: 80%;
+        height: 93%;
+    }
+
+    .officer1name {
+        font-size: 30px;
+        font-weight: 600;
+        margin-top: -10%;
+    }
+
+    .officer1text {
+        font-size: 25px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .officer2name {
+        font-size: 30px;
+        font-weight: 600;
+        margin-top: -10%;
+    }
+
+    .officer2text {
+        font-size: 25px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .officer3name {
+
+        font-weight: 600;
+        font-size:30px;
+        margin-top: -14%;
+        margin-left: 20%;
+    }
+
+    .officer3text {
+        margin-left: 20%;
+        font-size: 25px;
+
+    }
+
+
+
+    /* .officer1img {
+        width: 80%;
+        height: 85%;
+    } */
+
+    .officer1name,
+    .officer2name,
+    .officer3name {
+        font-weight: 600;
+    }
+
+
+    .officer1horizontal-line1 {
+        position: absolute;
+        width: 90%;
+        /* left: 50%; */
+        /* top: 32.5%; */
+        border-top: 1.5px solid #ffd27d;
+        /* Adjust border style as needed */
+        z-index: -1;
+        /* Ensure it's above the images */
+    }
+
+    .officer1vertical-line1 {
+        position: absolute;
+        width: 1px;
+        height: 68%;
+        margin-top: 54.5%;
+        margin-left: -90%;
+
+        border: 1px solid #ffd27d;
+        z-index: 1;
+
+    }
+
+    .officer1vertical-line2 {
+        position: absolute;
+        width: 1px;
+        height: 68%;
+        margin-top: 54.5%;
+        margin-left: 90%;
+        /* Adjust horizontal position as needed */
+        /* top: 8.8%; */
+
+        border: 1px solid #ffd27d;
+        /* Adjust color as needed */
+        z-index: 1;
+        /* Ensure it's above the horizontal line */
+        /* transform: translateX(-50%); */
+        /* Center the line horizontally */
+    }
+
+    .officer1horizontal-line2 {
+        position: absolute;
+        width: 90%;
+        /* left: 50%; */
+        top: 780px;
+        border-top: 1.5px solid #ffd27d;
+        /* Adjust border style as needed */
+        z-index: 1;
+        /* Ensure it's above the images */
+    }
+
+
+
+    .officer2horizontal-line1 {
+        position: absolute;
+        width: 90%;
+        /* left: 50%; */
+        /* top: 32.5%; */
+        border-top: 1.5px solid #0f4547;
+        /* Adjust border style as needed */
+        z-index: -1;
+        /* Ensure it's above the images */
+    }
+
+    .officer2vertical-line1 {
+        position: absolute;
+        width: 1px;
+        height: 68%;
+        margin-top: 54.5%;
+        margin-left: -90%;
+
+        /* left: 62%; */
+        /* Adjust horizontal position as needed */
+        /* top: 8.8%; */
+
+        border: 1px solid #0f4547;
+        /* Adjust color as needed */
+        z-index: 1;
+        /* Ensure it's above the horizontal line */
+        /* transform: translateX(-50%); */
+        /* Center the line horizontally */
+    }
+
+    .officer2vertical-line2 {
+        position: absolute;
+        width: 1px;
+        height: 68%;
+        margin-top: 54.5%;
+        margin-left: 90%;
+        /* Adjust horizontal position as needed */
+        /* top: 8.8%; */
+
+        border: 1px solid #0f4547;
+        /* Adjust color as needed */
+        z-index: 1;
+        /* Ensure it's above the horizontal line */
+        /* transform: translateX(-50%); */
+        /* Center the line horizontally */
+    }
+
+    .officer2horizontal-line2 {
+        position: absolute;
+        width: 90%;
+        /* left: 50%; */
+        top: 780px;
+        border-top: 1.5px solid #0f4547;
+        /* Adjust border style as needed */
+        z-index: 1;
+        /* Ensure it's above the images */
+    }
+
+
+    .officer3horizontal-line1 {
+        position: absolute;
+        width: 90%;
+        /* left: 50%; */
+        /* top: 32.5%; */
+        border-top: 1.5px solid #ffd27d;
+        /* Adjust border style as needed */
+        z-index: -1;
+        /* Ensure it's above the images */
+    }
+
+    .officer3vertical-line1 {
+        position: absolute;
+        width: 1px;
+        margin-left: -90%;
+        height: 60%;
+        margin-top: 52%;
+        /* left: 62%; */
+        /* Adjust horizontal position as needed */
+        /* top: 8.8%; */
+
+        border: 1px solid #ffd27d;
+        /* Adjust color as needed */
+        z-index: 1;
+        /* Ensure it's above the horizontal line */
+        /* transform: translateX(-50%); */
+        /* Center the line horizontally */
+    }
+
+    .officer3vertical-line2 {
+        position: absolute;
+        width: 1px;
+        height: 60%;
+        margin-top: 52%;
+        margin-left: 90%;
+        /* Adjust horizontal position as needed */
+        /* top: 8.8%; */
+
+        border: 1px solid #ffd27d;
+        /* Adjust color as needed */
+        z-index: 1;
+        /* Ensure it's above the horizontal line */
+        /* transform: translateX(-50%); */
+        /* Center the line horizontally */
+    }
+
+    .officer3horizontal-line2 {
+        position: absolute;
+        width: 90%;
+        /* left: 50%; */
+        top: 780px;
+        border-top: 1.5px solid #ffd27d;
+        /* Adjust border style as needed */
+        z-index: 1;
+        /* Ensure it's above the images */
+    }
+
+
+}
+

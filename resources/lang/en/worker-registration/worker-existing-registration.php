@@ -1,0 +1,35 @@
+<?php
+
+return [// Existing Worker
+    'headline'=>'Already Registered Worker Details',
+    'note'=>'Note:',
+    'notebody'=>' You can do Onboarding up to four times with a single contact number.',
+    'district' => 'District',
+    'dist_span' => 'District of the office with which you are registered - Mentioned in your ID Card',
+    'select_district' => 'Select District',
+    'office' => 'Office',
+    'office_span' => 'Office with which you are registered - Mentioned in your ID Card',
+    'select_office' => 'Select Office',
+    'contact' => 'CONTACT NO.',
+    'enter_contact' => 'Enter Phone Number',
+
+    'note_body' => 'You can register up to four times with a single contact number. If you are not registered, select "No". If you are already temporarily registered but have not completed submission, select "Yes".',
+    'temp_reg' => 'Have You Temporarily Registered?',
+    'no' => 'No',
+    'yes' => 'Yes',
+    'agree' => ' I agree to the ',
+    'terms' => 'Terms',
+    'and' => 'and',
+    'conditions' => 'Conditions',
+    'uidai' => 'of UIDAI',
+    'selectoffice' => 'Select Office',
+    'aadhar' => 'AADHAR NUMBER',
+    'enteraadhar'=>'Enter 12 Digit UID',
+    'aadhar_consent' => 'Citizen Aadhaar Consent',
+    'consentOTP'=>'CONSENT FOR OTP',
+    'successotp'=>'Successfully Generated One Time Password (OTP)',
+    'submitotp'=>'Submit OTP',
+    'resentotp'=>'Resent OTP',
+    'savenext'=>'Save & next',
+
+];

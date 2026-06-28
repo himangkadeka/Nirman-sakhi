@@ -1,0 +1,464 @@
+/*.dashboard-bgcolor
+{
+    background-color: #0c283b!important;
+}*/
+
+#state-table_filter {
+  text-align: end;
+}
+
+#state-table_filter label {
+  text-align: start;
+}
+
+#po-table_filter {
+  text-align: end;
+}
+
+#po-table_filter label {
+  text-align: start;
+}
+
+.add-butt {
+  text-align: end;
+}
+
+#bank-table_filter {
+  text-align: end;
+}
+
+#bank-table_filter label {
+  text-align: start;
+}
+
+#office-table_filter {
+  text-align: end;
+}
+
+#office-table_filter label {
+  text-align: start;
+}
+
+#user-table_filter {
+  text-align: end;
+}
+
+#user-table_filter label {
+  text-align: start;
+}
+
+#scheme-table_filter {
+  text-align: end;
+}
+
+#scheme-table_filter label {
+  text-align: start;
+}
+
+.clear-button {
+  position: absolute;
+  right: 20px;
+  top: 35%;
+  transform: translateY(-40%);
+  cursor: pointer;
+  display: none;
+}
+
+#collapsibleNavbar .main-menu li a {
+  font-weight: bold !important;
+}
+
+/*.bg-danger{*/
+/*    color: #856404;*/
+/*}*/
+/* From index */
+.bar1,
+.bar2,
+.bar3 {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 5px 0;
+  transition: 0.4s;
+}
+
+label.bold {
+  font-weight: 500;
+    font-family: "Popins", Sans-Serif, serif;
+  font-size: 1.1vmax;
+  color: #219fa4;
+
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-5px, 5px);
+  transform: rotate(-45deg) translate(-5px, 5px);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-5px, -7px);
+  transform: rotate(45deg) translate(-5px, -7px);
+}
+
+/* .registration_form_main{
+    padding: 40px 30px 0;
+} */
+.registration_form {
+  margin: 0 0px 112px;
+  border: 1px solid #f2cc5f;
+  padding: 20px 20px 0;
+  border-radius: 23px;
+}
+
+.about-heading h1 {
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #0f4547;
+}
+
+.about-text-bold {
+  font-weight: 600 !important;
+}
+
+.break-line {
+  display: inline-block;
+  background-color: #f2cc5f;
+  width: 20%;
+  height: 2px;
+  margin: 10px auto 20px;
+}
+
+.section-counter {
+  margin-top: -10px;
+  margin-bottom: 20px;
+
+  background-color: #fec82e;
+  padding-top: 15px;
+}
+
+.counter-item {
+  color: #0f4547;
+  font-size: 45px;
+}
+
+.counter-text {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.carousel-section {
+  padding: 100px 0;
+  background-color: #f2cc5f;
+  margin: 0px 25px;
+}
+
+div#carouselExampleIndicators {
+  margin: 0 -20px;
+}
+
+.carousel-text {
+  padding: 80px 0;
+  margin: -20px 50px;
+}
+
+ol.carousel-indicators {
+  bottom: -40px;
+}
+
+.section-bg-image {
+  background-image: url("/assets/template/images/index/welcomebanner.png");
+  height: 600px;
+  background-size: cover;
+}
+
+.section-bg-text {
+  padding: 150px 0;
+}
+
+.marquee-text {
+  background-color: #f2cc5f;
+  margin-bottom: -20px;
+  /* margin: 10px 0; */
+  /* padding: 2px; */
+}
+
+/*.btn {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    background-color: #0f3a47;*/
+/*    color:white;*/
+/*}*/
+.material-symbols-outlined {
+  margin-right: 5px;
+  /* Adjust this value to control the spacing between the icon and text. */
+}
+
+.modal-image {
+  /*background-image: url("/assets/template/images/modal_1.png");*/
+  background: linear-gradient(45deg, #32b8e3, #46b1d72e);
+}
+
+.bg-app {
+  background-color: #ffbf49 !important;
+}
+
+
+
+
+
+
+form .input-field-otp {
+  flex-direction: row;
+  column-gap: 10px;
+}
+
+.input-field-otp input {
+  height: 45px;
+  width: 42px;
+  border-radius: 6px;
+  outline: none;
+  font-size: 1.125rem;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.input-field-otp input:focus {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.input-field-otp input::-webkit-inner-spin-button,
+.input-field-otp input::-webkit-outer-spin-button {
+  display: none;
+}
+
+.otp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.verify_button {
+  pointer-events: none
+}
+
+.verify_button.active {
+  background: #4070f4;
+  pointer-events: auto;
+}
+
+.verify_button:hover {
+  background: #0e4bf1;
+}
+
+
+/* Office login */
+
+form .input-field-otp-office {
+  flex-direction: row;
+  column-gap: 10px;
+}
+
+.input-field-otp-office input {
+  height: 45px;
+  width: 42px;
+  border-radius: 6px;
+  outline: none;
+  font-size: 1.125rem;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.input-field-otp-office input:focus {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.input-field-otp-office input::-webkit-inner-spin-button,
+.input-field-otp-office input::-webkit-outer-spin-button {
+  display: none;
+}
+
+.otp-office {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}zz
+
+.verify_button_office {
+  pointer-events: none
+}
+
+.verify_button_office.active {
+  background: #4070f4;
+  pointer-events: auto;
+}
+
+.verify_button_office:hover {
+  background: #0e4bf1;
+}
+
+/* Renewal */
+form .input-field-otp-renewal {
+    flex-direction: row;
+    column-gap: 10px;
+  }
+
+  .input-field-otp-renewal input {
+    height: 45px;
+    width: 42px;
+    border-radius: 6px;
+    outline: none;
+    font-size: 1.125rem;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+
+  .input-field-otp-renewal input:focus {
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  .input-field-otp-renewal input::-webkit-inner-spin-button,
+  .input-field-otp-renewal input::-webkit-outer-spin-button {
+    display: none;
+  }
+
+  .otp-renewal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }zz
+
+  .verify_button_renewal {
+    pointer-events: none
+  }
+
+  .verify_button_renewal.active {
+    background: #4070f4;
+    pointer-events: auto;
+  }
+
+  .verify_button_renewal:hover {
+    background: #0e4bf1;
+  }
+
+/* Admin Login */
+
+form .input-field-otp-admin {
+  flex-direction: row;
+  column-gap: 10px;
+}
+
+.input-field-otp-admin input {
+  height: 45px;
+  width: 42px;
+  border-radius: 6px;
+  outline: none;
+  font-size: 1.125rem;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.input-field-otp-admin input:focus {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.input-field-otp-admin input::-webkit-inner-spin-button,
+.input-field-otp-admin input::-webkit-outer-spin-button {
+  display: none;
+}
+
+.otp-admin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.verify_button_admin {
+  pointer-events: none
+}
+
+.verify_button_admin.active {
+  background: #4070f4;
+  pointer-events: auto;
+}
+
+.verify_button_admin:hover {
+  background: #0e4bf1;
+}
+
+
+/* Index page:- about-labour */
+.about-labourtext {
+  font-weight: 400;
+  font-family: "Montserrat Alternates", "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+.heading-wrapper {
+  position: relative;
+  text-align: center;
+}
+
+
+h4 {
+  display: inline-block;
+  /* Ensures the lines don't cover the text */
+  /* Adjust this value to control the spacing around the text */
+  position: relative;
+  /* To make the z-index work */
+  z-index: 1;
+  /* Ensure the text is above the lines */
+  color: #076f6b;
+}
+
+@media (max-width: 768px) {
+
+  .heading-wrapper::before,
+  .heading-wrapper::after {
+    width: 50%;
+    /* Adjust the width for smaller screens */
+  }
+}
+
+/*.custom-bottom-border {*/
+/*    border-top: none;*/
+/*    border-right: none;*/
+/*    border-left: none;*/
+/*    border-bottom: 1px solid #ced4da; !* You can customize the color *!*/
+/*    border-radius: 0; !* Remove border-radius if needed *!*/
+/*}*/
+/*::placeholder {*/
+/*    font-size: 10px; !* You can adjust the font size as needed *!*/
+/*    !* Additional styles if needed *!*/
+/*}*/
+
+
+
+.btn-outline-info{
+  display: flex;
+  align-items: center;
+  background-color: #0f3a47;
+  color:white;
+}
+.btn-outline-warning{
+    display: flex;
+    align-items: center;
+
+    color:white;
+}
+.btn-outline-success{
+  display: flex;
+  align-items: center;
+  background-color: #0FAA5F;
+  color:white;
+}
+.material-symbols-outlined {
+  margin-right: 5px; /* Adjust this value to control the spacing between the icon and text. */
+}
+.btn-primary, .btn-warning ,.btn-success , .btn-danger, .btn-secondary {
+
+    padding: 0.3em 1em;
+}

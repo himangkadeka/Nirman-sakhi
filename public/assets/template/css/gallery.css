@@ -1,0 +1,88 @@
+
+    /* Set fixed dimensions for image thumbnails */
+    .image-thumbnail {
+        width: 100%;
+        /* Ensure full width */
+        height: 200px;
+        /* Set a fixed height for consistency */
+        object-fit: cover;
+        /* Ensure images cover the entire space */
+    }
+
+    /* Override Bootstrap's card styles */
+    .card {
+        width: 100%;
+        /* Ensure full width */
+    }
+
+    /* Ensure consistency in column sizes */
+    .col-lg-4 {
+        /* Adjust the width as needed */
+        flex: 0 0 calc(33.3333% - 20px);
+        /* 3 columns with some margin */
+        max-width: calc(33.3333% - 20px);
+        /* 3 columns with some margin */
+        margin: 10px;
+        /* Add margin between columns */
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 992px) {
+        .col-lg-4 {
+            flex: 0 0 calc(50% - 20px);
+            /* 2 columns with some margin */
+            max-width: calc(50% - 20px);
+            /* 2 columns with some margin */
+        }
+    }
+
+    @media (max-width: 768px) {
+        .col-lg-4 {
+            flex: 0 0 calc(100% - 20px);
+            /* Full width with some margin */
+            max-width: calc(100% - 20px);
+            /* Full width with some margin */
+        }
+    }
+
+    /* Set fixed height and width for the carousel modal */
+    #imageModal .modal-dialog {
+        max-width: 90vw;
+        /* Maximum width */
+        max-height: 90vh;
+        /* Maximum height */
+        overflow: hidden;
+        /* Hide overflow to prevent modal from resizing */
+    }
+
+    /* Center the carousel vertically and horizontally */
+    #imageModal .modal-dialog .modal-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        /* Ensure content fills the dialog */
+        height: 100%;
+        /* Ensure content fills the dialog */
+    }
+
+    /* Set fixed dimensions for the carousel container */
+    #imageModal .modal-dialog .modal-content .carousel-inner {
+        max-width: 100%;
+        /* Ensure carousel fills the content */
+        max-height: 100%;
+        /* Ensure carousel fills the content */
+    }
+
+    /* Set max-width and max-height for images within the carousel */
+    #imageModal .modal-dialog .modal-content .carousel-inner .carousel-item img {
+        max-width: 100%;
+        max-height: 100%;
+        width: auto;
+        height: auto;
+        object-fit: contain;
+        /* Ensure image fits inside container */
+        object-position: center;
+        /* Center the image within the container */
+    }
+

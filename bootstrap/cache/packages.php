@@ -1,0 +1,147 @@
+<?php return array (
+  'barryvdh/laravel-snappy' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Barryvdh\\Snappy\\ServiceProvider',
+    ),
+    'aliases' => 
+    array (
+      'PDF' => 'Barryvdh\\Snappy\\Facades\\SnappyPdf',
+      'SnappyImage' => 'Barryvdh\\Snappy\\Facades\\SnappyImage',
+    ),
+  ),
+  'facade/ignition' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Facade\\Ignition\\IgnitionServiceProvider',
+    ),
+    'aliases' => 
+    array (
+      'Flare' => 'Facade\\Ignition\\Facades\\Flare',
+    ),
+  ),
+  'fruitcake/laravel-cors' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Fruitcake\\Cors\\CorsServiceProvider',
+    ),
+  ),
+  'laravel/sail' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Laravel\\Sail\\SailServiceProvider',
+    ),
+  ),
+  'laravel/sanctum' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Laravel\\Sanctum\\SanctumServiceProvider',
+    ),
+  ),
+  'laravel/tinker' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Laravel\\Tinker\\TinkerServiceProvider',
+    ),
+  ),
+  'maatwebsite/excel' => 
+  array (
+    'aliases' => 
+    array (
+      'Excel' => 'Maatwebsite\\Excel\\Facades\\Excel',
+    ),
+    'providers' => 
+    array (
+      0 => 'Maatwebsite\\Excel\\ExcelServiceProvider',
+    ),
+  ),
+  'mcamara/laravel-localization' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Mcamara\\LaravelLocalization\\LaravelLocalizationServiceProvider',
+    ),
+    'aliases' => 
+    array (
+      'LaravelLocalization' => 'Mcamara\\LaravelLocalization\\Facades\\LaravelLocalization',
+    ),
+  ),
+  'mews/captcha' => 
+  array (
+    'aliases' => 
+    array (
+      'Captcha' => 'Mews\\Captcha\\Facades\\Captcha',
+    ),
+    'providers' => 
+    array (
+      0 => 'Mews\\Captcha\\CaptchaServiceProvider',
+    ),
+  ),
+  'nesbot/carbon' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Carbon\\Laravel\\ServiceProvider',
+    ),
+  ),
+  'nunomaduro/collision' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'NunoMaduro\\Collision\\Adapters\\Laravel\\CollisionServiceProvider',
+    ),
+  ),
+  'rap2hpoutre/laravel-log-viewer' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Rap2hpoutre\\LaravelLogViewer\\LaravelLogViewerServiceProvider',
+    ),
+  ),
+  'realrashid/sweet-alert' => 
+  array (
+    'aliases' => 
+    array (
+      'Alert' => 'RealRashid\\SweetAlert\\Facades\\Alert',
+    ),
+    'providers' => 
+    array (
+      0 => 'RealRashid\\SweetAlert\\SweetAlertServiceProvider',
+    ),
+  ),
+  'simplesoftwareio/simple-qrcode' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'SimpleSoftwareIO\\QrCode\\QrCodeServiceProvider',
+    ),
+    'aliases' => 
+    array (
+      'QrCode' => 'SimpleSoftwareIO\\QrCode\\Facades\\QrCode',
+    ),
+  ),
+  'spatie/laravel-permission' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Spatie\\Permission\\PermissionServiceProvider',
+    ),
+  ),
+  'yajra/laravel-datatables-oracle' => 
+  array (
+    'aliases' => 
+    array (
+      'DataTables' => 'Yajra\\DataTables\\Facades\\DataTables',
+    ),
+    'providers' => 
+    array (
+      0 => 'Yajra\\DataTables\\DataTablesServiceProvider',
+    ),
+  ),
+);

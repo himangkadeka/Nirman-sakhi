@@ -1,0 +1,39 @@
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews -Indexes
+    </IfModule>
+
+    <IfModule mod_headers.c>
+
+        # Header set Referrer-Policy no-referrer-when-downgrade
+        # Header set Content-Security-Policy "connect-src 'self';default-src 'self' blob: data:;frame-ancestors 'self';frame-src 'self' https://www.google.com blob: data:;font-src 'self' data: https://fonts.gstatic.com;media-src 'self';object-src 'self' data: blob:;script-src 'self' 'unsafe-inline' 'unsafe-eval' resource:;style-src 'self' 'unsafe-inline'"
+        # Header set X-Content-Security-Policy "connect-src 'self';default-src 'self' blob: data:;frame-ancestors 'self';frame-src 'self' https://www.google.com blob: data:;font-src 'self' data: https://fonts.gstatic.com;media-src 'self';object-src 'self' data: blob:;script-src 'self' 'unsafe-inline' 'unsafe-eval' resource:;style-src 'self' 'unsafe-inline'"
+        # Header set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+        # Header set X-Content-Type-Options nosniff
+        # Header set X-Frame-Options DENY
+        # Header set X-XSS-Protection "1; mode=block"
+    </IfModule>
+
+    RewriteEngine On
+
+    # Redirect IP to Domain
+
+    # Handle Authorization Header
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+    # Redirect Trailing Slashes If Not A Folder...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_URI} (.+)/$
+    RewriteRule ^ %1 [L,R=301]
+
+    # Send Requests To Front Controller...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+
+
+    RewriteCond %{REQUEST_METHOD} ^(TRACE|TRACK)
+    RewriteRule .* – [F]
+
+</IfModule>

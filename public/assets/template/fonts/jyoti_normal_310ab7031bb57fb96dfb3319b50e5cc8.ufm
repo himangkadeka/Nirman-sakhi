@@ -1,0 +1,134 @@
+StartFontMetrics 4.1
+Notice Converted by PHP-font-lib
+Comment https://github.com/dompdf/php-font-lib
+EncodingScheme FontSpecific
+FontName Jyotirupa
+FontSubfamily Regular
+UniqueID DIBYA:Jyotirupa
+FullName Jyotirupa
+Version 5.001
+PostScriptName Jyotirupa
+Manufacturer Dibya Dutta
+Designer Dibya Dutta
+Description Jyotirupa is an OpenType font for the Indic script - Bengali and Assamese. It is based on Unicode, contains TrueType outlines and has been designed for use as a UI font.
+FontVendorURL https://lachit.org
+LicenseDescription You may use this font to display and print content as permitted by the license terms for the product in which this font is included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content. 
+CompatibleFullName Jyotirupa
+Weight Medium
+ItalicAngle 0
+IsFixedPitch false
+UnderlineThickness 20
+UnderlinePosition -446
+FontHeightOffset 259
+Ascender 1000
+Descender -400
+FontBBox -508 -429 1126 1031
+StartCharMetrics 548
+U 32 ; WX 282 ; N space ; G 3
+U 2404 ; WX 258 ; N bn_dari ; G 4
+U 2405 ; WX 373 ; N bn_double_dari ; G 5
+U 2433 ; WX 0 ; N u0981 ; G 6
+U 2434 ; WX 348 ; N u0982 ; G 7
+U 2435 ; WX 378 ; N u0983 ; G 8
+U 2437 ; WX 684 ; N u0985 ; G 9
+U 2438 ; WX 889 ; N u0986 ; G 10
+U 2439 ; WX 492 ; N u0987 ; G 11
+U 2440 ; WX 585 ; N u0988 ; G 12
+U 2441 ; WX 597 ; N u0989 ; G 13
+U 2442 ; WX 665 ; N u098A ; G 14
+U 2443 ; WX 689 ; N u098B ; G 15
+U 2444 ; WX 605 ; N u098C ; G 16
+U 2447 ; WX 575 ; N u098F ; G 17
+U 2448 ; WX 675 ; N u0990 ; G 18
+U 2451 ; WX 622 ; N u0993 ; G 19
+U 2452 ; WX 695 ; N u0994 ; G 20
+U 2453 ; WX 682 ; N u0995 ; G 21
+U 2454 ; WX 551 ; N u0996 ; G 22
+U 2455 ; WX 553 ; N u0997 ; G 23
+U 2456 ; WX 537 ; N u0998 ; G 24
+U 2457 ; WX 537 ; N u0999 ; G 25
+U 2458 ; WX 468 ; N u099A ; G 26
+U 2459 ; WX 525 ; N u099B ; G 27
+U 2460 ; WX 686 ; N u099C ; G 28
+U 2461 ; WX 612 ; N u099D ; G 29
+U 2462 ; WX 852 ; N u099E ; G 30
+U 2463 ; WX 467 ; N u099F ; G 31
+U 2464 ; WX 459 ; N u09A0 ; G 32
+U 2465 ; WX 600 ; N u09A1 ; G 33
+U 2466 ; WX 477 ; N u09A2 ; G 34
+U 2467 ; WX 510 ; N u09A3 ; G 35
+U 2468 ; WX 648 ; N u09A4 ; G 36
+U 2469 ; WX 554 ; N u09A5 ; G 37
+U 2470 ; WX 516 ; N u09A6 ; G 38
+U 2471 ; WX 482 ; N u09A7 ; G 39
+U 2472 ; WX 513 ; N u09A8 ; G 40
+U 2474 ; WX 611 ; N u09AA ; G 41
+U 2475 ; WX 669 ; N u09AB ; G 42
+U 2476 ; WX 500 ; N u09AC ; G 43
+U 2477 ; WX 652 ; N u09AD ; G 44
+U 2478 ; WX 536 ; N u09AE ; G 45
+U 2479 ; WX 505 ; N u09AF ; G 46
+U 2480 ; WX 478 ; N u09B0 ; G 47
+U 2482 ; WX 604 ; N u09B2 ; G 48
+U 2486 ; WX 601 ; N u09B6 ; G 49
+U 2487 ; WX 498 ; N u09B7 ; G 50
+U 2488 ; WX 581 ; N u09B8 ; G 51
+U 2489 ; WX 504 ; N u09B9 ; G 52
+U 2492 ; WX 0 ; N u09BC ; G 53
+U 2493 ; WX 522 ; N u09BD ; G 54
+U 2494 ; WX 263 ; N u09BE ; G 55
+U 2495 ; WX 248 ; N u09BF ; G 56
+U 2496 ; WX 233 ; N u09C0 ; G 57
+U 2497 ; WX 0 ; N u09C1 ; G 58
+U 2498 ; WX 0 ; N u09C2 ; G 59
+U 2499 ; WX 0 ; N u09C3 ; G 60
+U 2500 ; WX 0 ; N u09C4 ; G 61
+U 2503 ; WX 325 ; N u09C7 ; G 62
+U 2504 ; WX 323 ; N u09C8 ; G 63
+U 2507 ; WX 1111 ; N u09CB ; G 64
+U 2508 ; WX 1114 ; N u09CC ; G 65
+U 2509 ; WX 0 ; N u09CD ; G 66
+U 2510 ; WX 478 ; N u09A4_u09CD ; G 67
+U 2519 ; WX 242 ; N u09D7 ; G 68
+U 2524 ; WX 608 ; N u09DC ; G 69
+U 2525 ; WX 487 ; N u09DD ; G 70
+U 2527 ; WX 514 ; N u09DF ; G 71
+U 2528 ; WX 689 ; N u09E0 ; G 72
+U 2529 ; WX 608 ; N u09E1 ; G 73
+U 2530 ; WX 0 ; N u09E2 ; G 74
+U 2531 ; WX 0 ; N u09E3 ; G 75
+U 2534 ; WX 561 ; N u09E6 ; G 76
+U 2535 ; WX 440 ; N u09E7 ; G 77
+U 2536 ; WX 529 ; N u09E8 ; G 78
+U 2537 ; WX 575 ; N u09E9 ; G 79
+U 2538 ; WX 501 ; N u09EA ; G 80
+U 2539 ; WX 567 ; N u09EB ; G 81
+U 2540 ; WX 590 ; N u09EC ; G 82
+U 2541 ; WX 540 ; N u09ED ; G 83
+U 2542 ; WX 598 ; N u09EE ; G 84
+U 2543 ; WX 550 ; N u09EF ; G 85
+U 2544 ; WX 495 ; N u09F0 ; G 86
+U 2545 ; WX 493 ; N u09F1 ; G 87
+U 2546 ; WX 470 ; N u09F2 ; G 88
+U 2547 ; WX 531 ; N u09F3 ; G 89
+U 2548 ; WX 478 ; N u09F4 ; G 90
+U 2549 ; WX 598 ; N u09F5 ; G 91
+U 2550 ; WX 706 ; N u09F6 ; G 92
+U 2551 ; WX 229 ; N u09F7 ; G 93
+U 2552 ; WX 444 ; N u09F8 ; G 94
+U 2553 ; WX 332 ; N u09F9 ; G 95
+U 2554 ; WX 482 ; N u09FA ; G 96
+U 8204 ; WX 0 ; N afii61664 ; G 97
+U 8205 ; WX 0 ; N afii301 ; G 98
+U 8211 ; WX 469 ; N endash ; G 99
+U 8212 ; WX 766 ; N emdash ; G 100
+U 8216 ; WX 229 ; N quoteleft ; G 101
+U 8217 ; WX 229 ; N quoteright ; G 102
+U 8220 ; WX 436 ; N quotedblleft ; G 103
+U 8221 ; WX 436 ; N quotedblright ; G 104
+U 8230 ; WX 669 ; N ellipsis ; G 105
+U 8377 ; WX 598 ; N uni20B9 ; G 106
+U 8722 ; WX 409 ; N minus ; G 107
+U 9676 ; WX 607 ; N uni25CC ; G 108
+EndCharMetrics
+EndFontMetrics

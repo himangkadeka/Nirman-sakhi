@@ -1,0 +1,127 @@
+
+
+.cardhead1 {
+    cursor: pointer;
+    position: relative;
+    background: linear-gradient(to right, #00008b, #279ca0);
+    width: 341px;
+    height: 40px;
+}
+
+.cardhead1triangle {
+    position: absolute;
+    top: 50%;
+    right: -12px;
+    width: 0;
+    height: 0;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 50px solid white;
+    transform: translateY(-50%) rotate(-90deg);
+}
+
+.card-content {
+    color: white;
+    padding: 10px;
+
+    font-family: 'Roboto', sans-serif;font-size:16px;
+    font-weight: 550;
+}
+
+.headbackground {
+    background-color:#636465 !important;
+}
+
+
+.table thead th,
+.table tbody td {
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+.download {
+    background-color: #1b949e !important;
+}
+
+.table-bordered tr:nth-child(even) {
+
+    background: #f7f3f3;
+}
+
+@media (max-width: 767px) {
+    .cardhead1 {
+        width: 300px;
+    }
+
+    .table thead {
+        display: none;
+    
+    }
+
+    .table,
+    .table tbody,
+    .table tr {
+        display: block;
+
+        width: 100%;
+
+    }
+
+    .table td {
+        display: block;
+
+        position: relative;
+        padding-left: 50%;
+
+
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+
+    }
+
+    .table td:before {
+        content: attr(data-label);
+
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+
+
+        padding: 0 10px;
+
+        font-weight: bold;
+        white-space: nowrap;
+        background-color: #65c4ff ;
+
+        color: white;
+
+        text-align: center;
+
+        line-height: 1.5;
+
+        box-sizing: border-box;
+
+    }
+
+
+    .table tr {
+        margin-bottom: 1rem;
+
+        background: #f9f9f9;
+
+    }
+
+    .download {
+
+        margin-top: 8%;
+
+
+    }
+
+    .bodycolor {
+        background-color: white !important;
+
+    }
+
+}

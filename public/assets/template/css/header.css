@@ -1,0 +1,129 @@
+.d-flex-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.modal-dialog-centered {
+    display: flex !important;
+    align-items: center;
+}
+
+.d-flex-column-sm {
+    display: flex;
+    flex-direction: column;
+}
+
+.font-center-text {
+    text-align: center
+}
+
+.content-11 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 14px;
+    color: #0b0e25;
+    font-weight: normal;
+}
+
+/* .dropdown-toggle .dropdown-toggle-icon {
+    display: none;
+} */
+
+
+.header-title {
+    font-size: 3.2vmax;
+    /* font-family: 'Poppins', sans-serif; */
+    color: #1098fe;
+    font-weight: 700;
+    
+text-shadow:-1px -1px 1px rgba(255, 255, 255, .1), 1px 1px 1px rgb(0 0 0 / 17%);
+}
+
+.font-center-text {
+    text-align: center;
+}
+
+.header-subtitle {
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: -10px;
+}
+
+@media (min-width: 992px) {
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+    .dropdown-toggle-icon {
+        display: inline-block;
+        transition: transform 0.2s;
+    }
+    .dropdown:hover .dropdown-toggle-icon {
+        transform: rotate(180deg);
+    }
+}
+
+@media (max-width: 768px) {
+    .font-center-text {
+        text-align: left;
+    }
+
+    .header-subtitle {
+        font-size: 1.09vmax;
+        margin-top: -10px;
+        color: #4f4d4d;
+
+    }
+}
+
+@media (max-width: 991.98px) {
+    .dropdown-toggle .dropdown-toggle-icon {
+        display: inline-block;
+        float: right;
+        margin-right: 10px;
+    }
+
+    .navbar-expand-lg .login-button {
+        padding-bottom: 30px !important
+    }
+
+    .about-drop {
+        background-color: transparent;
+        border: 0;
+    }
+
+    .about-drop-item{
+        color: white!important;
+    }
+
+    .about-drop-item:hover {
+        color: black!important;
+    }
+}
+
+@media (min-width: 768px) {
+    .d-flex-column-sm {
+        flex-direction: row;
+    }
+
+    .font-center-text {
+        text-align: start
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .content-11 {
+        margin-bottom: 20px;
+        margin-top: 10px
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .content-11 {
+        margin-bottom: 5px;
+        margin-top: 10px
+    }
+}

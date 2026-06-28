@@ -1,0 +1,16 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+  @media (max-width: 768px) {
+
+    .mission {
+      margin-left: -100px;
+    }
+
+    .image {
+      margin-left: 11px
+    }
+
+  }
